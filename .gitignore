@@ -53,6 +53,10 @@ public/images/products/*.webp
 zapp-ecommerce-milestone-pre-git-cleanup-2025-09-26-1228.zip
 zapp-ecommerce-source-2025-09-19-1024.zip
 zapp-pre-commit-master-2025-09-26.zip
+zapp-complete-product-images-update-2025-09-20.zip
+
+# Large binary files
+node_modules/@esbuild/win32-x64/esbuild.exe
 *.7z
 *.tar.gz
 *.bak
@@ -83,5 +87,7 @@ Thumbs.db
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+.vercel
 
 .vercel
