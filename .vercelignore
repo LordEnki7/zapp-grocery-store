@@ -38,3 +38,20 @@ CODE_SAFETY_POLICY.md
 BUILD_DIRECTIONS.md
 RETAIL_PRODUCT_DATA.md
 ZIP_BACKUP_POLICY.md
+
+# Backup files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Analysis and report files
+*-report.json
+*-analysis.md
+*-diagnostic.md
+*-plan.md
+*-guide.md
+*-policy.md
+validation-report-*.json
+*.cjs
+*.ps1
