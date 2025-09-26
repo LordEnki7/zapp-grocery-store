@@ -15,7 +15,7 @@ import { useDebounce } from '../hooks/useDebounce';
 import { useProductCache } from '../hooks/useProductCache';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
-import categoriesData from '../../data/categories/categories.json';
+import categoriesData from '../../../data/categories/categories.json';
 
 // Search filters interface
 interface SearchFilters {
