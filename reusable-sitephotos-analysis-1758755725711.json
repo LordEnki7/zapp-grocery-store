@@ -1,0 +1,257 @@
+{
+  "timestamp": "2025-09-24T23:15:25.711Z",
+  "script": "analyze-reusable-sitephotos.cjs",
+  "summary": {
+    "totalProducts": 232,
+    "genericProducts": 12,
+    "sitephotoCategories": 59,
+    "potentialMatches": 2,
+    "potentialReduction": "2 out of 12 (17%)"
+  },
+  "matchingRules": [
+    {
+      "sitephoto": "Apple Cider Viniger",
+      "keywords": [
+        "vinegar",
+        "cider"
+      ],
+      "category": "Condiments & Sauces"
+    },
+    {
+      "sitephoto": "Coffee",
+      "keywords": [
+        "coffee",
+        "espresso",
+        "cappuccino",
+        "latte"
+      ],
+      "category": "Beverages"
+    },
+    {
+      "sitephoto": "Juices",
+      "keywords": [
+        "juice",
+        "smoothie",
+        "drink",
+        "beverage"
+      ],
+      "category": "Beverages"
+    },
+    {
+      "sitephoto": "Milk",
+      "keywords": [
+        "milk",
+        "dairy",
+        "cream"
+      ],
+      "category": "Dairy"
+    },
+    {
+      "sitephoto": "Candy",
+      "keywords": [
+        "candy",
+        "sweet",
+        "chocolate",
+        "gummy"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Cookies",
+      "keywords": [
+        "cookie",
+        "biscuit",
+        "wafer"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Crackers",
+      "keywords": [
+        "cracker",
+        "crisp"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Nuts",
+      "keywords": [
+        "nuts",
+        "almond",
+        "peanut",
+        "walnut",
+        "cashew"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Popcorn",
+      "keywords": [
+        "popcorn",
+        "corn"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Potato Chips",
+      "keywords": [
+        "chips",
+        "potato",
+        "crisp"
+      ],
+      "category": "Snacks"
+    },
+    {
+      "sitephoto": "Protein Bars",
+      "keywords": [
+        "protein",
+        "bar",
+        "energy"
+      ],
+      "category": "Health"
+    },
+    {
+      "sitephoto": "Breakfast Cereal",
+      "keywords": [
+        "cereal",
+        "breakfast",
+        "granola"
+      ],
+      "category": "Breakfast"
+    },
+    {
+      "sitephoto": "Oats",
+      "keywords": [
+        "oats",
+        "oatmeal",
+        "porridge"
+      ],
+      "category": "Breakfast"
+    },
+    {
+      "sitephoto": "Beans",
+      "keywords": [
+        "beans",
+        "legume",
+        "lentil"
+      ],
+      "category": "Pantry"
+    },
+    {
+      "sitephoto": "Rice",
+      "keywords": [
+        "rice",
+        "grain"
+      ],
+      "category": "Pantry"
+    },
+    {
+      "sitephoto": "Fresh Foods",
+      "keywords": [
+        "fresh",
+        "produce",
+        "vegetable",
+        "fruit"
+      ],
+      "category": "Fresh"
+    },
+    {
+      "sitephoto": "Pharmacy",
+      "keywords": [
+        "vitamin",
+        "supplement",
+        "medicine",
+        "health",
+        "tablet",
+        "capsule"
+      ],
+      "category": "Health"
+    }
+  ],
+  "potentialMatches": [
+    {
+      "product": {
+        "id": "p2",
+        "name": "Premium Wafers",
+        "currentImage": "/images/products/G230.png"
+      },
+      "sitephoto": {
+        "category": "Cookies",
+        "matchedKeywords": [
+          "wafer"
+        ],
+        "availableImages": [
+          "BelVita_Crunchy.png",
+          "Oreo.png",
+          "Oreo_Space_Dunk.png"
+        ],
+        "suggestedImage": "/sitephoto/Cookies/BelVita_Crunchy.png"
+      },
+      "confidence": 1
+    },
+    {
+      "product": {
+        "id": "p3",
+        "name": "Organic Biscuits",
+        "currentImage": "/images/products/G231.png"
+      },
+      "sitephoto": {
+        "category": "Cookies",
+        "matchedKeywords": [
+          "biscuit"
+        ],
+        "availableImages": [
+          "BelVita_Crunchy.png",
+          "Oreo.png",
+          "Oreo_Space_Dunk.png"
+        ],
+        "suggestedImage": "/sitephoto/Cookies/BelVita_Crunchy.png"
+      },
+      "confidence": 1
+    }
+  ],
+  "groupedByCategory": {
+    "Cookies": [
+      {
+        "product": {
+          "id": "p2",
+          "name": "Premium Wafers",
+          "currentImage": "/images/products/G230.png"
+        },
+        "sitephoto": {
+          "category": "Cookies",
+          "matchedKeywords": [
+            "wafer"
+          ],
+          "availableImages": [
+            "BelVita_Crunchy.png",
+            "Oreo.png",
+            "Oreo_Space_Dunk.png"
+          ],
+          "suggestedImage": "/sitephoto/Cookies/BelVita_Crunchy.png"
+        },
+        "confidence": 1
+      },
+      {
+        "product": {
+          "id": "p3",
+          "name": "Organic Biscuits",
+          "currentImage": "/images/products/G231.png"
+        },
+        "sitephoto": {
+          "category": "Cookies",
+          "matchedKeywords": [
+            "biscuit"
+          ],
+          "availableImages": [
+            "BelVita_Crunchy.png",
+            "Oreo.png",
+            "Oreo_Space_Dunk.png"
+          ],
+          "suggestedImage": "/sitephoto/Cookies/BelVita_Crunchy.png"
+        },
+        "confidence": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frozenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#frozenGrad)"/>
+  
+  <!-- Snowflake icon -->
+  <g transform="translate(150,150)">
+    <!-- Main cross -->
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#1E40AF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="-40" x2="0" y2="40" stroke="#1E40AF" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Diagonal lines -->
+    <line x1="-28" y1="-28" x2="28" y2="28" stroke="#1E40AF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="28" y1="-28" x2="-28" y2="28" stroke="#1E40AF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Small decorative lines -->
+    <g stroke="#1E40AF" stroke-width="2" stroke-linecap="round">
+      <line x1="-30" y1="0" x2="-25" y2="-5"/>
+      <line x1="-30" y1="0" x2="-25" y2="5"/>
+      <line x1="30" y1="0" x2="25" y2="-5"/>
+      <line x1="30" y1="0" x2="25" y2="5"/>
+      <line x1="0" y1="-30" x2="-5" y2="-25"/>
+      <line x1="0" y1="-30" x2="5" y2="-25"/>
+      <line x1="0" y1="30" x2="-5" y2="25"/>
+      <line x1="0" y1="30" x2="5" y2="25"/>
+    </g>
+  </g>
+  
+  <!-- Label -->
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E40AF">FROZEN</text>
+</svg>

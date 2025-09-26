@@ -1,0 +1,158 @@
+UNUSED IMAGES ANALYSIS REPORT
+Generated: 2025-09-24T20:28:51.119Z
+
+SUMMARY:
+- Total Available Images: 326
+- Total Used Images: 226
+- Total Unused Images: 100
+- Potential Duplicates: 41
+
+UNUSED IMAGES (sorted by size):
+1. butter-popcorn.png (2156KB)
+2. cola-classic.png (2097KB)
+3. semolina-premium.png (1886KB)
+4. cereal-premium.png (1754KB)
+5. flour-premium.png (874KB)
+6. basmati-rice.png (675KB)
+7. coffee-premium.png (573KB)
+8. premium-coffee-blend.png (573KB)
+9. farm-shop-boerewors-great-taste.jpg (466KB)
+10. farm-shop-boerewors.jpg (466KB)
+11. farmshopboereworsgreattaste.jpg (466KB)
+12. south-african-boerewors.jpg (466KB)
+13. chocolate-candy.png (450KB)
+14. orange-juice.png (430KB)
+15. dark-roast-coffee.png (392KB)
+16. baby-spinach.webp (379KB) [VARIANT]
+17. spinach.jpg (379KB)
+18. jamican-beef-patty.jpeg (326KB) [VARIANT]
+19. first-aid-kit---complete.jpg (292KB) [VARIANT]
+20. first-aid-kit-complete.jpg (292KB) [VARIANT]
+21. first-aid-kit.jpg (292KB)
+22. semolina.jpg (287KB)
+23. fresh-shrimp---1-lb.jpg (261KB) [VARIANT]
+24. fresh-shrimp-1-lb.jpg (261KB) [VARIANT]
+25. premium-wheat-flour.jpg (215KB)
+26. spa-and-wellness-gift-car.jpg (187KB)
+27. spa-wellness-gift-car.jpg (187KB)
+28. artisan-cheese-selection.jpeg (183KB) [VARIANT]
+29. nigerian-jollof-rice-mix.jpg (165KB) [VARIANT]
+30. ghanaian-jollof-rice-mix.jpg (142KB) [VARIANT]
+31. berries.jpg (141KB)
+32. mix-berry-pack.webp (141KB) [VARIANT]
+33. sterns-whole-grain-bread.jpg (113KB)
+34. whole-grain-bread.jpg (113KB) [VARIANT]
+35. beans-premium.png (96KB)
+36. itunes-gift-card.webp (90KB) [VARIANT]
+37. sephora-gift-card.jpg (81KB) [VARIANT]
+38. Jamaican beef patties.jpg (77KB) [VARIANT]
+39. nigerian-suya-spice.jpg (65KB) [VARIANT]
+40. netflix-gift-card.webp (63KB) [VARIANT]
+41. ginger-beer.jpg (57KB) [VARIANT]
+42. gingerbeer.jpg (57KB) [VARIANT]
+43. trinidad-scorpion-pepper-sauce.jpg (57KB) [VARIANT]
+44. eggs.jpg (56KB)
+45. fresh-eggs---dozen.webp (56KB) [VARIANT]
+46. fresh-eggs-dozen.webp (56KB) [VARIANT]
+47. omega-3-fish-oil---120-softgels.jpg (56KB) [VARIANT]
+48. omega-3-fish-oil-120-softgels.jpg (56KB) [VARIANT]
+49. omega-3.jpg (56KB)
+50. fresh-strawberries.jpg (47KB) [VARIANT]
+51. strawberries.jpg (47KB)
+52. probiotic-complex---60-capsules.jpg (46KB) [VARIANT]
+53. probiotic-complex-60-capsules.jpg (46KB) [VARIANT]
+54. probiotic.jpg (46KB)
+55. ibuprofen.jpg (44KB)
+56. target-gift-card.webp (42KB) [VARIANT]
+57. blood-pressure-monitor.jpg (39KB) [VARIANT]
+58. towels-2.webp (37KB) [VARIANT]
+59. vitamin-d3-2000-iu---90-softgels.avif (36KB) [VARIANT]
+60. vitamin-d3-2000-iu-90-softgels.avif (36KB) [VARIANT]
+61. vitamin-d3.jpg (36KB)
+62. shrimp-real.jpg (28KB)
+63. home-depot-gift-card.png (27KB) [VARIANT]
+64. uber-eats-gift-card.webp (27KB) [VARIANT]
+65. zapp-general-gift-card.webp (26KB) [VARIANT]
+66. pasta-real.jpg (22KB)
+67. premium-pasta---4-pack.jpeg (22KB) [VARIANT]
+68. premium-pasta-4-pack.jpeg (22KB) [VARIANT]
+69. trinidad-scorpion-pepper-sauce-2.jpg (22KB) [VARIANT]
+70. motor-oil.webp (21KB) [VARIANT]
+71. playstation-store-gift-card.avif (20KB) [VARIANT]
+72. digital-thermometer.avif (17KB) [VARIANT]
+73. frozen-plantains.webp (17KB)
+74. frozenplantains.webp (17KB)
+75. goya-maduros-plantains.webp (17KB)
+76. thermometer.jpg (17KB)
+77. bananas.jpg (16KB) [VARIANT]
+78. allergy-relief-24hr---30-tablets.avif (15KB) [VARIANT]
+79. allergy-relief-24hr-30-tablets.avif (15KB) [VARIANT]
+80. allergy-relief.jpg (15KB)
+81. motor-oil-2.webp (15KB) [VARIANT]
+82. airbnb-gift-card.jpg (12KB) [VARIANT]
+83. nigerian-chin-chin.jpeg (12KB) [VARIANT]
+84. jamaican-blue-mountain-coffee-2.jpeg (10KB) [VARIANT]
+85. jamaican-blue-mountain-coffee.jpeg (10KB) [VARIANT]
+86. ghanaian-cocoa-powder.jpeg (8KB) [VARIANT]
+87. kenyan-tea-leaves.jpeg (8KB) [VARIANT]
+88. starbucks-gift-card.jpg (8KB) [VARIANT]
+89. flour-semolina.svg (6KB)
+90. pasta.svg (6KB)
+91. shrimp.svg (6KB)
+92. basmati-rice.svg (5KB)
+93. long-grain-rice.svg (4KB)
+94. beverages-1.svg (2KB)
+95. dairy-1.svg (2KB)
+96. frozen-1.svg (2KB)
+97. grocery-1.svg (2KB)
+98. personal-care-1.svg (2KB)
+99. snacks-1.svg (2KB)
+100. frozen-2.svg (1KB)
+
+POTENTIAL DUPLICATES:
+- airbnb-gift-card.jpg: airbnb-gift-card.jpg
+- allergy-relief-24hr---30-tablets.avif: allergy-relief-24hr---30-tablets.avif
+- artisan-cheese-selection.jpeg: artisan-cheese-selection.jpeg
+- baby-spinach.webp: baby-spinach.webp
+- blood-pressure-monitor.jpg: blood-pressure-monitor.jpg
+- digital-thermometer.avif: digital-thermometer.avif
+- first-aid-kit---complete.jpg: first-aid-kit---complete.jpg
+- fresh-eggs---dozen.webp: fresh-eggs---dozen.webp
+- fresh-shrimp---1-lb.jpg: fresh-shrimp---1-lb.jpg
+- fresh-strawberries.jpg: fresh-strawberries.jpg
+- ghanaian-cocoa-powder.jpeg: ghanaian-cocoa-powder.jpeg
+- ghanaian-jollof-rice-mix.jpg: ghanaian-jollof-rice-mix.jpg
+- ginger-beer.jpg: ginger-beer.jpg
+- home-depot-gift-card.png: home-depot-gift-card.png
+- itunes-gift-card.webp: itunes-gift-card.webp
+- jamaican-beef-patties.jpg: jamaican-beef-patties.jpg
+- jamaican-blue-mountain-coffee-2.jpeg: jamaican-blue-mountain-coffee-2.jpeg
+- jamaican-blue-mountain-coffee.jpeg: jamaican-blue-mountain-coffee.jpeg
+- jamican-beef-patty.jpeg: jamican-beef-patty.jpeg
+- kenyan-tea-leaves.jpeg: kenyan-tea-leaves.jpeg
+- mix-berry-pack.webp: mix-berry-pack.webp
+- motor-oil-2.webp: motor-oil-2.webp
+- motor-oil.webp: motor-oil.webp
+- netflix-gift-card.webp: netflix-gift-card.webp
+- nigerian-chin-chin.jpeg: nigerian-chin-chin.jpeg
+- nigerian-jollof-rice-mix.jpg: nigerian-jollof-rice-mix.jpg
+- nigerian-suya-spice.jpg: nigerian-suya-spice.jpg
+- omega-3-fish-oil---120-softgels.jpg: omega-3-fish-oil---120-softgels.jpg
+- playstation-store-gift-card.avif: playstation-store-gift-card.avif
+- premium-pasta---4-pack.jpeg: premium-pasta---4-pack.jpeg
+- probiotic-complex---60-capsules.jpg: probiotic-complex---60-capsules.jpg
+- sephora-gift-card.jpg: sephora-gift-card.jpg
+- starbucks-gift-card.jpg: starbucks-gift-card.jpg
+- target-gift-card.webp: target-gift-card.webp
+- towels-2.webp: towels-2.webp
+- trinidad-scorpion-pepper-sauce-2.jpg: trinidad-scorpion-pepper-sauce-2.jpg
+- trinidad-scorpion-pepper-sauce.jpg: trinidad-scorpion-pepper-sauce.jpg
+- uber-eats-gift-card.webp: uber-eats-gift-card.webp
+- vitamin-d3-2000-iu---90-softgels.avif: vitamin-d3-2000-iu---90-softgels.avif
+- whole-grain-bread.jpg: whole-grain-bread.jpg
+- zapp-general-gift-card.webp: zapp-general-gift-card.webp
+
+RECOMMENDATIONS:
+1. Consider integrating 100 unused images into your product catalog
+2. Review 41 potential duplicate image sets for cleanup
+3. 34 unused images are larger than 100KB - consider for priority integration

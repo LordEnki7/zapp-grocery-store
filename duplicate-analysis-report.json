@@ -1,0 +1,544 @@
+{
+  "timestamp": "2025-09-24T21:02:22.899Z",
+  "totalProducts": 291,
+  "namesDuplicateCount": 40,
+  "imagesDuplicateCount": 0,
+  "totalDuplicatesToRemove": 59,
+  "duplicates": [
+    {
+      "removeId": "p96",
+      "removeName": "Ginger Beer",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "ginger-beer-001",
+      "keepName": "Ginger Beer",
+      "reason": "Duplicate name of product ID ginger-beer-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p145",
+      "removeName": "Ginger Beer",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "ginger-beer-001",
+      "keepName": "Ginger Beer",
+      "reason": "Duplicate name of product ID ginger-beer-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p41",
+      "removeName": "Jamaican Beef Patties",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "jamaican-beef-patties-001",
+      "keepName": "Jamaican Beef Patties",
+      "reason": "Duplicate name of product ID jamaican-beef-patties-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p81",
+      "removeName": "Organic Bananas",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "organic-bananas-001",
+      "keepName": "Organic Bananas",
+      "reason": "Duplicate name of product ID organic-bananas-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p209",
+      "removeName": "Fresh Avocados",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "avocados-001",
+      "keepName": "Fresh Avocados",
+      "reason": "Duplicate name of product ID avocados-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p206",
+      "removeName": "Premium Ground Coffee",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "premium-coffee-001",
+      "keepName": "Premium Ground Coffee",
+      "reason": "Duplicate name of product ID premium-coffee-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p43",
+      "removeName": "Ghanaian Cocoa Powder",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "ghanaian-cocoa-powder-001",
+      "keepName": "Ghanaian Cocoa Powder",
+      "reason": "Duplicate name of product ID ghanaian-cocoa-powder-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p118",
+      "removeName": "Ghanaian Cocoa Powder",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "ghanaian-cocoa-powder-001",
+      "keepName": "Ghanaian Cocoa Powder",
+      "reason": "Duplicate name of product ID ghanaian-cocoa-powder-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p119",
+      "removeName": "Ghanaian Jollof Rice Mix",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "ghanaian-jollof-rice-mix-001",
+      "keepName": "Ghanaian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID ghanaian-jollof-rice-mix-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p104",
+      "removeName": "Jamaican Blue Mountain Coffee",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "jamaican-blue-mountain-coffee-001",
+      "keepName": "Jamaican Blue Mountain Coffee",
+      "reason": "Duplicate name of product ID jamaican-blue-mountain-coffee-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p121",
+      "removeName": "Jamaican Blue Mountain Coffee",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "jamaican-blue-mountain-coffee-001",
+      "keepName": "Jamaican Blue Mountain Coffee",
+      "reason": "Duplicate name of product ID jamaican-blue-mountain-coffee-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p123",
+      "removeName": "Kenyan Tea Leaves",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "kenyan-tea-leaves-001",
+      "keepName": "Kenyan Tea Leaves",
+      "reason": "Duplicate name of product ID kenyan-tea-leaves-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p180",
+      "removeName": "Kenyan Tea Leaves",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "kenyan-tea-leaves-001",
+      "keepName": "Kenyan Tea Leaves",
+      "reason": "Duplicate name of product ID kenyan-tea-leaves-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p124",
+      "removeName": "Nigerian Chin Chin",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-chin-chin-001",
+      "keepName": "Nigerian Chin Chin",
+      "reason": "Duplicate name of product ID nigerian-chin-chin-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p221",
+      "removeName": "Nigerian Chin Chin",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-chin-chin-001",
+      "keepName": "Nigerian Chin Chin",
+      "reason": "Duplicate name of product ID nigerian-chin-chin-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p42",
+      "removeName": "Nigerian Jollof Rice Mix",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-jollof-rice-mix-001",
+      "keepName": "Nigerian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID nigerian-jollof-rice-mix-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p125",
+      "removeName": "Nigerian Jollof Rice Mix",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-jollof-rice-mix-001",
+      "keepName": "Nigerian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID nigerian-jollof-rice-mix-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p126",
+      "removeName": "Nigerian Suya Spice",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-suya-spice-001",
+      "keepName": "Nigerian Suya Spice",
+      "reason": "Duplicate name of product ID nigerian-suya-spice-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p146",
+      "removeName": "Nigerian Suya Spice",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "nigerian-suya-spice-001",
+      "keepName": "Nigerian Suya Spice",
+      "reason": "Duplicate name of product ID nigerian-suya-spice-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p128",
+      "removeName": "Trinidad Scorpion Pepper Sauce",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "trinidad-scorpion-pepper-sauce-001",
+      "keepName": "Trinidad Scorpion Pepper Sauce",
+      "reason": "Duplicate name of product ID trinidad-scorpion-pepper-sauce-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p220",
+      "removeName": "Trinidad Scorpion Pepper Sauce",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "trinidad-scorpion-pepper-sauce-001",
+      "keepName": "Trinidad Scorpion Pepper Sauce",
+      "reason": "Duplicate name of product ID trinidad-scorpion-pepper-sauce-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p70",
+      "removeName": "Baby Spinach",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "baby-spinach-001",
+      "keepName": "Baby Spinach",
+      "reason": "Duplicate name of product ID baby-spinach-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p82",
+      "removeName": "Baby Spinach",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "baby-spinach-001",
+      "keepName": "Baby Spinach",
+      "reason": "Duplicate name of product ID baby-spinach-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p63",
+      "removeName": "Fresh Strawberries",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "fresh-strawberries-001",
+      "keepName": "Fresh Strawberries",
+      "reason": "Duplicate name of product ID fresh-strawberries-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p72",
+      "removeName": "Fresh Strawberries",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "fresh-strawberries-001",
+      "keepName": "Fresh Strawberries",
+      "reason": "Duplicate name of product ID fresh-strawberries-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "10",
+      "removeName": "Farm Shop Boerewors",
+      "removeImage": "farm-shop-boerewors.jpg",
+      "removeCreatedBy": "unused-images-integrator",
+      "keepId": "farm-shop-boerewors-001",
+      "keepName": "Farm Shop Boerewors",
+      "reason": "Duplicate name of product ID farm-shop-boerewors-001",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p224",
+      "removeName": "Gourmet Cookies",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p26",
+      "keepName": "Gourmet Cookies",
+      "reason": "Duplicate name of product ID p26",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p88",
+      "removeName": "Playstation Store Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p27",
+      "keepName": "PlayStation Store Gift Card",
+      "reason": "Duplicate name of product ID p27",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-8",
+      "removeName": "PlayStation Store Gift Card",
+      "removeImage": "PlayStation Store Gift Card.avif",
+      "keepId": "p27",
+      "keepName": "PlayStation Store Gift Card",
+      "reason": "Duplicate name of product ID p27",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p83",
+      "removeName": "Airbnb Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p28",
+      "keepName": "Airbnb Gift Card",
+      "reason": "Duplicate name of product ID p28",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-10",
+      "removeName": "Airbnb Gift Card",
+      "removeImage": "Airbnb Gift Card.jpg",
+      "keepId": "p28",
+      "keepName": "Airbnb Gift Card",
+      "reason": "Duplicate name of product ID p28",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p141",
+      "removeName": "First Aid Kit - Complete",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p50",
+      "keepName": "First Aid Kit Complete",
+      "reason": "Duplicate name of product ID p50",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p138",
+      "removeName": "Blood Pressure Monitor",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p55",
+      "keepName": "Blood Pressure Monitor",
+      "reason": "Duplicate name of product ID p55",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p71",
+      "removeName": "Bananas",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p57",
+      "keepName": "Bananas",
+      "reason": "Duplicate name of product ID p57",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p87",
+      "removeName": "Netflix Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p66",
+      "keepName": "Netflix Gift Card",
+      "reason": "Duplicate name of product ID p66",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-3",
+      "removeName": "Netflix Gift Card",
+      "removeImage": "Netflix Gift Card.webp",
+      "keepId": "p66",
+      "keepName": "Netflix Gift Card",
+      "reason": "Duplicate name of product ID p66",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p139",
+      "removeName": "Digital Thermometer",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p77",
+      "keepName": "Digital Thermometer",
+      "reason": "Duplicate name of product ID p77",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p99",
+      "removeName": "Home Depot Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p85",
+      "keepName": "Home Depot Gift Card",
+      "reason": "Duplicate name of product ID p85",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-11",
+      "removeName": "Home Depot Gift Card",
+      "removeImage": "Home Depot Gift Card.png",
+      "keepId": "p85",
+      "keepName": "Home Depot Gift Card",
+      "reason": "Duplicate name of product ID p85",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p173",
+      "removeName": "iTunes Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p86",
+      "keepName": "Itunes Gift Card",
+      "reason": "Duplicate name of product ID p86",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-5",
+      "removeName": "iTunes Gift Card",
+      "removeImage": "iTunes Gift Card.webp",
+      "keepId": "p86",
+      "keepName": "Itunes Gift Card",
+      "reason": "Duplicate name of product ID p86",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p215",
+      "removeName": "Sephora Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p89",
+      "keepName": "Sephora Gift Card",
+      "reason": "Duplicate name of product ID p89",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-9",
+      "removeName": "Sephora Gift Card",
+      "removeImage": "Sephora Gift Card.jpg",
+      "keepId": "p89",
+      "keepName": "Sephora Gift Card",
+      "reason": "Duplicate name of product ID p89",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "20",
+      "removeName": "Spa And Wellness Gift Car",
+      "removeImage": "spa-and-wellness-gift-car.jpg",
+      "removeCreatedBy": "unused-images-integrator",
+      "keepId": "p90",
+      "keepName": "Spa and Wellness Gift Car",
+      "reason": "Duplicate name of product ID p90",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p107",
+      "removeName": "Starbucks Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p91",
+      "keepName": "Starbucks Gift Card",
+      "reason": "Duplicate name of product ID p91",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-4",
+      "removeName": "Starbucks Gift Card",
+      "removeImage": "Starbucks Gift Card.jpg",
+      "keepId": "p91",
+      "keepName": "Starbucks Gift Card",
+      "reason": "Duplicate name of product ID p91",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p98",
+      "removeName": "Target Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p92",
+      "keepName": "Target Gift Card",
+      "reason": "Duplicate name of product ID p92",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-6",
+      "removeName": "Target Gift Card",
+      "removeImage": "Target Gift Card.webp",
+      "keepId": "p92",
+      "keepName": "Target Gift Card",
+      "reason": "Duplicate name of product ID p92",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p130",
+      "removeName": "Uber Eats Gift Card",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p93",
+      "keepName": "Uber Eats Gift Card",
+      "reason": "Duplicate name of product ID p93",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-7",
+      "removeName": "Uber Eats Gift Card",
+      "removeImage": "Uber Eats Gift Card.webp",
+      "keepId": "p93",
+      "keepName": "Uber Eats Gift Card",
+      "reason": "Duplicate name of product ID p93",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-1",
+      "removeName": "Zapp General Gift Card",
+      "removeImage": "Zapp General Gift Card.webp",
+      "keepId": "p94",
+      "keepName": "Zapp General Gift Card",
+      "reason": "Duplicate name of product ID p94",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "32",
+      "removeName": "Frozen Plantains",
+      "removeImage": "frozen-plantains.webp",
+      "removeCreatedBy": "unused-images-integrator",
+      "keepId": "p95",
+      "keepName": "Frozen Plantains",
+      "reason": "Duplicate name of product ID p95",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p186",
+      "removeName": "Premium Olive Oil",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p112",
+      "keepName": "Premium Olive Oil",
+      "reason": "Duplicate name of product ID p112",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p187",
+      "removeName": "Organic Pasta",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p115",
+      "keepName": "Organic Pasta",
+      "reason": "Duplicate name of product ID p115",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "9",
+      "removeName": "Farm Shop Boerewors Great Taste",
+      "removeImage": "farm-shop-boerewors-great-taste.jpg",
+      "removeCreatedBy": "unused-images-integrator",
+      "keepId": "p117",
+      "keepName": "Farm Shop Boerewors Great Taste",
+      "reason": "Duplicate name of product ID p117",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p189",
+      "removeName": "Premium Spices",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p132",
+      "keepName": "Premium Spices",
+      "reason": "Duplicate name of product ID p132",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p188",
+      "removeName": "Craft Beer Selection",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p149",
+      "keepName": "Craft Beer Selection",
+      "reason": "Duplicate name of product ID p149",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "p178",
+      "removeName": "Premium Wine",
+      "removeCreatedBy": "sitephoto-importer",
+      "keepId": "p177",
+      "keepName": "Premium Wine",
+      "reason": "Duplicate name of product ID p177",
+      "type": "name_duplicate"
+    },
+    {
+      "removeId": "gc-2",
+      "removeName": "Amazon Gift Card",
+      "removeImage": "amazon-us-50-us-de.png",
+      "keepId": "p210",
+      "keepName": "Amazon Gift Card",
+      "reason": "Duplicate name of product ID p210",
+      "type": "name_duplicate"
+    }
+  ]
+}

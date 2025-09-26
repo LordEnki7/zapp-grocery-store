@@ -1,0 +1,540 @@
+{
+  "timestamp": "2025-09-24T21:03:55.281Z",
+  "originalProductCount": 291,
+  "duplicatesRemoved": 59,
+  "finalProductCount": 232,
+  "removedProducts": [
+    {
+      "id": "p96",
+      "name": "Ginger Beer",
+      "reason": "Duplicate name of product ID ginger-beer-001",
+      "keptProduct": {
+        "id": "ginger-beer-001",
+        "name": "Ginger Beer"
+      }
+    },
+    {
+      "id": "p145",
+      "name": "Ginger Beer",
+      "reason": "Duplicate name of product ID ginger-beer-001",
+      "keptProduct": {
+        "id": "ginger-beer-001",
+        "name": "Ginger Beer"
+      }
+    },
+    {
+      "id": "p41",
+      "name": "Jamaican Beef Patties",
+      "reason": "Duplicate name of product ID jamaican-beef-patties-001",
+      "keptProduct": {
+        "id": "jamaican-beef-patties-001",
+        "name": "Jamaican Beef Patties"
+      }
+    },
+    {
+      "id": "p81",
+      "name": "Organic Bananas",
+      "reason": "Duplicate name of product ID organic-bananas-001",
+      "keptProduct": {
+        "id": "organic-bananas-001",
+        "name": "Organic Bananas"
+      }
+    },
+    {
+      "id": "p209",
+      "name": "Fresh Avocados",
+      "reason": "Duplicate name of product ID avocados-001",
+      "keptProduct": {
+        "id": "avocados-001",
+        "name": "Fresh Avocados"
+      }
+    },
+    {
+      "id": "p206",
+      "name": "Premium Ground Coffee",
+      "reason": "Duplicate name of product ID premium-coffee-001",
+      "keptProduct": {
+        "id": "premium-coffee-001",
+        "name": "Premium Ground Coffee"
+      }
+    },
+    {
+      "id": "p43",
+      "name": "Ghanaian Cocoa Powder",
+      "reason": "Duplicate name of product ID ghanaian-cocoa-powder-001",
+      "keptProduct": {
+        "id": "ghanaian-cocoa-powder-001",
+        "name": "Ghanaian Cocoa Powder"
+      }
+    },
+    {
+      "id": "p118",
+      "name": "Ghanaian Cocoa Powder",
+      "reason": "Duplicate name of product ID ghanaian-cocoa-powder-001",
+      "keptProduct": {
+        "id": "ghanaian-cocoa-powder-001",
+        "name": "Ghanaian Cocoa Powder"
+      }
+    },
+    {
+      "id": "p119",
+      "name": "Ghanaian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID ghanaian-jollof-rice-mix-001",
+      "keptProduct": {
+        "id": "ghanaian-jollof-rice-mix-001",
+        "name": "Ghanaian Jollof Rice Mix"
+      }
+    },
+    {
+      "id": "p104",
+      "name": "Jamaican Blue Mountain Coffee",
+      "reason": "Duplicate name of product ID jamaican-blue-mountain-coffee-001",
+      "keptProduct": {
+        "id": "jamaican-blue-mountain-coffee-001",
+        "name": "Jamaican Blue Mountain Coffee"
+      }
+    },
+    {
+      "id": "p121",
+      "name": "Jamaican Blue Mountain Coffee",
+      "reason": "Duplicate name of product ID jamaican-blue-mountain-coffee-001",
+      "keptProduct": {
+        "id": "jamaican-blue-mountain-coffee-001",
+        "name": "Jamaican Blue Mountain Coffee"
+      }
+    },
+    {
+      "id": "p123",
+      "name": "Kenyan Tea Leaves",
+      "reason": "Duplicate name of product ID kenyan-tea-leaves-001",
+      "keptProduct": {
+        "id": "kenyan-tea-leaves-001",
+        "name": "Kenyan Tea Leaves"
+      }
+    },
+    {
+      "id": "p180",
+      "name": "Kenyan Tea Leaves",
+      "reason": "Duplicate name of product ID kenyan-tea-leaves-001",
+      "keptProduct": {
+        "id": "kenyan-tea-leaves-001",
+        "name": "Kenyan Tea Leaves"
+      }
+    },
+    {
+      "id": "p124",
+      "name": "Nigerian Chin Chin",
+      "reason": "Duplicate name of product ID nigerian-chin-chin-001",
+      "keptProduct": {
+        "id": "nigerian-chin-chin-001",
+        "name": "Nigerian Chin Chin"
+      }
+    },
+    {
+      "id": "p221",
+      "name": "Nigerian Chin Chin",
+      "reason": "Duplicate name of product ID nigerian-chin-chin-001",
+      "keptProduct": {
+        "id": "nigerian-chin-chin-001",
+        "name": "Nigerian Chin Chin"
+      }
+    },
+    {
+      "id": "p42",
+      "name": "Nigerian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID nigerian-jollof-rice-mix-001",
+      "keptProduct": {
+        "id": "nigerian-jollof-rice-mix-001",
+        "name": "Nigerian Jollof Rice Mix"
+      }
+    },
+    {
+      "id": "p125",
+      "name": "Nigerian Jollof Rice Mix",
+      "reason": "Duplicate name of product ID nigerian-jollof-rice-mix-001",
+      "keptProduct": {
+        "id": "nigerian-jollof-rice-mix-001",
+        "name": "Nigerian Jollof Rice Mix"
+      }
+    },
+    {
+      "id": "p126",
+      "name": "Nigerian Suya Spice",
+      "reason": "Duplicate name of product ID nigerian-suya-spice-001",
+      "keptProduct": {
+        "id": "nigerian-suya-spice-001",
+        "name": "Nigerian Suya Spice"
+      }
+    },
+    {
+      "id": "p146",
+      "name": "Nigerian Suya Spice",
+      "reason": "Duplicate name of product ID nigerian-suya-spice-001",
+      "keptProduct": {
+        "id": "nigerian-suya-spice-001",
+        "name": "Nigerian Suya Spice"
+      }
+    },
+    {
+      "id": "p128",
+      "name": "Trinidad Scorpion Pepper Sauce",
+      "reason": "Duplicate name of product ID trinidad-scorpion-pepper-sauce-001",
+      "keptProduct": {
+        "id": "trinidad-scorpion-pepper-sauce-001",
+        "name": "Trinidad Scorpion Pepper Sauce"
+      }
+    },
+    {
+      "id": "p220",
+      "name": "Trinidad Scorpion Pepper Sauce",
+      "reason": "Duplicate name of product ID trinidad-scorpion-pepper-sauce-001",
+      "keptProduct": {
+        "id": "trinidad-scorpion-pepper-sauce-001",
+        "name": "Trinidad Scorpion Pepper Sauce"
+      }
+    },
+    {
+      "id": "p70",
+      "name": "Baby Spinach",
+      "reason": "Duplicate name of product ID baby-spinach-001",
+      "keptProduct": {
+        "id": "baby-spinach-001",
+        "name": "Baby Spinach"
+      }
+    },
+    {
+      "id": "p82",
+      "name": "Baby Spinach",
+      "reason": "Duplicate name of product ID baby-spinach-001",
+      "keptProduct": {
+        "id": "baby-spinach-001",
+        "name": "Baby Spinach"
+      }
+    },
+    {
+      "id": "p63",
+      "name": "Fresh Strawberries",
+      "reason": "Duplicate name of product ID fresh-strawberries-001",
+      "keptProduct": {
+        "id": "fresh-strawberries-001",
+        "name": "Fresh Strawberries"
+      }
+    },
+    {
+      "id": "p72",
+      "name": "Fresh Strawberries",
+      "reason": "Duplicate name of product ID fresh-strawberries-001",
+      "keptProduct": {
+        "id": "fresh-strawberries-001",
+        "name": "Fresh Strawberries"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Farm Shop Boerewors",
+      "reason": "Duplicate name of product ID farm-shop-boerewors-001",
+      "keptProduct": {
+        "id": "farm-shop-boerewors-001",
+        "name": "Farm Shop Boerewors"
+      }
+    },
+    {
+      "id": "p224",
+      "name": "Gourmet Cookies",
+      "reason": "Duplicate name of product ID p26",
+      "keptProduct": {
+        "id": "p26",
+        "name": "Gourmet Cookies"
+      }
+    },
+    {
+      "id": "p88",
+      "name": "Playstation Store Gift Card",
+      "reason": "Duplicate name of product ID p27",
+      "keptProduct": {
+        "id": "p27",
+        "name": "PlayStation Store Gift Card"
+      }
+    },
+    {
+      "id": "gc-8",
+      "name": "PlayStation Store Gift Card",
+      "reason": "Duplicate name of product ID p27",
+      "keptProduct": {
+        "id": "p27",
+        "name": "PlayStation Store Gift Card"
+      }
+    },
+    {
+      "id": "p83",
+      "name": "Airbnb Gift Card",
+      "reason": "Duplicate name of product ID p28",
+      "keptProduct": {
+        "id": "p28",
+        "name": "Airbnb Gift Card"
+      }
+    },
+    {
+      "id": "gc-10",
+      "name": "Airbnb Gift Card",
+      "reason": "Duplicate name of product ID p28",
+      "keptProduct": {
+        "id": "p28",
+        "name": "Airbnb Gift Card"
+      }
+    },
+    {
+      "id": "p141",
+      "name": "First Aid Kit - Complete",
+      "reason": "Duplicate name of product ID p50",
+      "keptProduct": {
+        "id": "p50",
+        "name": "First Aid Kit Complete"
+      }
+    },
+    {
+      "id": "p138",
+      "name": "Blood Pressure Monitor",
+      "reason": "Duplicate name of product ID p55",
+      "keptProduct": {
+        "id": "p55",
+        "name": "Blood Pressure Monitor"
+      }
+    },
+    {
+      "id": "p71",
+      "name": "Bananas",
+      "reason": "Duplicate name of product ID p57",
+      "keptProduct": {
+        "id": "p57",
+        "name": "Bananas"
+      }
+    },
+    {
+      "id": "p87",
+      "name": "Netflix Gift Card",
+      "reason": "Duplicate name of product ID p66",
+      "keptProduct": {
+        "id": "p66",
+        "name": "Netflix Gift Card"
+      }
+    },
+    {
+      "id": "gc-3",
+      "name": "Netflix Gift Card",
+      "reason": "Duplicate name of product ID p66",
+      "keptProduct": {
+        "id": "p66",
+        "name": "Netflix Gift Card"
+      }
+    },
+    {
+      "id": "p139",
+      "name": "Digital Thermometer",
+      "reason": "Duplicate name of product ID p77",
+      "keptProduct": {
+        "id": "p77",
+        "name": "Digital Thermometer"
+      }
+    },
+    {
+      "id": "p99",
+      "name": "Home Depot Gift Card",
+      "reason": "Duplicate name of product ID p85",
+      "keptProduct": {
+        "id": "p85",
+        "name": "Home Depot Gift Card"
+      }
+    },
+    {
+      "id": "gc-11",
+      "name": "Home Depot Gift Card",
+      "reason": "Duplicate name of product ID p85",
+      "keptProduct": {
+        "id": "p85",
+        "name": "Home Depot Gift Card"
+      }
+    },
+    {
+      "id": "p173",
+      "name": "iTunes Gift Card",
+      "reason": "Duplicate name of product ID p86",
+      "keptProduct": {
+        "id": "p86",
+        "name": "Itunes Gift Card"
+      }
+    },
+    {
+      "id": "gc-5",
+      "name": "iTunes Gift Card",
+      "reason": "Duplicate name of product ID p86",
+      "keptProduct": {
+        "id": "p86",
+        "name": "Itunes Gift Card"
+      }
+    },
+    {
+      "id": "p215",
+      "name": "Sephora Gift Card",
+      "reason": "Duplicate name of product ID p89",
+      "keptProduct": {
+        "id": "p89",
+        "name": "Sephora Gift Card"
+      }
+    },
+    {
+      "id": "gc-9",
+      "name": "Sephora Gift Card",
+      "reason": "Duplicate name of product ID p89",
+      "keptProduct": {
+        "id": "p89",
+        "name": "Sephora Gift Card"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Spa And Wellness Gift Car",
+      "reason": "Duplicate name of product ID p90",
+      "keptProduct": {
+        "id": "p90",
+        "name": "Spa and Wellness Gift Car"
+      }
+    },
+    {
+      "id": "p107",
+      "name": "Starbucks Gift Card",
+      "reason": "Duplicate name of product ID p91",
+      "keptProduct": {
+        "id": "p91",
+        "name": "Starbucks Gift Card"
+      }
+    },
+    {
+      "id": "gc-4",
+      "name": "Starbucks Gift Card",
+      "reason": "Duplicate name of product ID p91",
+      "keptProduct": {
+        "id": "p91",
+        "name": "Starbucks Gift Card"
+      }
+    },
+    {
+      "id": "p98",
+      "name": "Target Gift Card",
+      "reason": "Duplicate name of product ID p92",
+      "keptProduct": {
+        "id": "p92",
+        "name": "Target Gift Card"
+      }
+    },
+    {
+      "id": "gc-6",
+      "name": "Target Gift Card",
+      "reason": "Duplicate name of product ID p92",
+      "keptProduct": {
+        "id": "p92",
+        "name": "Target Gift Card"
+      }
+    },
+    {
+      "id": "p130",
+      "name": "Uber Eats Gift Card",
+      "reason": "Duplicate name of product ID p93",
+      "keptProduct": {
+        "id": "p93",
+        "name": "Uber Eats Gift Card"
+      }
+    },
+    {
+      "id": "gc-7",
+      "name": "Uber Eats Gift Card",
+      "reason": "Duplicate name of product ID p93",
+      "keptProduct": {
+        "id": "p93",
+        "name": "Uber Eats Gift Card"
+      }
+    },
+    {
+      "id": "gc-1",
+      "name": "Zapp General Gift Card",
+      "reason": "Duplicate name of product ID p94",
+      "keptProduct": {
+        "id": "p94",
+        "name": "Zapp General Gift Card"
+      }
+    },
+    {
+      "id": "32",
+      "name": "Frozen Plantains",
+      "reason": "Duplicate name of product ID p95",
+      "keptProduct": {
+        "id": "p95",
+        "name": "Frozen Plantains"
+      }
+    },
+    {
+      "id": "p186",
+      "name": "Premium Olive Oil",
+      "reason": "Duplicate name of product ID p112",
+      "keptProduct": {
+        "id": "p112",
+        "name": "Premium Olive Oil"
+      }
+    },
+    {
+      "id": "p187",
+      "name": "Organic Pasta",
+      "reason": "Duplicate name of product ID p115",
+      "keptProduct": {
+        "id": "p115",
+        "name": "Organic Pasta"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Farm Shop Boerewors Great Taste",
+      "reason": "Duplicate name of product ID p117",
+      "keptProduct": {
+        "id": "p117",
+        "name": "Farm Shop Boerewors Great Taste"
+      }
+    },
+    {
+      "id": "p189",
+      "name": "Premium Spices",
+      "reason": "Duplicate name of product ID p132",
+      "keptProduct": {
+        "id": "p132",
+        "name": "Premium Spices"
+      }
+    },
+    {
+      "id": "p188",
+      "name": "Craft Beer Selection",
+      "reason": "Duplicate name of product ID p149",
+      "keptProduct": {
+        "id": "p149",
+        "name": "Craft Beer Selection"
+      }
+    },
+    {
+      "id": "p178",
+      "name": "Premium Wine",
+      "reason": "Duplicate name of product ID p177",
+      "keptProduct": {
+        "id": "p177",
+        "name": "Premium Wine"
+      }
+    },
+    {
+      "id": "gc-2",
+      "name": "Amazon Gift Card",
+      "reason": "Duplicate name of product ID p210",
+      "keptProduct": {
+        "id": "p210",
+        "name": "Amazon Gift Card"
+      }
+    }
+  ],
+  "backupFile": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\data\\products\\products_backup_before_deduplication.json"
+}

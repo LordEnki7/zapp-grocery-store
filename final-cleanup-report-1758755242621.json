@@ -1,0 +1,493 @@
+{
+  "timestamp": "2025-09-24T23:07:22.621Z",
+  "summary": {
+    "totalProcessed": 80,
+    "updated": 0,
+    "skipped": 80,
+    "remainingGenerics": 80
+  },
+  "updates": [],
+  "skipped": [
+    {
+      "productId": "p2",
+      "productName": "Premium Wafers",
+      "currentImage": "/images/products/G230.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p3",
+      "productName": "Organic Biscuits",
+      "currentImage": "/images/products/G231.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p5",
+      "productName": "Gourmet Hummus",
+      "currentImage": "/images/products/G245.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p6",
+      "productName": "Premium Salsa",
+      "currentImage": "/images/products/G246.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p7",
+      "productName": "Organic Dip",
+      "currentImage": "/images/products/G247.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p8",
+      "productName": "Premium Dressing",
+      "currentImage": "/images/products/G248.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p9",
+      "productName": "Gourmet Marinade",
+      "currentImage": "/images/products/G249.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p10",
+      "productName": "Premium BBQ Sauce",
+      "currentImage": "/images/products/G250.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p11",
+      "productName": "Organic Ketchup",
+      "currentImage": "/images/products/G251.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p12",
+      "productName": "Premium Mustard",
+      "currentImage": "/images/products/G252.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p15",
+      "productName": "Premium Trail Mix",
+      "currentImage": "/images/products/G209.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p21",
+      "productName": "Organic Moisturizer",
+      "currentImage": "/images/products/g195.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p22",
+      "productName": "Premium Gum",
+      "currentImage": "/images/products/g217.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p23",
+      "productName": "Organic Mints",
+      "currentImage": "/images/products/g218.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p24",
+      "productName": "Premium Jerky",
+      "currentImage": "/images/products/g219.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p25",
+      "productName": "Gourmet Frosting",
+      "currentImage": "/images/products/g233.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p26",
+      "productName": "Gourmet Cookies",
+      "currentImage": "/images/products/g229.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p33",
+      "productName": "Premium Kombucha",
+      "currentImage": "/images/products/G163.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p45",
+      "productName": "Gourmet Nuts",
+      "currentImage": "/images/products/g225.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p46",
+      "productName": "Premium Seeds",
+      "currentImage": "/images/products/g226.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p47",
+      "productName": "Vitamin D3 Supplements",
+      "currentImage": "/images/products/g201.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p51",
+      "productName": "Organic Soap",
+      "currentImage": "/images/products/g182.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p52",
+      "productName": "Premium Lotion",
+      "currentImage": "/images/products/g183.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p53",
+      "productName": "Organic Cleanser",
+      "currentImage": "/images/products/g199.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p64",
+      "productName": "Premium Crackers",
+      "currentImage": "/images/products/g127.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p65",
+      "productName": "Artisan Bread",
+      "currentImage": "/images/products/g128.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p67",
+      "productName": "Premium Tahini",
+      "currentImage": "/images/products/g244.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p76",
+      "productName": "Organic Smoothie",
+      "currentImage": "/images/products/g158.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p100",
+      "productName": "Premium Baking Mix",
+      "currentImage": "/images/products/g143.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p102",
+      "productName": "Premium Maple Syrup",
+      "currentImage": "/images/products/g149.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p105",
+      "productName": "Gourmet Marmalade",
+      "currentImage": "/images/products/g241.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p111",
+      "productName": "Organic Crackers",
+      "currentImage": "/images/products/g222.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p115",
+      "productName": "Organic Pasta",
+      "currentImage": "/images/products/g115.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p129",
+      "productName": "Premium Hot Sauce",
+      "currentImage": "/images/products/g254.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p131",
+      "productName": "Organic Nuts Mix",
+      "currentImage": "/images/products/g119.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p132",
+      "productName": "Premium Spices",
+      "currentImage": "/images/products/g120.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p134",
+      "productName": "Premium Jello",
+      "currentImage": "/images/products/g236.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p135",
+      "productName": "Gourmet Syrup",
+      "currentImage": "/images/products/g237.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p136",
+      "productName": "Organic Relish",
+      "currentImage": "/images/products/g255.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p148",
+      "productName": "Premium Sunscreen",
+      "currentImage": "/images/products/g190.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p149",
+      "productName": "Craft Beer Selection",
+      "currentImage": "/images/products/g116.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p150",
+      "productName": "Premium Skincare Set",
+      "currentImage": "/images/products/g177.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p151",
+      "productName": "Premium Shampoo",
+      "currentImage": "/images/products/g179.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p152",
+      "productName": "Gourmet Body Wash",
+      "currentImage": "/images/products/g180.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p153",
+      "productName": "Premium Conditioner",
+      "currentImage": "/images/products/g181.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p155",
+      "productName": "Premium Face Mask",
+      "currentImage": "/images/products/g192.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p156",
+      "productName": "Gourmet Bath Bomb",
+      "currentImage": "/images/products/g193.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p158",
+      "productName": "Premium Serum",
+      "currentImage": "/images/products/g196.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p159",
+      "productName": "Gourmet Perfume",
+      "currentImage": "/images/products/g184.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p160",
+      "productName": "Premium Deodorant",
+      "currentImage": "/images/products/g185.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p161",
+      "productName": "Premium Pickles",
+      "currentImage": "/images/products/g256.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p162",
+      "productName": "Gourmet Olives",
+      "currentImage": "/images/products/g257.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p163",
+      "productName": "Premium Capers",
+      "currentImage": "/images/products/g258.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p165",
+      "productName": "Premium Artichoke Hearts",
+      "currentImage": "/images/products/g260.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p166",
+      "productName": "Gourmet Roasted Peppers",
+      "currentImage": "/images/products/g261.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p168",
+      "productName": "Premium Pizza Sauce",
+      "currentImage": "/images/products/g264.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p169",
+      "productName": "Gourmet Pesto",
+      "currentImage": "/images/products/g265.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p170",
+      "productName": "Premium Alfredo Sauce",
+      "currentImage": "/images/products/g266.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p171",
+      "productName": "Organic Marinara",
+      "currentImage": "/images/products/g267.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p172",
+      "productName": "Premium Bolognese Sauce",
+      "currentImage": "/images/products/g268.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p177",
+      "productName": "Premium Wine",
+      "currentImage": "/images/products/g117.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p179",
+      "productName": "Premium Spread",
+      "currentImage": "/images/products/g242.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p181",
+      "productName": "Premium Mouthwash",
+      "currentImage": "/images/products/g187.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p182",
+      "productName": "Gourmet Lip Balm",
+      "currentImage": "/images/products/g189.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p183",
+      "productName": "Gourmet Scrub",
+      "currentImage": "/images/products/g197.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p184",
+      "productName": "Premium Toner",
+      "currentImage": "/images/products/g198.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p190",
+      "productName": "Organic Granola",
+      "currentImage": "/images/products/g129.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p191",
+      "productName": "Premium Cereal",
+      "currentImage": "/images/products/g130.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p192",
+      "productName": "Gourmet Jam",
+      "currentImage": "/images/products/g131.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p194",
+      "productName": "Organic Yogurt",
+      "currentImage": "/images/products/g133.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p197",
+      "productName": "Gourmet Sauce",
+      "currentImage": "/images/products/g136.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p198",
+      "productName": "Premium Vinegar",
+      "currentImage": "/images/products/G137.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p199",
+      "productName": "Organic Herbs",
+      "currentImage": "/images/products/g138.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p200",
+      "productName": "Premium Salt",
+      "currentImage": "/images/products/g139.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p201",
+      "productName": "Gourmet Pepper",
+      "currentImage": "/images/products/g140.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p207",
+      "productName": "Organic Sugar",
+      "currentImage": "/images/products/g142.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p208",
+      "productName": "Premium Preserves",
+      "currentImage": "/images/products/g240.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p212",
+      "productName": "Organic Jam",
+      "currentImage": "/images/products/g239.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p214",
+      "productName": "Organic Pudding Mix",
+      "currentImage": "/images/products/g235.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p216",
+      "productName": "Premium Pie Filling",
+      "currentImage": "/images/products/g234.png",
+      "reason": "No suitable match found"
+    }
+  ],
+  "backupFile": "products_backup_final_cleanup_1758755242611.json"
+}

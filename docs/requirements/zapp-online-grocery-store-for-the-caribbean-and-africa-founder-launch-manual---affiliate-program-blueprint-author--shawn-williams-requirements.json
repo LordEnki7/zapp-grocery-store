@@ -1,0 +1,46 @@
+{
+  "source": "ZAPP Online Grocery Store for the Caribbean and Africa Founder Launch Manual & Affiliate Program Blueprint Author_ Shawn Williams.pdf",
+  "title": "ZAPP Online Grocery Store Founder Launch Manual & Affiliate Program Blueprint",
+  "requirements": [
+    {
+      "category": "1. Affiliate System",
+      "items": [
+        "Unique Referral Codes",
+        "Commission Structure: 5% of referred customer's first order",
+        "Affiliate Dashboard"
+      ]
+    },
+    {
+      "category": "2. Marketing Materials",
+      "items": [
+        "Shareable Product Links",
+        "Social Media Templates",
+        "Email Marketing Templates"
+      ]
+    },
+    {
+      "category": "3. Payment System",
+      "items": [
+        "Monthly Commission Payouts",
+        "Minimum Payout Threshold: $50",
+        "Payment Methods: Direct Deposit, PayPal"
+      ]
+    },
+    {
+      "category": "4. Legal Requirements",
+      "items": [
+        "Affiliate Agreement",
+        "Terms and Conditions",
+        "Privacy Policy"
+      ]
+    },
+    {
+      "category": "5. Technical Implementation",
+      "items": [
+        "Tracking Cookies: 30-day attribution",
+        "Referral Links Structure",
+        "Reporting and Analytics"
+      ]
+    }
+  ]
+}

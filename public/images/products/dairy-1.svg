@@ -1,0 +1,48 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dairyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#dairyGrad)"/>
+  
+  <!-- Milk carton -->
+  <g transform="translate(150,150)">
+    <!-- Main carton body -->
+    <path d="M-30 -20 L-30 40 Q-30 45 -25 45 L25 45 Q30 45 30 40 L30 -20 Z" 
+          fill="#FFFFFF" stroke="#64748B" stroke-width="2"/>
+    
+    <!-- Carton top -->
+    <path d="M-30 -20 L-15 -40 L0 -35 L15 -40 L30 -20 Z" 
+          fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+    
+    <!-- Carton fold lines -->
+    <line x1="-15" y1="-40" x2="-15" y2="-20" stroke="#94A3B8" stroke-width="1"/>
+    <line x1="15" y1="-40" x2="15" y2="-20" stroke="#94A3B8" stroke-width="1"/>
+    <line x1="0" y1="-35" x2="0" y2="-20" stroke="#94A3B8" stroke-width="1"/>
+    
+    <!-- Milk brand label -->
+    <rect x="-25" y="-10" width="50" height="30" fill="#DBEAFE" stroke="#2563EB" stroke-width="1" rx="3"/>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2563EB">FRESH</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2563EB">MILK</text>
+    
+    <!-- Nutritional info -->
+    <rect x="-20" y="25" width="40" height="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" rx="2"/>
+    <line x1="-15" y1="29" x2="15" y2="29" stroke="#94A3B8" stroke-width="0.5"/>
+    <line x1="-15" y1="33" x2="10" y2="33" stroke="#94A3B8" stroke-width="0.5"/>
+    
+    <!-- Cheese wedge -->
+    <g transform="translate(50,10)">
+      <path d="M0 0 L20 -10 L15 15 Z" fill="#FCD34D" stroke="#F59E0B" stroke-width="2"/>
+      <circle cx="8" cy="2" r="2" fill="#FFFFFF"/>
+      <circle cx="12" cy="8" r="1.5" fill="#FFFFFF"/>
+      <circle cx="6" cy="10" r="1" fill="#FFFFFF"/>
+    </g>
+  </g>
+  
+  <!-- Label -->
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#D97706">DAIRY</text>
+</svg>

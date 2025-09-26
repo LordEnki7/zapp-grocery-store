@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e9ecef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dee2e6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="labelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="riceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8dc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0e68c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  
+  <!-- Rice bag body -->
+  <rect x="80" y="120" width="240" height="220" rx="8" ry="8" fill="url(#bagGradient)" stroke="#adb5bd" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Rice bag top fold -->
+  <rect x="80" y="100" width="240" height="30" rx="8" ry="8" fill="#e9ecef" stroke="#adb5bd" stroke-width="2"/>
+  
+  <!-- Transparent window showing rice -->
+  <ellipse cx="200" cy="200" rx="60" ry="40" fill="rgba(255,255,255,0.9)" stroke="#ced4da" stroke-width="2"/>
+  
+  <!-- Long grain rice grains visible through window -->
+  <g opacity="0.9">
+    <!-- Individual rice grains -->
+    <ellipse cx="180" cy="185" rx="12" ry="3" fill="url(#riceGradient)" transform="rotate(15 180 185)"/>
+    <ellipse cx="200" cy="190" rx="11" ry="3" fill="url(#riceGradient)" transform="rotate(-10 200 190)"/>
+    <ellipse cx="220" cy="195" rx="12" ry="3" fill="url(#riceGradient)" transform="rotate(25 220 195)"/>
+    <ellipse cx="190" cy="205" rx="11" ry="3" fill="url(#riceGradient)" transform="rotate(-20 190 205)"/>
+    <ellipse cx="210" cy="210" rx="12" ry="3" fill="url(#riceGradient)" transform="rotate(5 210 210)"/>
+    <ellipse cx="175" cy="200" rx="10" ry="3" fill="url(#riceGradient)" transform="rotate(35 175 200)"/>
+    <ellipse cx="225" cy="180" rx="11" ry="3" fill="url(#riceGradient)" transform="rotate(-15 225 180)"/>
+    <ellipse cx="195" cy="175" rx="12" ry="3" fill="url(#riceGradient)" transform="rotate(20 195 175)"/>
+    <ellipse cx="215" cy="225" rx="10" ry="3" fill="url(#riceGradient)" transform="rotate(-25 215 225)"/>
+    <ellipse cx="185" cy="220" rx="11" ry="3" fill="url(#riceGradient)" transform="rotate(10 185 220)"/>
+  </g>
+  
+  <!-- Brand label -->
+  <rect x="90" y="140" width="220" height="40" rx="4" ry="4" fill="url(#labelGradient)" stroke="#6c757d" stroke-width="1"/>
+  
+  <!-- Brand text -->
+  <text x="200" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#495057">PREMIUM</text>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">Long Grain Rice</text>
+  
+  <!-- Weight indicator -->
+  <rect x="260" y="280" width="50" height="20" rx="10" ry="10" fill="#ffc107" stroke="#e0a800" stroke-weight="1"/>
+  <text x="285" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">5 LBS</text>
+  
+  <!-- Quality seal -->
+  <circle cx="130" cy="280" r="25" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+  <text x="130" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">QUALITY</text>
+  <text x="130" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">ASSURED</text>
+  
+  <!-- Cooking instructions icon -->
+  <rect x="90" y="250" width="30" height="20" rx="3" ry="3" fill="#17a2b8" stroke="#138496" stroke-width="1"/>
+  <text x="105" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">COOK</text>
+  
+  <!-- Nutritional highlight -->
+  <rect x="280" y="250" width="30" height="20" rx="3" ry="3" fill="#dc3545" stroke="#c82333" stroke-width="1"/>
+  <text x="295" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">FIBER</text>
+</svg>

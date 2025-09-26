@@ -1,0 +1,51 @@
+{
+  "source": "DIRECTION FOR ZAPP ONLINE STORE.pdf",
+  "title": "DIRECTION FOR ZAPP ONLINE STORE",
+  "requirements": [
+    {
+      "category": "1. Product Database Structure",
+      "items": [
+        "Product Categories: Grocery, Frozen, Hospitality",
+        "Product Attributes: Name, Description, Price, Image, Country of Origin, Category"
+      ]
+    },
+    {
+      "category": "2. User Features",
+      "items": [
+        "User Registration and Login",
+        "Shopping Cart Management",
+        "Order History",
+        "ZAPP Points System (1 point = $1 spent)"
+      ]
+    },
+    {
+      "category": "3. Admin Dashboard",
+      "items": [
+        "Product Management",
+        "Order Management",
+        "User Management",
+        "Analytics Dashboard"
+      ]
+    },
+    {
+      "category": "4. Technical Stack",
+      "items": [
+        "Frontend: React with TypeScript",
+        "State Management: Context API",
+        "CSS Framework: Tailwind CSS",
+        "Backend: Firebase",
+        "Authentication: Firebase Auth",
+        "Database: Firestore",
+        "Storage: Firebase Storage",
+        "Payment Processing: Stripe"
+      ]
+    },
+    {
+      "category": "5. Deployment",
+      "items": [
+        "Hosting: Firebase Hosting",
+        "CI/CD: GitHub Actions"
+      ]
+    }
+  ]
+}

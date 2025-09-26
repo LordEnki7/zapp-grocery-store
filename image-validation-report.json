@@ -1,0 +1,1391 @@
+{
+  "timestamp": "2025-09-25T14:32:20.463Z",
+  "summary": {
+    "total": 230,
+    "valid": 230,
+    "invalid": 0,
+    "fixed": 0
+  },
+  "details": [
+    {
+      "id": "ginger-beer-001",
+      "name": "Ginger Beer",
+      "status": "VALID",
+      "originalPath": "Ginger beer.jpg"
+    },
+    {
+      "id": "jamaican-beef-patties-001",
+      "name": "Jamaican Beef Patties",
+      "status": "VALID",
+      "originalPath": "jamaican-beef-patties.jpg"
+    },
+    {
+      "id": "organic-bananas-001",
+      "name": "Organic Bananas",
+      "status": "VALID",
+      "originalPath": "organic-bananas-dole.jpg"
+    },
+    {
+      "id": "avocados-001",
+      "name": "Fresh Avocados",
+      "status": "VALID",
+      "originalPath": "avocados.jpg"
+    },
+    {
+      "id": "cheese-001",
+      "name": "Premium Cheese",
+      "status": "VALID",
+      "originalPath": "cheese.jpg"
+    },
+    {
+      "id": "eggs-001",
+      "name": "Farm Fresh Eggs",
+      "status": "VALID",
+      "originalPath": "eggs-real.jpg"
+    },
+    {
+      "id": "premium-coffee-001",
+      "name": "Premium Ground Coffee",
+      "status": "VALID",
+      "originalPath": "premium-ground-coffee.jpg"
+    },
+    {
+      "id": "ghanaian-cocoa-powder-001",
+      "name": "Ghanaian Cocoa Powder",
+      "status": "VALID",
+      "originalPath": "Ghanaian Cocoa Powder.jpeg"
+    },
+    {
+      "id": "ghanaian-jollof-rice-mix-001",
+      "name": "Ghanaian Jollof Rice Mix",
+      "status": "VALID",
+      "originalPath": "Ghanaian Jollof Rice Mix.jpg"
+    },
+    {
+      "id": "jamaican-blue-mountain-coffee-001",
+      "name": "Jamaican Blue Mountain Coffee",
+      "status": "VALID",
+      "originalPath": "Jamaican Blue Mountain Coffee.jpeg"
+    },
+    {
+      "id": "kenyan-tea-leaves-001",
+      "name": "Kenyan Tea Leaves",
+      "status": "VALID",
+      "originalPath": "Kenyan Tea Leaves.jpeg"
+    },
+    {
+      "id": "nigerian-chin-chin-001",
+      "name": "Nigerian Chin Chin",
+      "status": "VALID",
+      "originalPath": "Nigerian Chin Chin.jpeg"
+    },
+    {
+      "id": "nigerian-jollof-rice-mix-001",
+      "name": "Nigerian Jollof Rice Mix",
+      "status": "VALID",
+      "originalPath": "Nigerian Jollof Rice Mix.jpg"
+    },
+    {
+      "id": "nigerian-suya-spice-001",
+      "name": "Nigerian Suya Spice",
+      "status": "VALID",
+      "originalPath": "Nigerian Suya Spice.jpg"
+    },
+    {
+      "id": "trinidad-scorpion-pepper-sauce-001",
+      "name": "Trinidad Scorpion Pepper Sauce",
+      "status": "VALID",
+      "originalPath": "Trinidad Scorpion Pepper Sauce.jpg"
+    },
+    {
+      "id": "baby-spinach-001",
+      "name": "Baby Spinach",
+      "status": "VALID",
+      "originalPath": "Baby Spinach.webp"
+    },
+    {
+      "id": "fresh-bananas-001",
+      "name": "Fresh Bananas",
+      "status": "VALID",
+      "originalPath": "Bananas.webp"
+    },
+    {
+      "id": "fresh-strawberries-001",
+      "name": "Fresh Strawberries",
+      "status": "VALID",
+      "originalPath": "Fresh Strawberries.jpg"
+    },
+    {
+      "id": "farm-shop-boerewors-001",
+      "name": "Farm Shop Boerewors",
+      "status": "VALID",
+      "originalPath": "FARM_SHOP_BOEREWORS_GREAT_TASTE.jpg"
+    },
+    {
+      "id": "p1",
+      "name": "Apple Cider Vinegar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Apple Cider Vinegar.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Premium Wafers",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Cookies/BelVita_Crunchy.png"
+    },
+    {
+      "id": "p3",
+      "name": "Organic Biscuits",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Cookies/BelVita_Crunchy.png"
+    },
+    {
+      "id": "p4",
+      "name": "Premium Cake Mix",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pancakes mix/Krusteaz_Buttermilk.png"
+    },
+    {
+      "id": "p5",
+      "name": "Gourmet Hummus",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Gourmet Coffee.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Premium Salsa",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Premium Kombucha.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "Organic Dip",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Organic Coconut Water.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Premium Dressing",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Premium Green Tea.webp"
+    },
+    {
+      "id": "p9",
+      "name": "Gourmet Marinade",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Gourmet Soda.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Premium BBQ Sauce",
+      "status": "VALID",
+      "originalPath": "/images/products/G250.png"
+    },
+    {
+      "id": "p11",
+      "name": "Organic Ketchup",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Organic Herbal Tea.webp"
+    },
+    {
+      "id": "p12",
+      "name": "Premium Mustard",
+      "status": "VALID",
+      "originalPath": "/images/products/G252.png"
+    },
+    {
+      "id": "p13",
+      "name": "Gourmet Mayo",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Mayo/Chosen_Foods_Avocado_Oil_Mayo.png"
+    },
+    {
+      "id": "p14",
+      "name": "Gourmet Snack Mix",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Fruit Snacks/Welch's_Fruit_Snacks.png"
+    },
+    {
+      "id": "p15",
+      "name": "Premium Trail Mix",
+      "status": "VALID",
+      "originalPath": "/images/products/G209.png"
+    },
+    {
+      "id": "p16",
+      "name": "Organic Fruit Chips",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Fruit Snacks/Black_Forest_Organic_Gummy_Bears.png"
+    },
+    {
+      "id": "p17",
+      "name": "Premium Protein Bar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png"
+    },
+    {
+      "id": "p18",
+      "name": "Premium Granola Bar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Protien Bars/Kirkland_Soft & Chewy_Granola_Bars.png"
+    },
+    {
+      "id": "p19",
+      "name": "Organic Nut Bar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png"
+    },
+    {
+      "id": "p20",
+      "name": "Premium Chocolate Bar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png"
+    },
+    {
+      "id": "p21",
+      "name": "Organic Moisturizer",
+      "status": "VALID",
+      "originalPath": "/images/products/g195.png"
+    },
+    {
+      "id": "p22",
+      "name": "Premium Gum",
+      "status": "VALID",
+      "originalPath": "/images/products/g217.png"
+    },
+    {
+      "id": "p23",
+      "name": "Organic Mints",
+      "status": "VALID",
+      "originalPath": "/images/products/g218.png"
+    },
+    {
+      "id": "p24",
+      "name": "Premium Jerky",
+      "status": "VALID",
+      "originalPath": "/images/products/g219.png"
+    },
+    {
+      "id": "p25",
+      "name": "Gourmet Frosting",
+      "status": "VALID",
+      "originalPath": "/images/products/g233.png"
+    },
+    {
+      "id": "p26",
+      "name": "Gourmet Cookies",
+      "status": "VALID",
+      "originalPath": "/images/products/g229.png"
+    },
+    {
+      "id": "p27",
+      "name": "PlayStation Store Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif"
+    },
+    {
+      "id": "p28",
+      "name": "Airbnb Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg"
+    },
+    {
+      "id": "p29",
+      "name": "Premium Protein Shake",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Premium Protein Shake.avif"
+    },
+    {
+      "id": "p30",
+      "name": "Gourmet Coffee",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Gourmet Coffee.jpg"
+    },
+    {
+      "id": "p31",
+      "name": "Premium Tea",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Milk Tea Varity Pack/A_Sha.png"
+    },
+    {
+      "id": "p32",
+      "name": "Artisan Hot Chocolate",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Artisan Hot Chocolate.jpeg"
+    },
+    {
+      "id": "p33",
+      "name": "Premium Kombucha",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Premium Kombucha.jpg"
+    },
+    {
+      "id": "p34",
+      "name": "Organic Coconut Water",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Organic Coconut Water.jpg"
+    },
+    {
+      "id": "p35",
+      "name": "Premium Sports Drink",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Sports Drink/Kirkland_Sport_Drink.png"
+    },
+    {
+      "id": "p36",
+      "name": "Gourmet Soda",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Gourmet Soda.jpg"
+    },
+    {
+      "id": "p37",
+      "name": "Premium Mineral Water",
+      "status": "VALID",
+      "originalPath": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png"
+    },
+    {
+      "id": "p38",
+      "name": "Organic Herbal Tea",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Organic Herbal Tea.webp"
+    },
+    {
+      "id": "p39",
+      "name": "Premium Green Tea",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Premium Green Tea.webp"
+    },
+    {
+      "id": "p40",
+      "name": "Gourmet Black Tea",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Milk Tea Varity Pack/A_Sha.png"
+    },
+    {
+      "id": "p44",
+      "name": "Premium Pretzels",
+      "status": "VALID",
+      "originalPath": "/sitephoto/pretzels/Pretzel_Crisps.png"
+    },
+    {
+      "id": "p45",
+      "name": "Gourmet Nuts",
+      "status": "VALID",
+      "originalPath": "/images/products/g225.png"
+    },
+    {
+      "id": "p46",
+      "name": "Premium Seeds",
+      "status": "VALID",
+      "originalPath": "/images/products/g226.png"
+    },
+    {
+      "id": "p47",
+      "name": "Vitamin D3 Supplements",
+      "status": "VALID",
+      "originalPath": "/images/products/g201.png"
+    },
+    {
+      "id": "p48",
+      "name": "Omega-3 Fish Oil",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pharmacy/Omega-3 Fish Oil - 120 Softgels.jpg"
+    },
+    {
+      "id": "p49",
+      "name": "Probiotic Complex",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pharmacy/Probiotic Complex - 60 Capsules.jpg"
+    },
+    {
+      "id": "p50",
+      "name": "First Aid Kit Complete",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pharmacy/First Aid Kit - Complete.jpg"
+    },
+    {
+      "id": "p51",
+      "name": "Organic Soap",
+      "status": "VALID",
+      "originalPath": "/images/products/g182.png"
+    },
+    {
+      "id": "p52",
+      "name": "Premium Lotion",
+      "status": "VALID",
+      "originalPath": "/images/products/g183.png"
+    },
+    {
+      "id": "p53",
+      "name": "Organic Cleanser",
+      "status": "VALID",
+      "originalPath": "/images/products/g199.png"
+    },
+    {
+      "id": "p54",
+      "name": "Premium Anti-Aging Cream",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Condiments/A._1..png"
+    },
+    {
+      "id": "p55",
+      "name": "Blood Pressure Monitor",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pharmacy/Blood Pressure Monitor.jpg"
+    },
+    {
+      "id": "p56",
+      "name": "Artisan Cheese Selection",
+      "status": "VALID",
+      "originalPath": "/images/products/Artisan Cheese Selection.jpeg"
+    },
+    {
+      "id": "p57",
+      "name": "Bananas",
+      "status": "VALID",
+      "originalPath": "/images/products/Bananas.webp"
+    },
+    {
+      "id": "p58",
+      "name": "Fresh Eggs - Dozen",
+      "status": "VALID",
+      "originalPath": "/images/products/Fresh Eggs - Dozen.webp"
+    },
+    {
+      "id": "p59",
+      "name": "Fresh Shrimp - 1 Lb",
+      "status": "VALID",
+      "originalPath": "/images/products/Fresh Shrimp - 1 lb.jpg"
+    },
+    {
+      "id": "p60",
+      "name": "Mix Berry Pack",
+      "status": "VALID",
+      "originalPath": "/images/products/mix berry pack.webp"
+    },
+    {
+      "id": "p61",
+      "name": "Premium Pasta - 4 Pack",
+      "status": "VALID",
+      "originalPath": "/images/products/Premium Pasta - 4 Pack.jpeg"
+    },
+    {
+      "id": "p62",
+      "name": "Whole Grain Bread",
+      "status": "VALID",
+      "originalPath": "/images/products/whole Grain bread.jpg"
+    },
+    {
+      "id": "p64",
+      "name": "Premium Crackers",
+      "status": "VALID",
+      "originalPath": "/images/products/g127.png"
+    },
+    {
+      "id": "p65",
+      "name": "Artisan Bread",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Artisan Bread.jpg"
+    },
+    {
+      "id": "p66",
+      "name": "Netflix Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Netflix Gift Card.webp"
+    },
+    {
+      "id": "p67",
+      "name": "Premium Tahini",
+      "status": "VALID",
+      "originalPath": "/images/products/g244.png"
+    },
+    {
+      "id": "p68",
+      "name": "Gourmet Peanut Butter",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png"
+    },
+    {
+      "id": "p69",
+      "name": "Avocados",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Avocados.jpg"
+    },
+    {
+      "id": "p73",
+      "name": "Premium Energy Drink",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Energy Drink/BodyArmor_Lyte_Sports_Drink.png"
+    },
+    {
+      "id": "p74",
+      "name": "Gourmet Sparkling Water",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Sparkle Water/Spindrift_Sparkling_water.png"
+    },
+    {
+      "id": "p75",
+      "name": "Premium Juice",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Juices/Honest_Kids_Organic_Juice_Drink.png"
+    },
+    {
+      "id": "p76",
+      "name": "Organic Smoothie",
+      "status": "VALID",
+      "originalPath": "/images/products/g158.png"
+    },
+    {
+      "id": "p77",
+      "name": "Digital Thermometer",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Chicken of The Sea Tuna/Chicken_of_the_Sea_Light_Tuna.png"
+    },
+    {
+      "id": "p78",
+      "name": "Gourmet Energy Bar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png"
+    },
+    {
+      "id": "p79",
+      "name": "Premium Pasta Sauce",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Deal of the day/Premium Pasta - 4 Pack.jpeg"
+    },
+    {
+      "id": "p80",
+      "name": "Organic Nut Butter",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png"
+    },
+    {
+      "id": "p84",
+      "name": "Amazon-us-50-us-de",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/amazon-us-50-us-de.png"
+    },
+    {
+      "id": "p85",
+      "name": "Home Depot Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Home Depot Gift Card.png"
+    },
+    {
+      "id": "p86",
+      "name": "Itunes Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/iTunes Gift Card.webp"
+    },
+    {
+      "id": "p89",
+      "name": "Sephora Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Sephora Gift Card.jpg"
+    },
+    {
+      "id": "p91",
+      "name": "Starbucks Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Starbucks Gift Card.jpg"
+    },
+    {
+      "id": "p92",
+      "name": "Target Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Target Gift Card.webp"
+    },
+    {
+      "id": "p93",
+      "name": "Uber Eats Gift Card",
+      "status": "VALID",
+      "originalPath": "/images/products/Uber Eats Gift Card.webp"
+    },
+    {
+      "id": "p94",
+      "name": "Zapp General Gift Card",
+      "status": "VALID",
+      "originalPath": "/images/products/Zapp General Gift Card.webp"
+    },
+    {
+      "id": "p95",
+      "name": "Frozen Plantains",
+      "status": "VALID",
+      "originalPath": "/images/products/Frozen_Plantains.webp"
+    },
+    {
+      "id": "p97",
+      "name": "Jamaican-beef-patties-",
+      "status": "VALID",
+      "originalPath": "/images/products/Jamaican-Beef-Patties-.jpg"
+    },
+    {
+      "id": "p100",
+      "name": "Premium Baking Mix",
+      "status": "VALID",
+      "originalPath": "/images/products/g143.png"
+    },
+    {
+      "id": "p101",
+      "name": "Premium Almond Butter",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png"
+    },
+    {
+      "id": "p102",
+      "name": "Premium Maple Syrup",
+      "status": "VALID",
+      "originalPath": "/images/products/g149.png"
+    },
+    {
+      "id": "p103",
+      "name": "Organic Agave Nectar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Condiments/A._1..png"
+    },
+    {
+      "id": "p105",
+      "name": "Gourmet Marmalade",
+      "status": "VALID",
+      "originalPath": "/images/products/g241.png"
+    },
+    {
+      "id": "p106",
+      "name": "Organic Dried Fruit",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Fruit Snacks/Black_Forest_Organic_Gummy_Bears.png"
+    },
+    {
+      "id": "p108",
+      "name": "Premium Coffee Beans",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Coffee/Copper_Cow_Coffee_Vietnamese_Coffee&Real Cinnamon_Churro.png"
+    },
+    {
+      "id": "p109",
+      "name": "Artisan Chocolate",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Artisan Chocolate.webp"
+    },
+    {
+      "id": "p110",
+      "name": "Premium Chips",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Potato Chips/Dill_Pickle_Route_11_Chips.png"
+    },
+    {
+      "id": "p111",
+      "name": "Organic Crackers",
+      "status": "VALID",
+      "originalPath": "/images/products/g222.png"
+    },
+    {
+      "id": "p112",
+      "name": "Premium Olive Oil",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Motor Oil/motor oil 2.webp"
+    },
+    {
+      "id": "p113",
+      "name": "Motor Oil 2",
+      "status": "VALID",
+      "originalPath": "/images/products/motor oil 2.webp"
+    },
+    {
+      "id": "p114",
+      "name": "Motor Oil",
+      "status": "VALID",
+      "originalPath": "/images/products/motor Oil.webp"
+    },
+    {
+      "id": "p115",
+      "name": "Organic Pasta",
+      "status": "VALID",
+      "originalPath": "/images/products/g115.png"
+    },
+    {
+      "id": "p116",
+      "name": "s blob v1 IMAGE Gtdpi0mG9og",
+      "status": "VALID",
+      "originalPath": "/images/products/s-blob-v1-image-gtdpi0mg9og.png"
+    },
+    {
+      "id": "p117",
+      "name": "Farm Shop Boerewors Great Taste",
+      "status": "VALID",
+      "originalPath": "/images/products/FARM_SHOP_BOEREWORS_GREAT_TASTE.jpg"
+    },
+    {
+      "id": "p120",
+      "name": "Jamaican Blue Mountain Coffee 2",
+      "status": "VALID",
+      "originalPath": "/images/products/Jamaican Blue Mountain Coffee 2.jpeg"
+    },
+    {
+      "id": "p122",
+      "name": "Jamican Beef Patty",
+      "status": "VALID",
+      "originalPath": "/images/products/jamican beef patty.jpeg"
+    },
+    {
+      "id": "p127",
+      "name": "Trinidad Scorpion Pepper Sauce 2",
+      "status": "VALID",
+      "originalPath": "/images/products/Trinidad Scorpion Pepper Sauce 2.jpg"
+    },
+    {
+      "id": "p129",
+      "name": "Premium Hot Sauce",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Artisan Hot Chocolate.jpeg"
+    },
+    {
+      "id": "p131",
+      "name": "Organic Nuts Mix",
+      "status": "VALID",
+      "originalPath": "/images/products/g119.png"
+    },
+    {
+      "id": "p132",
+      "name": "Premium Spices",
+      "status": "VALID",
+      "originalPath": "/images/products/g120.png"
+    },
+    {
+      "id": "p133",
+      "name": "Gourmet Popcorn",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Popcorn/Skinny_Pop_Popcorn.png"
+    },
+    {
+      "id": "p134",
+      "name": "Premium Jello",
+      "status": "VALID",
+      "originalPath": "/images/products/g236.png"
+    },
+    {
+      "id": "p135",
+      "name": "Gourmet Syrup",
+      "status": "VALID",
+      "originalPath": "/images/products/g237.png"
+    },
+    {
+      "id": "p136",
+      "name": "Organic Relish",
+      "status": "VALID",
+      "originalPath": "/images/products/g255.png"
+    },
+    {
+      "id": "p137",
+      "name": "Allergy Relief 24hr - 30 Tablets",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Allergy Relief 24hr - 30 Tablets.webp"
+    },
+    {
+      "id": "p140",
+      "name": "Equate-ibuprofen-tablets-200-mg",
+      "status": "VALID",
+      "originalPath": "/images/products/Equate-Ibuprofen-Tablets-200-mg.avif"
+    },
+    {
+      "id": "p142",
+      "name": "Omega-3 Fish Oil - 120 Softgels",
+      "status": "VALID",
+      "originalPath": "/images/products/Omega-3 Fish Oil - 120 Softgels.jpg"
+    },
+    {
+      "id": "p143",
+      "name": "Probiotic Complex - 60 Capsules",
+      "status": "VALID",
+      "originalPath": "/images/products/Probiotic Complex - 60 Capsules.jpg"
+    },
+    {
+      "id": "p144",
+      "name": "Vitamin D3 2000 Iu - 90 Softgels",
+      "status": "VALID",
+      "originalPath": "/images/products/Vitamin D3 2000 IU - 90 Softgels.avif"
+    },
+    {
+      "id": "p147",
+      "name": "Organic Toothpaste",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Tomatoe Paste/Kirland_Tomato_Paste.png"
+    },
+    {
+      "id": "p148",
+      "name": "Premium Sunscreen",
+      "status": "VALID",
+      "originalPath": "/images/products/g190.png"
+    },
+    {
+      "id": "p149",
+      "name": "Craft Beer Selection",
+      "status": "VALID",
+      "originalPath": "/images/products/g116.png"
+    },
+    {
+      "id": "p150",
+      "name": "Premium Skincare Set",
+      "status": "VALID",
+      "originalPath": "/images/products/g177.png"
+    },
+    {
+      "id": "p151",
+      "name": "Premium Shampoo",
+      "status": "VALID",
+      "originalPath": "/images/products/g179.png"
+    },
+    {
+      "id": "p152",
+      "name": "Gourmet Body Wash",
+      "status": "VALID",
+      "originalPath": "/images/products/g180.png"
+    },
+    {
+      "id": "p153",
+      "name": "Premium Conditioner",
+      "status": "VALID",
+      "originalPath": "/images/products/g181.png"
+    },
+    {
+      "id": "p154",
+      "name": "Organic Hand Cream",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Condiments/A._1..png"
+    },
+    {
+      "id": "p155",
+      "name": "Premium Face Mask",
+      "status": "VALID",
+      "originalPath": "/images/products/g192.png"
+    },
+    {
+      "id": "p156",
+      "name": "Gourmet Bath Bomb",
+      "status": "VALID",
+      "originalPath": "/images/products/g193.png"
+    },
+    {
+      "id": "p157",
+      "name": "Premium Hair Oil",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Motor Oil/motor oil 2.webp"
+    },
+    {
+      "id": "p158",
+      "name": "Premium Serum",
+      "status": "VALID",
+      "originalPath": "/images/products/g196.png"
+    },
+    {
+      "id": "p159",
+      "name": "Gourmet Perfume",
+      "status": "VALID",
+      "originalPath": "/images/products/g184.png"
+    },
+    {
+      "id": "p160",
+      "name": "Premium Deodorant",
+      "status": "VALID",
+      "originalPath": "/images/products/g185.png"
+    },
+    {
+      "id": "p161",
+      "name": "Premium Pickles",
+      "status": "VALID",
+      "originalPath": "/images/products/g256.png"
+    },
+    {
+      "id": "p162",
+      "name": "Gourmet Olives",
+      "status": "VALID",
+      "originalPath": "/images/products/g257.png"
+    },
+    {
+      "id": "p163",
+      "name": "Premium Capers",
+      "status": "VALID",
+      "originalPath": "/images/products/g258.png"
+    },
+    {
+      "id": "p164",
+      "name": "Organic Sun-dried Tomatoes",
+      "status": "VALID",
+      "originalPath": "/sitephoto/tomato Souce/Classico_Organic_tomato_Sauce.png"
+    },
+    {
+      "id": "p165",
+      "name": "Premium Artichoke Hearts",
+      "status": "VALID",
+      "originalPath": "/images/products/g260.png"
+    },
+    {
+      "id": "p166",
+      "name": "Gourmet Roasted Peppers",
+      "status": "VALID",
+      "originalPath": "/images/products/g261.png"
+    },
+    {
+      "id": "p167",
+      "name": "Organic Tomato Sauce",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Condiments/A._1..png"
+    },
+    {
+      "id": "p168",
+      "name": "Premium Pizza Sauce",
+      "status": "VALID",
+      "originalPath": "/images/products/g264.png"
+    },
+    {
+      "id": "p169",
+      "name": "Gourmet Pesto",
+      "status": "VALID",
+      "originalPath": "/images/products/g265.png"
+    },
+    {
+      "id": "p170",
+      "name": "Premium Alfredo Sauce",
+      "status": "VALID",
+      "originalPath": "/images/products/g266.png"
+    },
+    {
+      "id": "p171",
+      "name": "Organic Marinara",
+      "status": "VALID",
+      "originalPath": "/images/products/g267.png"
+    },
+    {
+      "id": "p172",
+      "name": "Premium Bolognese Sauce",
+      "status": "VALID",
+      "originalPath": "/images/products/g268.png"
+    },
+    {
+      "id": "p174",
+      "name": "Organic Honey",
+      "status": "VALID",
+      "originalPath": "/images/products/g102a.png"
+    },
+    {
+      "id": "p175",
+      "name": "Allergy Relief Tablets",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Pharmacy/Allergy Relief 24HR - 30 Tablets.avif"
+    },
+    {
+      "id": "p176",
+      "name": "Gourmet Tea Selection",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Milk Tea Varity Pack/A_Sha.png"
+    },
+    {
+      "id": "p177",
+      "name": "Premium Wine",
+      "status": "VALID",
+      "originalPath": "/images/products/g117.png"
+    },
+    {
+      "id": "p179",
+      "name": "Premium Spread",
+      "status": "VALID",
+      "originalPath": "/images/products/g242.png"
+    },
+    {
+      "id": "p181",
+      "name": "Premium Mouthwash",
+      "status": "VALID",
+      "originalPath": "/images/products/g187.png"
+    },
+    {
+      "id": "p182",
+      "name": "Gourmet Lip Balm",
+      "status": "VALID",
+      "originalPath": "/images/products/g189.png"
+    },
+    {
+      "id": "p183",
+      "name": "Gourmet Scrub",
+      "status": "VALID",
+      "originalPath": "/images/products/g197.png"
+    },
+    {
+      "id": "p184",
+      "name": "Premium Toner",
+      "status": "VALID",
+      "originalPath": "/images/products/g198.png"
+    },
+    {
+      "id": "p185",
+      "name": "Gourmet Candy",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Candy/28_Full_Size_Candy_Bars.png"
+    },
+    {
+      "id": "p190",
+      "name": "Organic Granola",
+      "status": "VALID",
+      "originalPath": "/images/products/g129.png"
+    },
+    {
+      "id": "p191",
+      "name": "Premium Cereal",
+      "status": "VALID",
+      "originalPath": "/images/products/g130.png"
+    },
+    {
+      "id": "p192",
+      "name": "Gourmet Jam",
+      "status": "VALID",
+      "originalPath": "/images/products/g131.png"
+    },
+    {
+      "id": "p193",
+      "name": "Premium Butter",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png"
+    },
+    {
+      "id": "p194",
+      "name": "Organic Yogurt",
+      "status": "VALID",
+      "originalPath": "/images/products/g133.png"
+    },
+    {
+      "id": "p195",
+      "name": "Premium Milk",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Milk/Epoca_Cool_Banana_Milk.png"
+    },
+    {
+      "id": "p196",
+      "name": "Artisan Ice Cream",
+      "status": "VALID",
+      "originalPath": "/sitephoto/New images/Artisan Ice Cream.avif"
+    },
+    {
+      "id": "p197",
+      "name": "Gourmet Sauce",
+      "status": "VALID",
+      "originalPath": "/images/products/g136.png"
+    },
+    {
+      "id": "p198",
+      "name": "Premium Vinegar",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Apple Cider Viniger/North_Coast_Organic Raw_ Apple_Cider_Vinegar.png"
+    },
+    {
+      "id": "p199",
+      "name": "Organic Herbs",
+      "status": "VALID",
+      "originalPath": "/images/products/g138.png"
+    },
+    {
+      "id": "p200",
+      "name": "Premium Salt",
+      "status": "VALID",
+      "originalPath": "/images/products/g139.png"
+    },
+    {
+      "id": "p201",
+      "name": "Gourmet Pepper",
+      "status": "VALID",
+      "originalPath": "/images/products/g140.png"
+    },
+    {
+      "id": "p202",
+      "name": "Premium Flour",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Flour/Kirkland_Almond_Flour.png"
+    },
+    {
+      "id": "p203",
+      "name": "Gourmet Chocolate Chips",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Potato Chips/Dill_Pickle_Route_11_Chips.png"
+    },
+    {
+      "id": "p204",
+      "name": "Premium Vanilla Extract",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Vanilla Abstract/Pure_vanilla_Extract.png"
+    },
+    {
+      "id": "p205",
+      "name": "Organic Coconut Oil",
+      "status": "VALID",
+      "originalPath": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png"
+    },
+    {
+      "id": "p207",
+      "name": "Organic Sugar",
+      "status": "VALID",
+      "originalPath": "/images/products/g142.png"
+    },
+    {
+      "id": "p208",
+      "name": "Premium Preserves",
+      "status": "VALID",
+      "originalPath": "/images/products/g240.png"
+    },
+    {
+      "id": "p210",
+      "name": "Amazon Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg"
+    },
+    {
+      "id": "p211",
+      "name": "Premium Honey",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Breakfast Cereal/Honey_Bunch_of_Oats_Granola_Honey_Roasted.png"
+    },
+    {
+      "id": "p212",
+      "name": "Organic Jam",
+      "status": "VALID",
+      "originalPath": "/images/products/g239.png"
+    },
+    {
+      "id": "p213",
+      "name": "Premium Rice Cakes",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Rice/Adolphus_Rice.png"
+    },
+    {
+      "id": "p214",
+      "name": "Organic Pudding Mix",
+      "status": "VALID",
+      "originalPath": "/images/products/g235.png"
+    },
+    {
+      "id": "p216",
+      "name": "Premium Pie Filling",
+      "status": "VALID",
+      "originalPath": "/images/products/g234.png"
+    },
+    {
+      "id": "p217",
+      "name": "Towels 2",
+      "status": "VALID",
+      "originalPath": "/images/products/towels 2.webp"
+    },
+    {
+      "id": "p218",
+      "name": "Towels",
+      "status": "VALID",
+      "originalPath": "/images/products/towels.webp"
+    },
+    {
+      "id": "p219",
+      "name": "Artisan Cheese",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Deal of the day/Artisan Cheese Selection.jpeg"
+    },
+    {
+      "id": "p222",
+      "name": "Organic Face Cream",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Condiments/A._1..png"
+    },
+    {
+      "id": "p223",
+      "name": "Mixed Berry Pack",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Deal of the day/mix berry pack.webp"
+    },
+    {
+      "id": "gc-12",
+      "name": "Spa & Wellness Gift Card",
+      "status": "VALID",
+      "originalPath": "/sitephoto/Gift Cards/Spa & Wellness Gift Car.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Butter Popcorn",
+      "status": "VALID",
+      "originalPath": "butter-popcorn.png"
+    },
+    {
+      "id": "2",
+      "name": "Cola Classic",
+      "status": "VALID",
+      "originalPath": "cola-classic.png"
+    },
+    {
+      "id": "3",
+      "name": "Semolina Premium",
+      "status": "VALID",
+      "originalPath": "semolina-premium.png"
+    },
+    {
+      "id": "4",
+      "name": "Cereal Premium",
+      "status": "VALID",
+      "originalPath": "cereal-premium.png"
+    },
+    {
+      "id": "5",
+      "name": "Flour Premium",
+      "status": "VALID",
+      "originalPath": "flour-premium.png"
+    },
+    {
+      "id": "6",
+      "name": "Basmati Rice",
+      "status": "VALID",
+      "originalPath": "basmati-rice.png"
+    },
+    {
+      "id": "7",
+      "name": "Coffee Premium",
+      "status": "VALID",
+      "originalPath": "coffee-premium.png"
+    },
+    {
+      "id": "8",
+      "name": "Premium Coffee Blend",
+      "status": "VALID",
+      "originalPath": "premium-coffee-blend.png"
+    },
+    {
+      "id": "11",
+      "name": "Farmshopboereworsgreattaste",
+      "status": "VALID",
+      "originalPath": "farmshopboereworsgreattaste.jpg"
+    },
+    {
+      "id": "12",
+      "name": "South African Boerewors",
+      "status": "VALID",
+      "originalPath": "south-african-boerewors.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Chocolate Candy",
+      "status": "VALID",
+      "originalPath": "chocolate-candy.png"
+    },
+    {
+      "id": "14",
+      "name": "Orange Juice",
+      "status": "VALID",
+      "originalPath": "orange-juice.png"
+    },
+    {
+      "id": "15",
+      "name": "Dark Roast Coffee",
+      "status": "VALID",
+      "originalPath": "dark-roast-coffee.png"
+    },
+    {
+      "id": "16",
+      "name": "Spinach",
+      "status": "VALID",
+      "originalPath": "spinach.jpg"
+    },
+    {
+      "id": "17",
+      "name": "First Aid Kit",
+      "status": "VALID",
+      "originalPath": "first-aid-kit.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Semolina",
+      "status": "VALID",
+      "originalPath": "semolina.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Premium Wheat Flour",
+      "status": "VALID",
+      "originalPath": "premium-wheat-flour.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Berries",
+      "status": "VALID",
+      "originalPath": "berries.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Sterns Whole Grain Bread",
+      "status": "VALID",
+      "originalPath": "sterns-whole-grain-bread.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Beans Premium",
+      "status": "VALID",
+      "originalPath": "beans-premium.png"
+    },
+    {
+      "id": "25",
+      "name": "Eggs",
+      "status": "VALID",
+      "originalPath": "eggs.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Strawberries",
+      "status": "VALID",
+      "originalPath": "strawberries.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Probiotic",
+      "status": "VALID",
+      "originalPath": "probiotic.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Ibuprofen",
+      "status": "VALID",
+      "originalPath": "ibuprofen.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Vitamin D3",
+      "status": "VALID",
+      "originalPath": "vitamin-d3.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Shrimp Real",
+      "status": "VALID",
+      "originalPath": "shrimp-real.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Pasta Real",
+      "status": "VALID",
+      "originalPath": "pasta-real.jpg"
+    },
+    {
+      "id": "33",
+      "name": "Frozenplantains",
+      "status": "VALID",
+      "originalPath": "frozenplantains.webp"
+    },
+    {
+      "id": "34",
+      "name": "Goya Maduros Plantains",
+      "status": "VALID",
+      "originalPath": "goya-maduros-plantains.webp"
+    },
+    {
+      "id": "35",
+      "name": "Thermometer",
+      "status": "VALID",
+      "originalPath": "thermometer.jpg"
+    },
+    {
+      "id": "36",
+      "name": "Allergy Relief",
+      "status": "VALID",
+      "originalPath": "allergy-relief.jpg"
+    }
+  ]
+}

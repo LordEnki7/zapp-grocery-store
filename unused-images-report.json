@@ -1,0 +1,640 @@
+{
+  "summary": {
+    "totalAvailableImages": 326,
+    "totalUsedImages": 226,
+    "totalUnusedImages": 100,
+    "potentialDuplicates": 41
+  },
+  "unusedImages": [
+    {
+      "filename": "butter-popcorn.png",
+      "isVariant": false,
+      "size": 2156
+    },
+    {
+      "filename": "cola-classic.png",
+      "isVariant": false,
+      "size": 2097
+    },
+    {
+      "filename": "semolina-premium.png",
+      "isVariant": false,
+      "size": 1886
+    },
+    {
+      "filename": "cereal-premium.png",
+      "isVariant": false,
+      "size": 1754
+    },
+    {
+      "filename": "flour-premium.png",
+      "isVariant": false,
+      "size": 874
+    },
+    {
+      "filename": "basmati-rice.png",
+      "isVariant": false,
+      "size": 675
+    },
+    {
+      "filename": "coffee-premium.png",
+      "isVariant": false,
+      "size": 573
+    },
+    {
+      "filename": "premium-coffee-blend.png",
+      "isVariant": false,
+      "size": 573
+    },
+    {
+      "filename": "farm-shop-boerewors-great-taste.jpg",
+      "isVariant": false,
+      "size": 466
+    },
+    {
+      "filename": "farm-shop-boerewors.jpg",
+      "isVariant": false,
+      "size": 466
+    },
+    {
+      "filename": "farmshopboereworsgreattaste.jpg",
+      "isVariant": false,
+      "size": 466
+    },
+    {
+      "filename": "south-african-boerewors.jpg",
+      "isVariant": false,
+      "size": 466
+    },
+    {
+      "filename": "chocolate-candy.png",
+      "isVariant": false,
+      "size": 450
+    },
+    {
+      "filename": "orange-juice.png",
+      "isVariant": false,
+      "size": 430
+    },
+    {
+      "filename": "dark-roast-coffee.png",
+      "isVariant": false,
+      "size": 392
+    },
+    {
+      "filename": "baby-spinach.webp",
+      "isVariant": true,
+      "size": 379
+    },
+    {
+      "filename": "spinach.jpg",
+      "isVariant": false,
+      "size": 379
+    },
+    {
+      "filename": "jamican-beef-patty.jpeg",
+      "isVariant": true,
+      "size": 326
+    },
+    {
+      "filename": "first-aid-kit---complete.jpg",
+      "isVariant": true,
+      "size": 292
+    },
+    {
+      "filename": "first-aid-kit-complete.jpg",
+      "isVariant": true,
+      "size": 292
+    },
+    {
+      "filename": "first-aid-kit.jpg",
+      "isVariant": false,
+      "size": 292
+    },
+    {
+      "filename": "semolina.jpg",
+      "isVariant": false,
+      "size": 287
+    },
+    {
+      "filename": "fresh-shrimp---1-lb.jpg",
+      "isVariant": true,
+      "size": 261
+    },
+    {
+      "filename": "fresh-shrimp-1-lb.jpg",
+      "isVariant": true,
+      "size": 261
+    },
+    {
+      "filename": "premium-wheat-flour.jpg",
+      "isVariant": false,
+      "size": 215
+    },
+    {
+      "filename": "spa-and-wellness-gift-car.jpg",
+      "isVariant": false,
+      "size": 187
+    },
+    {
+      "filename": "spa-wellness-gift-car.jpg",
+      "isVariant": false,
+      "size": 187
+    },
+    {
+      "filename": "artisan-cheese-selection.jpeg",
+      "isVariant": true,
+      "size": 183
+    },
+    {
+      "filename": "nigerian-jollof-rice-mix.jpg",
+      "isVariant": true,
+      "size": 165
+    },
+    {
+      "filename": "ghanaian-jollof-rice-mix.jpg",
+      "isVariant": true,
+      "size": 142
+    },
+    {
+      "filename": "berries.jpg",
+      "isVariant": false,
+      "size": 141
+    },
+    {
+      "filename": "mix-berry-pack.webp",
+      "isVariant": true,
+      "size": 141
+    },
+    {
+      "filename": "sterns-whole-grain-bread.jpg",
+      "isVariant": false,
+      "size": 113
+    },
+    {
+      "filename": "whole-grain-bread.jpg",
+      "isVariant": true,
+      "size": 113
+    },
+    {
+      "filename": "beans-premium.png",
+      "isVariant": false,
+      "size": 96
+    },
+    {
+      "filename": "itunes-gift-card.webp",
+      "isVariant": true,
+      "size": 90
+    },
+    {
+      "filename": "sephora-gift-card.jpg",
+      "isVariant": true,
+      "size": 81
+    },
+    {
+      "filename": "Jamaican beef patties.jpg",
+      "isVariant": true,
+      "size": 77
+    },
+    {
+      "filename": "nigerian-suya-spice.jpg",
+      "isVariant": true,
+      "size": 65
+    },
+    {
+      "filename": "netflix-gift-card.webp",
+      "isVariant": true,
+      "size": 63
+    },
+    {
+      "filename": "ginger-beer.jpg",
+      "isVariant": true,
+      "size": 57
+    },
+    {
+      "filename": "gingerbeer.jpg",
+      "isVariant": true,
+      "size": 57
+    },
+    {
+      "filename": "trinidad-scorpion-pepper-sauce.jpg",
+      "isVariant": true,
+      "size": 57
+    },
+    {
+      "filename": "eggs.jpg",
+      "isVariant": false,
+      "size": 56
+    },
+    {
+      "filename": "fresh-eggs---dozen.webp",
+      "isVariant": true,
+      "size": 56
+    },
+    {
+      "filename": "fresh-eggs-dozen.webp",
+      "isVariant": true,
+      "size": 56
+    },
+    {
+      "filename": "omega-3-fish-oil---120-softgels.jpg",
+      "isVariant": true,
+      "size": 56
+    },
+    {
+      "filename": "omega-3-fish-oil-120-softgels.jpg",
+      "isVariant": true,
+      "size": 56
+    },
+    {
+      "filename": "omega-3.jpg",
+      "isVariant": false,
+      "size": 56
+    },
+    {
+      "filename": "fresh-strawberries.jpg",
+      "isVariant": true,
+      "size": 47
+    },
+    {
+      "filename": "strawberries.jpg",
+      "isVariant": false,
+      "size": 47
+    },
+    {
+      "filename": "probiotic-complex---60-capsules.jpg",
+      "isVariant": true,
+      "size": 46
+    },
+    {
+      "filename": "probiotic-complex-60-capsules.jpg",
+      "isVariant": true,
+      "size": 46
+    },
+    {
+      "filename": "probiotic.jpg",
+      "isVariant": false,
+      "size": 46
+    },
+    {
+      "filename": "ibuprofen.jpg",
+      "isVariant": false,
+      "size": 44
+    },
+    {
+      "filename": "target-gift-card.webp",
+      "isVariant": true,
+      "size": 42
+    },
+    {
+      "filename": "blood-pressure-monitor.jpg",
+      "isVariant": true,
+      "size": 39
+    },
+    {
+      "filename": "towels-2.webp",
+      "isVariant": true,
+      "size": 37
+    },
+    {
+      "filename": "vitamin-d3-2000-iu---90-softgels.avif",
+      "isVariant": true,
+      "size": 36
+    },
+    {
+      "filename": "vitamin-d3-2000-iu-90-softgels.avif",
+      "isVariant": true,
+      "size": 36
+    },
+    {
+      "filename": "vitamin-d3.jpg",
+      "isVariant": false,
+      "size": 36
+    },
+    {
+      "filename": "shrimp-real.jpg",
+      "isVariant": false,
+      "size": 28
+    },
+    {
+      "filename": "home-depot-gift-card.png",
+      "isVariant": true,
+      "size": 27
+    },
+    {
+      "filename": "uber-eats-gift-card.webp",
+      "isVariant": true,
+      "size": 27
+    },
+    {
+      "filename": "zapp-general-gift-card.webp",
+      "isVariant": true,
+      "size": 26
+    },
+    {
+      "filename": "pasta-real.jpg",
+      "isVariant": false,
+      "size": 22
+    },
+    {
+      "filename": "premium-pasta---4-pack.jpeg",
+      "isVariant": true,
+      "size": 22
+    },
+    {
+      "filename": "premium-pasta-4-pack.jpeg",
+      "isVariant": true,
+      "size": 22
+    },
+    {
+      "filename": "trinidad-scorpion-pepper-sauce-2.jpg",
+      "isVariant": true,
+      "size": 22
+    },
+    {
+      "filename": "motor-oil.webp",
+      "isVariant": true,
+      "size": 21
+    },
+    {
+      "filename": "playstation-store-gift-card.avif",
+      "isVariant": true,
+      "size": 20
+    },
+    {
+      "filename": "digital-thermometer.avif",
+      "isVariant": true,
+      "size": 17
+    },
+    {
+      "filename": "frozen-plantains.webp",
+      "isVariant": false,
+      "size": 17
+    },
+    {
+      "filename": "frozenplantains.webp",
+      "isVariant": false,
+      "size": 17
+    },
+    {
+      "filename": "goya-maduros-plantains.webp",
+      "isVariant": false,
+      "size": 17
+    },
+    {
+      "filename": "thermometer.jpg",
+      "isVariant": false,
+      "size": 17
+    },
+    {
+      "filename": "bananas.jpg",
+      "isVariant": true,
+      "size": 16
+    },
+    {
+      "filename": "allergy-relief-24hr---30-tablets.avif",
+      "isVariant": true,
+      "size": 15
+    },
+    {
+      "filename": "allergy-relief-24hr-30-tablets.avif",
+      "isVariant": true,
+      "size": 15
+    },
+    {
+      "filename": "allergy-relief.jpg",
+      "isVariant": false,
+      "size": 15
+    },
+    {
+      "filename": "motor-oil-2.webp",
+      "isVariant": true,
+      "size": 15
+    },
+    {
+      "filename": "airbnb-gift-card.jpg",
+      "isVariant": true,
+      "size": 12
+    },
+    {
+      "filename": "nigerian-chin-chin.jpeg",
+      "isVariant": true,
+      "size": 12
+    },
+    {
+      "filename": "jamaican-blue-mountain-coffee-2.jpeg",
+      "isVariant": true,
+      "size": 10
+    },
+    {
+      "filename": "jamaican-blue-mountain-coffee.jpeg",
+      "isVariant": true,
+      "size": 10
+    },
+    {
+      "filename": "ghanaian-cocoa-powder.jpeg",
+      "isVariant": true,
+      "size": 8
+    },
+    {
+      "filename": "kenyan-tea-leaves.jpeg",
+      "isVariant": true,
+      "size": 8
+    },
+    {
+      "filename": "starbucks-gift-card.jpg",
+      "isVariant": true,
+      "size": 8
+    },
+    {
+      "filename": "flour-semolina.svg",
+      "isVariant": false,
+      "size": 6
+    },
+    {
+      "filename": "pasta.svg",
+      "isVariant": false,
+      "size": 6
+    },
+    {
+      "filename": "shrimp.svg",
+      "isVariant": false,
+      "size": 6
+    },
+    {
+      "filename": "basmati-rice.svg",
+      "isVariant": false,
+      "size": 5
+    },
+    {
+      "filename": "long-grain-rice.svg",
+      "isVariant": false,
+      "size": 4
+    },
+    {
+      "filename": "beverages-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "dairy-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "frozen-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "grocery-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "personal-care-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "snacks-1.svg",
+      "isVariant": false,
+      "size": 2
+    },
+    {
+      "filename": "frozen-2.svg",
+      "isVariant": false,
+      "size": 1
+    }
+  ],
+  "duplicates": {
+    "airbnb-gift-card.jpg": [
+      "airbnb-gift-card.jpg"
+    ],
+    "allergy-relief-24hr---30-tablets.avif": [
+      "allergy-relief-24hr---30-tablets.avif"
+    ],
+    "artisan-cheese-selection.jpeg": [
+      "artisan-cheese-selection.jpeg"
+    ],
+    "baby-spinach.webp": [
+      "baby-spinach.webp"
+    ],
+    "blood-pressure-monitor.jpg": [
+      "blood-pressure-monitor.jpg"
+    ],
+    "digital-thermometer.avif": [
+      "digital-thermometer.avif"
+    ],
+    "first-aid-kit---complete.jpg": [
+      "first-aid-kit---complete.jpg"
+    ],
+    "fresh-eggs---dozen.webp": [
+      "fresh-eggs---dozen.webp"
+    ],
+    "fresh-shrimp---1-lb.jpg": [
+      "fresh-shrimp---1-lb.jpg"
+    ],
+    "fresh-strawberries.jpg": [
+      "fresh-strawberries.jpg"
+    ],
+    "ghanaian-cocoa-powder.jpeg": [
+      "ghanaian-cocoa-powder.jpeg"
+    ],
+    "ghanaian-jollof-rice-mix.jpg": [
+      "ghanaian-jollof-rice-mix.jpg"
+    ],
+    "ginger-beer.jpg": [
+      "ginger-beer.jpg"
+    ],
+    "home-depot-gift-card.png": [
+      "home-depot-gift-card.png"
+    ],
+    "itunes-gift-card.webp": [
+      "itunes-gift-card.webp"
+    ],
+    "jamaican-beef-patties.jpg": [
+      "jamaican-beef-patties.jpg"
+    ],
+    "jamaican-blue-mountain-coffee-2.jpeg": [
+      "jamaican-blue-mountain-coffee-2.jpeg"
+    ],
+    "jamaican-blue-mountain-coffee.jpeg": [
+      "jamaican-blue-mountain-coffee.jpeg"
+    ],
+    "jamican-beef-patty.jpeg": [
+      "jamican-beef-patty.jpeg"
+    ],
+    "kenyan-tea-leaves.jpeg": [
+      "kenyan-tea-leaves.jpeg"
+    ],
+    "mix-berry-pack.webp": [
+      "mix-berry-pack.webp"
+    ],
+    "motor-oil-2.webp": [
+      "motor-oil-2.webp"
+    ],
+    "motor-oil.webp": [
+      "motor-oil.webp"
+    ],
+    "netflix-gift-card.webp": [
+      "netflix-gift-card.webp"
+    ],
+    "nigerian-chin-chin.jpeg": [
+      "nigerian-chin-chin.jpeg"
+    ],
+    "nigerian-jollof-rice-mix.jpg": [
+      "nigerian-jollof-rice-mix.jpg"
+    ],
+    "nigerian-suya-spice.jpg": [
+      "nigerian-suya-spice.jpg"
+    ],
+    "omega-3-fish-oil---120-softgels.jpg": [
+      "omega-3-fish-oil---120-softgels.jpg"
+    ],
+    "playstation-store-gift-card.avif": [
+      "playstation-store-gift-card.avif"
+    ],
+    "premium-pasta---4-pack.jpeg": [
+      "premium-pasta---4-pack.jpeg"
+    ],
+    "probiotic-complex---60-capsules.jpg": [
+      "probiotic-complex---60-capsules.jpg"
+    ],
+    "sephora-gift-card.jpg": [
+      "sephora-gift-card.jpg"
+    ],
+    "starbucks-gift-card.jpg": [
+      "starbucks-gift-card.jpg"
+    ],
+    "target-gift-card.webp": [
+      "target-gift-card.webp"
+    ],
+    "towels-2.webp": [
+      "towels-2.webp"
+    ],
+    "trinidad-scorpion-pepper-sauce-2.jpg": [
+      "trinidad-scorpion-pepper-sauce-2.jpg"
+    ],
+    "trinidad-scorpion-pepper-sauce.jpg": [
+      "trinidad-scorpion-pepper-sauce.jpg"
+    ],
+    "uber-eats-gift-card.webp": [
+      "uber-eats-gift-card.webp"
+    ],
+    "vitamin-d3-2000-iu---90-softgels.avif": [
+      "vitamin-d3-2000-iu---90-softgels.avif"
+    ],
+    "whole-grain-bread.jpg": [
+      "whole-grain-bread.jpg"
+    ],
+    "zapp-general-gift-card.webp": [
+      "zapp-general-gift-card.webp"
+    ]
+  },
+  "recommendations": [
+    "Consider integrating 100 unused images into your product catalog",
+    "Review 41 potential duplicate image sets for cleanup",
+    "34 unused images are larger than 100KB - consider for priority integration"
+  ]
+}

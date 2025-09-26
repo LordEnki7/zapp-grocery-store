@@ -1,0 +1,874 @@
+{
+  "timestamp": "2025-09-24T22:50:31.895Z",
+  "summary": {
+    "totalProducts": 232,
+    "productsWithGenericImages": 113,
+    "totalSitephotoImages": 202,
+    "potentialMatches": 11,
+    "unmatchedProducts": 102
+  },
+  "matches": [
+    {
+      "product": {
+        "id": "p27",
+        "name": "PlayStation Store Gift Card",
+        "category": "general",
+        "currentImage": "/images/products/g106.png"
+      },
+      "suggestedImage": {
+        "filename": "PlayStation Store Gift Card.avif",
+        "category": "Gift Cards",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Gift Cards\\PlayStation Store Gift Card.avif",
+        "relativePath": "Gift Cards/PlayStation Store Gift Card.avif",
+        "sitephotoPath": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p28",
+        "name": "Airbnb Gift Card",
+        "category": "general",
+        "currentImage": "/images/products/g108.png"
+      },
+      "suggestedImage": {
+        "filename": "Airbnb Gift Card.jpg",
+        "category": "Gift Cards",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Gift Cards\\Airbnb Gift Card.jpg",
+        "relativePath": "Gift Cards/Airbnb Gift Card.jpg",
+        "sitephotoPath": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p50",
+        "name": "First Aid Kit Complete",
+        "category": "general",
+        "currentImage": "/images/products/g207.png"
+      },
+      "suggestedImage": {
+        "filename": "First Aid Kit - Complete.jpg",
+        "category": "Pharmacy",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Pharmacy\\First Aid Kit - Complete.jpg",
+        "relativePath": "Pharmacy/First Aid Kit - Complete.jpg",
+        "sitephotoPath": "/sitephoto/Pharmacy/First Aid Kit - Complete.jpg"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p55",
+        "name": "Blood Pressure Monitor",
+        "category": "general",
+        "currentImage": "/images/products/g206.png"
+      },
+      "suggestedImage": {
+        "filename": "Blood Pressure Monitor.jpg",
+        "category": "Pharmacy",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Pharmacy\\Blood Pressure Monitor.jpg",
+        "relativePath": "Pharmacy/Blood Pressure Monitor.jpg",
+        "sitephotoPath": "/sitephoto/Pharmacy/Blood Pressure Monitor.jpg"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p66",
+        "name": "Netflix Gift Card",
+        "category": "general",
+        "currentImage": "/images/products/g103.png"
+      },
+      "suggestedImage": {
+        "filename": "Netflix Gift Card.webp",
+        "category": "Gift Cards",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Gift Cards\\Netflix Gift Card.webp",
+        "relativePath": "Gift Cards/Netflix Gift Card.webp",
+        "sitephotoPath": "/sitephoto/Gift Cards/Netflix Gift Card.webp"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p77",
+        "name": "Digital Thermometer",
+        "category": "general",
+        "currentImage": "/images/products/g205.png"
+      },
+      "suggestedImage": {
+        "filename": "Digital Thermometer.avif",
+        "category": "Pharmacy",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Pharmacy\\Digital Thermometer.avif",
+        "relativePath": "Pharmacy/Digital Thermometer.avif",
+        "sitephotoPath": "/sitephoto/Pharmacy/Digital Thermometer.avif"
+      },
+      "matchScore": 100,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p48",
+        "name": "Omega-3 Fish Oil",
+        "category": "general",
+        "currentImage": "/images/products/g202.png"
+      },
+      "suggestedImage": {
+        "filename": "Omega-3 Fish Oil - 120 Softgels.jpg",
+        "category": "Pharmacy",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Pharmacy\\Omega-3 Fish Oil - 120 Softgels.jpg",
+        "relativePath": "Pharmacy/Omega-3 Fish Oil - 120 Softgels.jpg",
+        "sitephotoPath": "/sitephoto/Pharmacy/Omega-3 Fish Oil - 120 Softgels.jpg"
+      },
+      "matchScore": 80,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p49",
+        "name": "Probiotic Complex",
+        "category": "general",
+        "currentImage": "/images/products/g203.png"
+      },
+      "suggestedImage": {
+        "filename": "Probiotic Complex - 60 Capsules.jpg",
+        "category": "Pharmacy",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Pharmacy\\Probiotic Complex - 60 Capsules.jpg",
+        "relativePath": "Pharmacy/Probiotic Complex - 60 Capsules.jpg",
+        "sitephotoPath": "/sitephoto/Pharmacy/Probiotic Complex - 60 Capsules.jpg"
+      },
+      "matchScore": 80,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p219",
+        "name": "Artisan Cheese",
+        "category": "general",
+        "currentImage": "/images/products/g118.png"
+      },
+      "suggestedImage": {
+        "filename": "Artisan Cheese Selection.jpeg",
+        "category": "Deal of the day",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Deal of the day\\Artisan Cheese Selection.jpeg",
+        "relativePath": "Deal of the day/Artisan Cheese Selection.jpeg",
+        "sitephotoPath": "/sitephoto/Deal of the day/Artisan Cheese Selection.jpeg"
+      },
+      "matchScore": 80,
+      "confidence": "high"
+    },
+    {
+      "product": {
+        "id": "p167",
+        "name": "Organic Tomato Sauce",
+        "category": "general",
+        "currentImage": "/images/products/g263.png"
+      },
+      "suggestedImage": {
+        "filename": "Classico_Organic_tomato_Sauce.png",
+        "category": "tomato Souce",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\tomato Souce\\Classico_Organic_tomato_Sauce.png",
+        "relativePath": "tomato Souce/Classico_Organic_tomato_Sauce.png",
+        "sitephotoPath": "/sitephoto/tomato Souce/Classico_Organic_tomato_Sauce.png"
+      },
+      "matchScore": 60,
+      "confidence": "low"
+    },
+    {
+      "product": {
+        "id": "p223",
+        "name": "Mixed Berry Pack",
+        "category": "general",
+        "currentImage": "/images/products/g125.png"
+      },
+      "suggestedImage": {
+        "filename": "mix berry pack.webp",
+        "category": "Deal of the day",
+        "fullPath": "C:\\Users\\proje\\OneDrive - JAS Receivership Group\\Documents\\Website Projects\\zapp-ecommerce\\sitephoto\\Deal of the day\\mix berry pack.webp",
+        "relativePath": "Deal of the day/mix berry pack.webp",
+        "sitephotoPath": "/sitephoto/Deal of the day/mix berry pack.webp"
+      },
+      "matchScore": 60,
+      "confidence": "low"
+    }
+  ],
+  "unmatchedProducts": [
+    {
+      "id": "p21",
+      "name": "Organic Moisturizer",
+      "category": "general",
+      "currentImage": "/images/products/g195.png"
+    },
+    {
+      "id": "p22",
+      "name": "Premium Gum",
+      "category": "general",
+      "currentImage": "/images/products/g217.png"
+    },
+    {
+      "id": "p23",
+      "name": "Organic Mints",
+      "category": "general",
+      "currentImage": "/images/products/g218.png"
+    },
+    {
+      "id": "p24",
+      "name": "Premium Jerky",
+      "category": "general",
+      "currentImage": "/images/products/g219.png"
+    },
+    {
+      "id": "p25",
+      "name": "Gourmet Frosting",
+      "category": "general",
+      "currentImage": "/images/products/g233.png"
+    },
+    {
+      "id": "p26",
+      "name": "Gourmet Cookies",
+      "category": "general",
+      "currentImage": "/images/products/g229.png"
+    },
+    {
+      "id": "p44",
+      "name": "Premium Pretzels",
+      "category": "general",
+      "currentImage": "/images/products/g224.png"
+    },
+    {
+      "id": "p45",
+      "name": "Gourmet Nuts",
+      "category": "general",
+      "currentImage": "/images/products/g225.png"
+    },
+    {
+      "id": "p46",
+      "name": "Premium Seeds",
+      "category": "general",
+      "currentImage": "/images/products/g226.png"
+    },
+    {
+      "id": "p47",
+      "name": "Vitamin D3 Supplements",
+      "category": "general",
+      "currentImage": "/images/products/g201.png"
+    },
+    {
+      "id": "p51",
+      "name": "Organic Soap",
+      "category": "general",
+      "currentImage": "/images/products/g182.png"
+    },
+    {
+      "id": "p52",
+      "name": "Premium Lotion",
+      "category": "general",
+      "currentImage": "/images/products/g183.png"
+    },
+    {
+      "id": "p53",
+      "name": "Organic Cleanser",
+      "category": "general",
+      "currentImage": "/images/products/g199.png"
+    },
+    {
+      "id": "p54",
+      "name": "Premium Anti-Aging Cream",
+      "category": "general",
+      "currentImage": "/images/products/g200.png"
+    },
+    {
+      "id": "p64",
+      "name": "Premium Crackers",
+      "category": "general",
+      "currentImage": "/images/products/g127.png"
+    },
+    {
+      "id": "p65",
+      "name": "Artisan Bread",
+      "category": "general",
+      "currentImage": "/images/products/g128.png"
+    },
+    {
+      "id": "p67",
+      "name": "Premium Tahini",
+      "category": "general",
+      "currentImage": "/images/products/g244.png"
+    },
+    {
+      "id": "p68",
+      "name": "Gourmet Peanut Butter",
+      "category": "general",
+      "currentImage": "/images/products/g148.png"
+    },
+    {
+      "id": "p73",
+      "name": "Premium Energy Drink",
+      "category": "general",
+      "currentImage": "/images/products/g155.png"
+    },
+    {
+      "id": "p74",
+      "name": "Gourmet Sparkling Water",
+      "category": "general",
+      "currentImage": "/images/products/g156.png"
+    },
+    {
+      "id": "p75",
+      "name": "Premium Juice",
+      "category": "general",
+      "currentImage": "/images/products/g157.png"
+    },
+    {
+      "id": "p76",
+      "name": "Organic Smoothie",
+      "category": "general",
+      "currentImage": "/images/products/g158.png"
+    },
+    {
+      "id": "p78",
+      "name": "Gourmet Energy Bar",
+      "category": "general",
+      "currentImage": "/images/products/g212.png"
+    },
+    {
+      "id": "p79",
+      "name": "Premium Pasta Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g262.png"
+    },
+    {
+      "id": "p80",
+      "name": "Organic Nut Butter",
+      "category": "general",
+      "currentImage": "/images/products/g243.png"
+    },
+    {
+      "id": "p100",
+      "name": "Premium Baking Mix",
+      "category": "general",
+      "currentImage": "/images/products/g143.png"
+    },
+    {
+      "id": "p101",
+      "name": "Premium Almond Butter",
+      "category": "general",
+      "currentImage": "/images/products/g147.png"
+    },
+    {
+      "id": "p102",
+      "name": "Premium Maple Syrup",
+      "category": "general",
+      "currentImage": "/images/products/g149.png"
+    },
+    {
+      "id": "p103",
+      "name": "Organic Agave Nectar",
+      "category": "general",
+      "currentImage": "/images/products/g150.png"
+    },
+    {
+      "id": "p105",
+      "name": "Gourmet Marmalade",
+      "category": "general",
+      "currentImage": "/images/products/g241.png"
+    },
+    {
+      "id": "p106",
+      "name": "Organic Dried Fruit",
+      "category": "general",
+      "currentImage": "/images/products/g227.png"
+    },
+    {
+      "id": "p108",
+      "name": "Premium Coffee Beans",
+      "category": "general",
+      "currentImage": "/images/products/g111.png"
+    },
+    {
+      "id": "p109",
+      "name": "Artisan Chocolate",
+      "category": "general",
+      "currentImage": "/images/products/g112.png"
+    },
+    {
+      "id": "p110",
+      "name": "Premium Chips",
+      "category": "general",
+      "currentImage": "/images/products/g221.png"
+    },
+    {
+      "id": "p111",
+      "name": "Organic Crackers",
+      "category": "general",
+      "currentImage": "/images/products/g222.png"
+    },
+    {
+      "id": "p112",
+      "name": "Premium Olive Oil",
+      "category": "general",
+      "currentImage": "/images/products/g114.png"
+    },
+    {
+      "id": "p115",
+      "name": "Organic Pasta",
+      "category": "general",
+      "currentImage": "/images/products/g115.png"
+    },
+    {
+      "id": "p129",
+      "name": "Premium Hot Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g254.png"
+    },
+    {
+      "id": "p131",
+      "name": "Organic Nuts Mix",
+      "category": "general",
+      "currentImage": "/images/products/g119.png"
+    },
+    {
+      "id": "p132",
+      "name": "Premium Spices",
+      "category": "general",
+      "currentImage": "/images/products/g120.png"
+    },
+    {
+      "id": "p133",
+      "name": "Gourmet Popcorn",
+      "category": "general",
+      "currentImage": "/images/products/g220.png"
+    },
+    {
+      "id": "p134",
+      "name": "Premium Jello",
+      "category": "general",
+      "currentImage": "/images/products/g236.png"
+    },
+    {
+      "id": "p135",
+      "name": "Gourmet Syrup",
+      "category": "general",
+      "currentImage": "/images/products/g237.png"
+    },
+    {
+      "id": "p136",
+      "name": "Organic Relish",
+      "category": "general",
+      "currentImage": "/images/products/g255.png"
+    },
+    {
+      "id": "p147",
+      "name": "Organic Toothpaste",
+      "category": "general",
+      "currentImage": "/images/products/g186.png"
+    },
+    {
+      "id": "p148",
+      "name": "Premium Sunscreen",
+      "category": "general",
+      "currentImage": "/images/products/g190.png"
+    },
+    {
+      "id": "p149",
+      "name": "Craft Beer Selection",
+      "category": "general",
+      "currentImage": "/images/products/g116.png"
+    },
+    {
+      "id": "p150",
+      "name": "Premium Skincare Set",
+      "category": "general",
+      "currentImage": "/images/products/g177.png"
+    },
+    {
+      "id": "p151",
+      "name": "Premium Shampoo",
+      "category": "general",
+      "currentImage": "/images/products/g179.png"
+    },
+    {
+      "id": "p152",
+      "name": "Gourmet Body Wash",
+      "category": "general",
+      "currentImage": "/images/products/g180.png"
+    },
+    {
+      "id": "p153",
+      "name": "Premium Conditioner",
+      "category": "general",
+      "currentImage": "/images/products/g181.png"
+    },
+    {
+      "id": "p154",
+      "name": "Organic Hand Cream",
+      "category": "general",
+      "currentImage": "/images/products/g191.png"
+    },
+    {
+      "id": "p155",
+      "name": "Premium Face Mask",
+      "category": "general",
+      "currentImage": "/images/products/g192.png"
+    },
+    {
+      "id": "p156",
+      "name": "Gourmet Bath Bomb",
+      "category": "general",
+      "currentImage": "/images/products/g193.png"
+    },
+    {
+      "id": "p157",
+      "name": "Premium Hair Oil",
+      "category": "general",
+      "currentImage": "/images/products/g194.png"
+    },
+    {
+      "id": "p158",
+      "name": "Premium Serum",
+      "category": "general",
+      "currentImage": "/images/products/g196.png"
+    },
+    {
+      "id": "p159",
+      "name": "Gourmet Perfume",
+      "category": "general",
+      "currentImage": "/images/products/g184.png"
+    },
+    {
+      "id": "p160",
+      "name": "Premium Deodorant",
+      "category": "general",
+      "currentImage": "/images/products/g185.png"
+    },
+    {
+      "id": "p161",
+      "name": "Premium Pickles",
+      "category": "general",
+      "currentImage": "/images/products/g256.png"
+    },
+    {
+      "id": "p162",
+      "name": "Gourmet Olives",
+      "category": "general",
+      "currentImage": "/images/products/g257.png"
+    },
+    {
+      "id": "p163",
+      "name": "Premium Capers",
+      "category": "general",
+      "currentImage": "/images/products/g258.png"
+    },
+    {
+      "id": "p164",
+      "name": "Organic Sun-dried Tomatoes",
+      "category": "general",
+      "currentImage": "/images/products/g259.png"
+    },
+    {
+      "id": "p165",
+      "name": "Premium Artichoke Hearts",
+      "category": "general",
+      "currentImage": "/images/products/g260.png"
+    },
+    {
+      "id": "p166",
+      "name": "Gourmet Roasted Peppers",
+      "category": "general",
+      "currentImage": "/images/products/g261.png"
+    },
+    {
+      "id": "p168",
+      "name": "Premium Pizza Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g264.png"
+    },
+    {
+      "id": "p169",
+      "name": "Gourmet Pesto",
+      "category": "general",
+      "currentImage": "/images/products/g265.png"
+    },
+    {
+      "id": "p170",
+      "name": "Premium Alfredo Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g266.png"
+    },
+    {
+      "id": "p171",
+      "name": "Organic Marinara",
+      "category": "general",
+      "currentImage": "/images/products/g267.png"
+    },
+    {
+      "id": "p172",
+      "name": "Premium Bolognese Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g268.png"
+    },
+    {
+      "id": "p175",
+      "name": "Allergy Relief Tablets",
+      "category": "general",
+      "currentImage": "/images/products/g204.png"
+    },
+    {
+      "id": "p176",
+      "name": "Gourmet Tea Selection",
+      "category": "general",
+      "currentImage": "/images/products/g113.png"
+    },
+    {
+      "id": "p177",
+      "name": "Premium Wine",
+      "category": "general",
+      "currentImage": "/images/products/g117.png"
+    },
+    {
+      "id": "p179",
+      "name": "Premium Spread",
+      "category": "general",
+      "currentImage": "/images/products/g242.png"
+    },
+    {
+      "id": "p181",
+      "name": "Premium Mouthwash",
+      "category": "general",
+      "currentImage": "/images/products/g187.png"
+    },
+    {
+      "id": "p182",
+      "name": "Gourmet Lip Balm",
+      "category": "general",
+      "currentImage": "/images/products/g189.png"
+    },
+    {
+      "id": "p183",
+      "name": "Gourmet Scrub",
+      "category": "general",
+      "currentImage": "/images/products/g197.png"
+    },
+    {
+      "id": "p184",
+      "name": "Premium Toner",
+      "category": "general",
+      "currentImage": "/images/products/g198.png"
+    },
+    {
+      "id": "p185",
+      "name": "Gourmet Candy",
+      "category": "general",
+      "currentImage": "/images/products/g216.png"
+    },
+    {
+      "id": "p190",
+      "name": "Organic Granola",
+      "category": "general",
+      "currentImage": "/images/products/g129.png"
+    },
+    {
+      "id": "p191",
+      "name": "Premium Cereal",
+      "category": "general",
+      "currentImage": "/images/products/g130.png"
+    },
+    {
+      "id": "p192",
+      "name": "Gourmet Jam",
+      "category": "general",
+      "currentImage": "/images/products/g131.png"
+    },
+    {
+      "id": "p193",
+      "name": "Premium Butter",
+      "category": "general",
+      "currentImage": "/images/products/g132.png"
+    },
+    {
+      "id": "p194",
+      "name": "Organic Yogurt",
+      "category": "general",
+      "currentImage": "/images/products/g133.png"
+    },
+    {
+      "id": "p195",
+      "name": "Premium Milk",
+      "category": "general",
+      "currentImage": "/images/products/g134.png"
+    },
+    {
+      "id": "p196",
+      "name": "Artisan Ice Cream",
+      "category": "general",
+      "currentImage": "/images/products/g135.png"
+    },
+    {
+      "id": "p197",
+      "name": "Gourmet Sauce",
+      "category": "general",
+      "currentImage": "/images/products/g136.png"
+    },
+    {
+      "id": "p199",
+      "name": "Organic Herbs",
+      "category": "general",
+      "currentImage": "/images/products/g138.png"
+    },
+    {
+      "id": "p200",
+      "name": "Premium Salt",
+      "category": "general",
+      "currentImage": "/images/products/g139.png"
+    },
+    {
+      "id": "p201",
+      "name": "Gourmet Pepper",
+      "category": "general",
+      "currentImage": "/images/products/g140.png"
+    },
+    {
+      "id": "p202",
+      "name": "Premium Flour",
+      "category": "general",
+      "currentImage": "/images/products/g141.png"
+    },
+    {
+      "id": "p203",
+      "name": "Gourmet Chocolate Chips",
+      "category": "general",
+      "currentImage": "/images/products/g144.png"
+    },
+    {
+      "id": "p204",
+      "name": "Premium Vanilla Extract",
+      "category": "general",
+      "currentImage": "/images/products/g145.png"
+    },
+    {
+      "id": "p205",
+      "name": "Organic Coconut Oil",
+      "category": "general",
+      "currentImage": "/images/products/g146.png"
+    },
+    {
+      "id": "p207",
+      "name": "Organic Sugar",
+      "category": "general",
+      "currentImage": "/images/products/g142.png"
+    },
+    {
+      "id": "p208",
+      "name": "Premium Preserves",
+      "category": "general",
+      "currentImage": "/images/products/g240.png"
+    },
+    {
+      "id": "p210",
+      "name": "Amazon Gift Card",
+      "category": "general",
+      "currentImage": "/images/products/g101.png"
+    },
+    {
+      "id": "p211",
+      "name": "Premium Honey",
+      "category": "general",
+      "currentImage": "/images/products/g238.png"
+    },
+    {
+      "id": "p212",
+      "name": "Organic Jam",
+      "category": "general",
+      "currentImage": "/images/products/g239.png"
+    },
+    {
+      "id": "p213",
+      "name": "Premium Rice Cakes",
+      "category": "general",
+      "currentImage": "/images/products/g228.png"
+    },
+    {
+      "id": "p214",
+      "name": "Organic Pudding Mix",
+      "category": "general",
+      "currentImage": "/images/products/g235.png"
+    },
+    {
+      "id": "p216",
+      "name": "Premium Pie Filling",
+      "category": "general",
+      "currentImage": "/images/products/g234.png"
+    },
+    {
+      "id": "p222",
+      "name": "Organic Face Cream",
+      "category": "general",
+      "currentImage": "/images/products/g178.png"
+    }
+  ],
+  "sitephotoCategories": [
+    "Apple Cider Viniger",
+    "Beans",
+    "Breakfast Cereal",
+    "Candy",
+    "Cheeze Snack",
+    "Chewing gum",
+    "Chick Peas",
+    "Chicken of The Sea Tuna",
+    "Coffee",
+    "Condiments",
+    "Cookies",
+    "Crackers",
+    "Deal of the day",
+    "Energy Drink",
+    "Flour",
+    "Frappuccino",
+    "Fresh Foods",
+    "Fruit Snacks",
+    "Garlic",
+    "GatorAid",
+    "Gift Cards",
+    "Hospitality",
+    "Juices",
+    "Lemon Juice",
+    "Mayo",
+    "Milk",
+    "Milk Tea Varity Pack",
+    "Motor Oil",
+    "Nesquick",
+    "New African Products",
+    "Nuts",
+    "Oats",
+    "Pancakes mix",
+    "Peanut Butter",
+    "Peanuts",
+    "Pharmacy",
+    "Popcorn",
+    "Potato Chips",
+    "Protien Bars",
+    "Rice",
+    "Rice Crispy Treats",
+    "Seasons",
+    "Seaweed Snack",
+    "Snack Packs",
+    "Sodas",
+    "Sparkle Water",
+    "Splenda",
+    "Sports Drink",
+    "Sunflower oil",
+    "Sweatner",
+    "Tomatoe Paste",
+    "Tomatoes",
+    "Towels",
+    "Vanilla Abstract",
+    "Veggie Snacks",
+    "Vitimin Water",
+    "coconut water",
+    "pretzels",
+    "tomato Souce"
+  ]
+}

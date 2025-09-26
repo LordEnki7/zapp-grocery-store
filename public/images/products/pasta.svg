@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="boxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3cd;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffeaa7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="labelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pastaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e67e22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d35400;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  
+  <!-- Pasta box body -->
+  <rect x="90" y="80" width="220" height="280" rx="8" ry="8" fill="url(#boxGradient)" stroke="#e67e22" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Box top flap -->
+  <rect x="90" y="60" width="220" height="30" rx="8" ry="8" fill="#fdcb6e" stroke="#e67e22" stroke-width="2"/>
+  
+  <!-- Transparent window showing pasta -->
+  <ellipse cx="200" cy="200" rx="70" ry="80" fill="rgba(255,255,255,0.9)" stroke="#e67e22" stroke-width="2"/>
+  
+  <!-- Spaghetti pasta strands -->
+  <g opacity="0.9">
+    <!-- Long spaghetti strands -->
+    <rect x="180" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(5 181.5 200)"/>
+    <rect x="190" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(-3 191.5 200)"/>
+    <rect x="200" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)"/>
+    <rect x="210" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(7 211.5 200)"/>
+    <rect x="220" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(-5 221.5 200)"/>
+    <rect x="170" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(10 171.5 200)"/>
+    <rect x="230" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(-8 231.5 200)"/>
+    <rect x="160" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(15 161.5 200)"/>
+    <rect x="240" y="140" width="3" height="120" rx="1.5" ry="1.5" fill="url(#pastaGradient)" transform="rotate(-12 241.5 200)"/>
+    
+    <!-- Additional shorter strands for depth -->
+    <rect x="185" y="150" width="2.5" height="100" rx="1.25" ry="1.25" fill="#e67e22" opacity="0.7" transform="rotate(2 186.25 200)"/>
+    <rect x="205" y="150" width="2.5" height="100" rx="1.25" ry="1.25" fill="#e67e22" opacity="0.7" transform="rotate(-4 206.25 200)"/>
+    <rect x="215" y="150" width="2.5" height="100" rx="1.25" ry="1.25" fill="#e67e22" opacity="0.7" transform="rotate(6 216.25 200)"/>
+  </g>
+  
+  <!-- Brand label -->
+  <rect x="100" y="100" width="200" height="50" rx="5" ry="5" fill="url(#labelGradient)" stroke="#c0392b" stroke-width="1"/>
+  
+  <!-- Brand text -->
+  <text x="200" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">PREMIUM</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Spaghetti Pasta</text>
+  
+  <!-- Pasta type -->
+  <text x="200" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b4513">100% DURUM WHEAT</text>
+  
+  <!-- Weight indicator -->
+  <rect x="240" y="320" width="60" height="25" rx="12" ry="12" fill="#27ae60" stroke="#1e8449" stroke-width="1"/>
+  <text x="270" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">500g</text>
+  
+  <!-- Quality seal -->
+  <circle cx="130" cy="320" r="30" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="130" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">ITALIAN</text>
+  <text x="130" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">STYLE</text>
+  
+  <!-- Cooking time -->
+  <rect x="100" y="290" width="40" height="20" rx="3" ry="3" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="120" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">8-10 MIN</text>
+  
+  <!-- Al Dente indicator -->
+  <rect x="260" y="290" width="40" height="20" rx="3" ry="3" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <text x="280" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">AL DENTE</text>
+  
+  <!-- Italian flag colors decoration -->
+  <rect x="320" y="100" width="8" height="30" fill="#27ae60"/>
+  <rect x="320" y="130" width="8" height="30" fill="white" stroke="#bdc3c7" stroke-width="0.5"/>
+  <rect x="320" y="160" width="8" height="30" fill="#e74c3c"/>
+  
+  <!-- Wheat decoration -->
+  <g stroke="#f39c12" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M 70 120 Q 75 115 80 120 Q 85 125 80 130 Q 75 135 70 130 Q 65 125 70 120"/>
+    <line x1="75" y1="120" x2="75" y2="140"/>
+    <path d="M 70 140 Q 75 135 80 140 Q 85 145 80 150 Q 75 155 70 150 Q 65 145 70 140"/>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-09-24T23:16:23.838Z",
+  "script": "smart-sitephoto-matching.cjs",
+  "summary": {
+    "totalProducts": 232,
+    "matchesAttempted": 2,
+    "productsUpdated": 2,
+    "remainingGenericPlaceholders": 10,
+    "successRate": "2/2 (100%)"
+  },
+  "smartMatches": [
+    {
+      "productName": "Premium Wafers",
+      "sitephotoPath": "/sitephoto/Cookies/BelVita_Crunchy.png",
+      "reason": "Wafers are similar to cookies/biscuits"
+    },
+    {
+      "productName": "Organic Biscuits",
+      "sitephotoPath": "/sitephoto/Cookies/BelVita_Crunchy.png",
+      "reason": "Biscuits are essentially cookies"
+    }
+  ],
+  "updateReport": [
+    {
+      "productId": "p2",
+      "productName": "Premium Wafers",
+      "oldImage": "/images/products/G230.png",
+      "newImage": "/sitephoto/Cookies/BelVita_Crunchy.png",
+      "reason": "Wafers are similar to cookies/biscuits",
+      "success": true
+    },
+    {
+      "productId": "p3",
+      "productName": "Organic Biscuits",
+      "oldImage": "/images/products/G231.png",
+      "newImage": "/sitephoto/Cookies/BelVita_Crunchy.png",
+      "reason": "Biscuits are essentially cookies",
+      "success": true
+    }
+  ],
+  "remainingGenericProducts": [
+    {
+      "id": "p5",
+      "name": "Gourmet Hummus",
+      "currentImage": "/images/products/G245.png"
+    },
+    {
+      "id": "p6",
+      "name": "Premium Salsa",
+      "currentImage": "/images/products/G246.png"
+    },
+    {
+      "id": "p7",
+      "name": "Organic Dip",
+      "currentImage": "/images/products/G247.png"
+    },
+    {
+      "id": "p8",
+      "name": "Premium Dressing",
+      "currentImage": "/images/products/G248.png"
+    },
+    {
+      "id": "p9",
+      "name": "Gourmet Marinade",
+      "currentImage": "/images/products/G249.png"
+    },
+    {
+      "id": "p10",
+      "name": "Premium BBQ Sauce",
+      "currentImage": "/images/products/G250.png"
+    },
+    {
+      "id": "p11",
+      "name": "Organic Ketchup",
+      "currentImage": "/images/products/G251.png"
+    },
+    {
+      "id": "p12",
+      "name": "Premium Mustard",
+      "currentImage": "/images/products/G252.png"
+    },
+    {
+      "id": "p15",
+      "name": "Premium Trail Mix",
+      "currentImage": "/images/products/G209.png"
+    },
+    {
+      "id": "p33",
+      "name": "Premium Kombucha",
+      "currentImage": "/images/products/G163.png"
+    }
+  ]
+}

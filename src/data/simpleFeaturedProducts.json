@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ginger Beer",
+    "price": "$3.99",
+    "image": "Ginger beer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jamaican Beef Patties",
+    "price": "$5.99",
+    "image": "Jamaican beef patties.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Organic Bananas",
+    "price": "$2.49",
+    "image": "bananas.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fresh Avocados",
+    "price": "$4.99",
+    "image": "avocados.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Premium Cheese",
+    "price": "$7.99",
+    "image": "cheese.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Farm Fresh Eggs",
+    "price": "$3.49",
+    "image": "eggs.jpg"
+  }
+]

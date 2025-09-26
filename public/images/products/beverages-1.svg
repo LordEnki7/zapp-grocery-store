@@ -1,0 +1,44 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beverageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF3C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#beverageGrad)"/>
+  
+  <!-- Beverage bottles -->
+  <g transform="translate(150,150)">
+    <!-- Main bottle -->
+    <rect x="-20" y="-50" width="40" height="80" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2" rx="6"/>
+    
+    <!-- Bottle neck -->
+    <rect x="-10" y="-60" width="20" height="15" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2" rx="3"/>
+    
+    <!-- Bottle cap -->
+    <rect x="-12" y="-70" width="24" height="12" fill="#DC2626" stroke="#991B1B" stroke-width="1" rx="6"/>
+    
+    <!-- Liquid inside -->
+    <rect x="-15" y="-20" width="30" height="45" fill="#FCD34D" opacity="0.7" rx="4"/>
+    
+    <!-- Bubbles -->
+    <circle cx="-8" cy="-10" r="2" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="5" cy="-15" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="-3" cy="0" r="1" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="8" cy="-5" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Label -->
+    <rect x="-18" y="-35" width="36" height="25" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1" rx="2"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1D4ED8">DRINK</text>
+    
+    <!-- Second bottle -->
+    <rect x="35" y="-40" width="25" height="60" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2" rx="4"/>
+    <rect x="40" y="-50" width="15" height="10" fill="#7C3AED" stroke="#5B21B6" stroke-width="1" rx="2"/>
+    <rect x="38" y="-25" width="19" height="35" fill="#A855F7" opacity="0.6" rx="3"/>
+  </g>
+  
+  <!-- Label -->
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#D97706">BEVERAGES</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-24T21:04:49.227Z",
+  "totalProducts": 232,
+  "duplicateNames": 0,
+  "duplicateImages": 0,
+  "isClean": true,
+  "duplicateNameDetails": [],
+  "duplicateImageDetails": [],
+  "productsByCategory": {
+    "beverages": 22,
+    "frozen": 4,
+    "fresh": 6,
+    "dairy": 2,
+    "grocery": 5,
+    "snacks": 10,
+    "pantry": 10,
+    "breakfast": 10,
+    "general": 130,
+    "gift-cards": 11,
+    "specialty": 4,
+    "health": 5,
+    "meat-seafood": 2,
+    "health-wellness": 6,
+    "fresh-produce": 4,
+    "bakery": 1
+  }
+}

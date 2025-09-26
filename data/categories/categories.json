@@ -1,0 +1,74 @@
+[
+  {
+    "id": "beverages",
+    "name": "Apple Cider Viniger",
+    "description": "Apple Cider Viniger products collection",
+    "image": "/images/categories/beverages.jpg",
+    "isActive": true,
+    "sortOrder": 1
+  },
+  {
+    "id": "pantry",
+    "name": "Beans",
+    "description": "Beans products collection",
+    "image": "/images/categories/pantry.jpg",
+    "isActive": true,
+    "sortOrder": 2
+  },
+  {
+    "id": "breakfast",
+    "name": "Breakfast Cereal",
+    "description": "Breakfast Cereal products collection",
+    "image": "/images/categories/breakfast.jpg",
+    "isActive": true,
+    "sortOrder": 3
+  },
+  {
+    "id": "snacks",
+    "name": "Candy",
+    "description": "Candy products collection",
+    "image": "/images/categories/snacks.jpg",
+    "isActive": true,
+    "sortOrder": 4
+  },
+  {
+    "id": "general",
+    "name": "Cheeze Snack",
+    "description": "Cheeze Snack products collection",
+    "image": "/images/categories/general.jpg",
+    "isActive": true,
+    "sortOrder": 5
+  },
+  {
+    "id": "fresh",
+    "name": "Fresh Foods",
+    "description": "Fresh Foods products collection",
+    "image": "/images/categories/fresh.jpg",
+    "isActive": true,
+    "sortOrder": 6
+  },
+  {
+    "id": "gift-cards",
+    "name": "Gift Cards",
+    "description": "Gift Cards products collection",
+    "image": "/images/categories/gift-cards.jpg",
+    "isActive": true,
+    "sortOrder": 7
+  },
+  {
+    "id": "specialty",
+    "name": "New African Products",
+    "description": "New African Products products collection",
+    "image": "/images/categories/specialty.jpg",
+    "isActive": true,
+    "sortOrder": 8
+  },
+  {
+    "id": "health",
+    "name": "Pharmacy",
+    "description": "Pharmacy products collection",
+    "image": "/images/categories/health.jpg",
+    "isActive": true,
+    "sortOrder": 9
+  }
+]

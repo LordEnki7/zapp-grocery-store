@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-09-24T23:35:12.021Z",
+  "backupFile": "products_backup_new_images_1758756911995.json",
+  "totalMatches": 8,
+  "successfulUpdates": 8,
+  "updates": [
+    {
+      "productId": "p65",
+      "productName": "Artisan Bread",
+      "oldImage": "/images/products/g128.png",
+      "newImage": "/sitephoto/New images/Artisan Bread.jpg",
+      "matchScore": 1
+    },
+    {
+      "productId": "p5",
+      "productName": "Gourmet Hummus",
+      "oldImage": "/images/products/G245.png",
+      "newImage": "/sitephoto/New images/Gourmet Coffee.jpg",
+      "matchScore": 0.5
+    },
+    {
+      "productId": "p6",
+      "productName": "Premium Salsa",
+      "oldImage": "/images/products/G246.png",
+      "newImage": "/sitephoto/New images/Premium Kombucha.jpg",
+      "matchScore": 0.5
+    },
+    {
+      "productId": "p9",
+      "productName": "Gourmet Marinade",
+      "oldImage": "/images/products/G249.png",
+      "newImage": "/sitephoto/New images/Gourmet Soda.jpg",
+      "matchScore": 0.5
+    },
+    {
+      "productId": "p7",
+      "productName": "Organic Dip",
+      "oldImage": "/images/products/G247.png",
+      "newImage": "/sitephoto/New images/Organic Coconut Water.jpg",
+      "matchScore": 0.3333333333333333
+    },
+    {
+      "productId": "p8",
+      "productName": "Premium Dressing",
+      "oldImage": "/images/products/G248.png",
+      "newImage": "/sitephoto/New images/Premium Green Tea.webp",
+      "matchScore": 0.3333333333333333
+    },
+    {
+      "productId": "p11",
+      "productName": "Organic Ketchup",
+      "oldImage": "/images/products/G251.png",
+      "newImage": "/sitephoto/New images/Organic Herbal Tea.webp",
+      "matchScore": 0.3333333333333333
+    },
+    {
+      "productId": "p129",
+      "productName": "Premium Hot Sauce",
+      "oldImage": "/images/products/g254.png",
+      "newImage": "/sitephoto/New images/Artisan Hot Chocolate.jpeg",
+      "matchScore": 0.3333333333333333
+    }
+  ],
+  "summary": {
+    "beforeGenericPlaceholders": 78,
+    "afterGenericPlaceholders": 70,
+    "reductionCount": 8,
+    "reductionPercentage": "10.3"
+  }
+}

@@ -1,0 +1,40 @@
+# Exclude large directories from deployment
+backups/
+sitephoto/
+Zapp Grocery Store/
+Our Special Product/
+docs/
+data/
+scripts/
+.git/
+
+# Development files
+node_modules/
+.git/
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+dist/
+
+# Build files (Vercel will build from source)
+build/
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation files
+*.md
+CODE_SAFETY_POLICY.md
+BUILD_DIRECTIONS.md
+RETAIL_PRODUCT_DATA.md
+ZIP_BACKUP_POLICY.md

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-09-24T23:13:58.423Z",
+  "script": "manual-vinegar-fix.cjs",
+  "totalProductsProcessed": 232,
+  "vinegarProductsFound": 1,
+  "productsUpdated": 1,
+  "imageUsed": "/sitephoto/Apple Cider Viniger/North_Coast_Organic Raw_ Apple_Cider_Vinegar.png",
+  "updatedProducts": [
+    {
+      "id": "p198",
+      "name": "Premium Vinegar",
+      "previousImage": "/images/products/G137.png",
+      "newImage": "/sitephoto/Apple Cider Viniger/North_Coast_Organic Raw_ Apple_Cider_Vinegar.png"
+    }
+  ]
+}

@@ -1,0 +1,1205 @@
+{
+  "timestamp": "2025-09-24T23:06:03.769Z",
+  "summary": {
+    "totalProcessed": 145,
+    "totalReplaced": 65,
+    "totalSkipped": 80,
+    "totalErrors": 0
+  },
+  "replacements": [
+    {
+      "productId": "p4",
+      "productName": "Premium Cake Mix",
+      "oldImage": "/images/products/G232.png",
+      "newImage": "/sitephoto/Pancakes mix/Krusteaz_Buttermilk.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Pancakes mix",
+      "confidence": "low"
+    },
+    {
+      "productId": "p13",
+      "productName": "Gourmet Mayo",
+      "oldImage": "/images/products/G253.png",
+      "newImage": "/sitephoto/Mayo/Chosen_Foods_Avocado_Oil_Mayo.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Mayo",
+      "confidence": "low"
+    },
+    {
+      "productId": "p14",
+      "productName": "Gourmet Snack Mix",
+      "oldImage": "/images/products/G208.png",
+      "newImage": "/sitephoto/Fruit Snacks/Welch's_Fruit_Snacks.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Fruit Snacks",
+      "confidence": "low"
+    },
+    {
+      "productId": "p16",
+      "productName": "Organic Fruit Chips",
+      "oldImage": "/images/products/G210.png",
+      "newImage": "/sitephoto/Fruit Snacks/Black_Forest_Organic_Gummy_Bears.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Fruit Snacks",
+      "confidence": "low"
+    },
+    {
+      "productId": "p17",
+      "productName": "Premium Protein Bar",
+      "oldImage": "/images/products/G211.png",
+      "newImage": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Protien Bars",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p18",
+      "productName": "Premium Granola Bar",
+      "oldImage": "/images/products/G213.png",
+      "newImage": "/sitephoto/Protien Bars/Kirkland_Soft & Chewy_Granola_Bars.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Protien Bars",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p19",
+      "productName": "Organic Nut Bar",
+      "oldImage": "/images/products/G214.png",
+      "newImage": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "coconut water",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p20",
+      "productName": "Premium Chocolate Bar",
+      "oldImage": "/images/products/G215.png",
+      "newImage": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Protien Bars",
+      "confidence": "low"
+    },
+    {
+      "productId": "p27",
+      "productName": "PlayStation Store Gift Card",
+      "oldImage": "/images/products/g106.png",
+      "newImage": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif",
+      "matchScore": 80,
+      "matchType": "direct",
+      "sitephotoCategory": "Gift Cards",
+      "confidence": "high"
+    },
+    {
+      "productId": "p28",
+      "productName": "Airbnb Gift Card",
+      "oldImage": "/images/products/g108.png",
+      "newImage": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg",
+      "matchScore": 100,
+      "matchType": "keyword",
+      "sitephotoCategory": "Gift Cards",
+      "confidence": "high"
+    },
+    {
+      "productId": "p29",
+      "productName": "Premium Protein Shake",
+      "oldImage": "/images/products/G159.png",
+      "newImage": "/sitephoto/Protien Bars/Protein_Bar.png",
+      "matchScore": 33.33333333333333,
+      "matchType": "category",
+      "sitephotoCategory": "Protien Bars",
+      "confidence": "low"
+    },
+    {
+      "productId": "p30",
+      "productName": "Gourmet Coffee",
+      "oldImage": "/images/products/G160.png",
+      "newImage": "/sitephoto/Coffee/Copper_Cow_Coffee_Vietnamese_Coffee&Real Cinnamon_Churro.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Coffee",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p31",
+      "productName": "Premium Tea",
+      "oldImage": "/images/products/G161.png",
+      "newImage": "/sitephoto/Milk Tea Varity Pack/A_Sha.png",
+      "matchScore": 33.33333333333333,
+      "matchType": "category",
+      "sitephotoCategory": "Milk Tea Varity Pack",
+      "confidence": "low"
+    },
+    {
+      "productId": "p32",
+      "productName": "Artisan Hot Chocolate",
+      "oldImage": "/images/products/G162.png",
+      "newImage": "/sitephoto/Candy/Reese's.png",
+      "matchScore": 33.33333333333333,
+      "matchType": "category",
+      "sitephotoCategory": "Candy",
+      "confidence": "low"
+    },
+    {
+      "productId": "p34",
+      "productName": "Organic Coconut Water",
+      "oldImage": "/images/products/G164.png",
+      "newImage": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png",
+      "matchScore": 100,
+      "matchType": "keyword",
+      "sitephotoCategory": "coconut water",
+      "confidence": "high"
+    },
+    {
+      "productId": "p35",
+      "productName": "Premium Sports Drink",
+      "oldImage": "/images/products/G165.png",
+      "newImage": "/sitephoto/Sports Drink/Kirkland_Sport_Drink.png",
+      "matchScore": 80,
+      "matchType": "keyword",
+      "sitephotoCategory": "Sports Drink",
+      "confidence": "high"
+    },
+    {
+      "productId": "p36",
+      "productName": "Gourmet Soda",
+      "oldImage": "/images/products/G166.png",
+      "newImage": "/sitephoto/Sodas/30_Mini_Soda_Pack.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Sodas",
+      "confidence": "low"
+    },
+    {
+      "productId": "p37",
+      "productName": "Premium Mineral Water",
+      "oldImage": "/images/products/G167.png",
+      "newImage": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "coconut water",
+      "confidence": "low"
+    },
+    {
+      "productId": "p38",
+      "productName": "Organic Herbal Tea",
+      "oldImage": "/images/products/G168.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 100,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p39",
+      "productName": "Premium Green Tea",
+      "oldImage": "/images/products/G169.png",
+      "newImage": "/sitephoto/Sodas/Arisona_Green_Tea.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Sodas",
+      "confidence": "low"
+    },
+    {
+      "productId": "p40",
+      "productName": "Gourmet Black Tea",
+      "oldImage": "/images/products/G170.png",
+      "newImage": "/sitephoto/Milk Tea Varity Pack/A_Sha.png",
+      "matchScore": 66.66666666666666,
+      "matchType": "category",
+      "sitephotoCategory": "Milk Tea Varity Pack",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p44",
+      "productName": "Premium Pretzels",
+      "oldImage": "/images/products/g224.png",
+      "newImage": "/sitephoto/pretzels/Pretzel_Crisps.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "pretzels",
+      "confidence": "low"
+    },
+    {
+      "productId": "p48",
+      "productName": "Omega-3 Fish Oil",
+      "oldImage": "/images/products/g202.png",
+      "newImage": "/sitephoto/Pharmacy/Omega-3 Fish Oil - 120 Softgels.jpg",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Pharmacy",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p49",
+      "productName": "Probiotic Complex",
+      "oldImage": "/images/products/g203.png",
+      "newImage": "/sitephoto/Pharmacy/Probiotic Complex - 60 Capsules.jpg",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Pharmacy",
+      "confidence": "low"
+    },
+    {
+      "productId": "p50",
+      "productName": "First Aid Kit Complete",
+      "oldImage": "/images/products/g207.png",
+      "newImage": "/sitephoto/Pharmacy/First Aid Kit - Complete.jpg",
+      "matchScore": 80,
+      "matchType": "direct",
+      "sitephotoCategory": "Pharmacy",
+      "confidence": "high"
+    },
+    {
+      "productId": "p54",
+      "productName": "Premium Anti-Aging Cream",
+      "oldImage": "/images/products/g200.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 75,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p55",
+      "productName": "Blood Pressure Monitor",
+      "oldImage": "/images/products/g206.png",
+      "newImage": "/sitephoto/Pharmacy/Blood Pressure Monitor.jpg",
+      "matchScore": 75,
+      "matchType": "direct",
+      "sitephotoCategory": "Pharmacy",
+      "confidence": "high"
+    },
+    {
+      "productId": "p66",
+      "productName": "Netflix Gift Card",
+      "oldImage": "/images/products/g103.png",
+      "newImage": "/sitephoto/Gift Cards/Netflix Gift Card.webp",
+      "matchScore": 100,
+      "matchType": "keyword",
+      "sitephotoCategory": "Gift Cards",
+      "confidence": "high"
+    },
+    {
+      "productId": "p68",
+      "productName": "Gourmet Peanut Butter",
+      "oldImage": "/images/products/g148.png",
+      "newImage": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png",
+      "matchScore": 80,
+      "matchType": "keyword",
+      "sitephotoCategory": "Peanut Butter",
+      "confidence": "high"
+    },
+    {
+      "productId": "p73",
+      "productName": "Premium Energy Drink",
+      "oldImage": "/images/products/g155.png",
+      "newImage": "/sitephoto/Energy Drink/BodyArmor_Lyte_Sports_Drink.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Energy Drink",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p74",
+      "productName": "Gourmet Sparkling Water",
+      "oldImage": "/images/products/g156.png",
+      "newImage": "/sitephoto/Sparkle Water/Spindrift_Sparkling_water.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Sparkle Water",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p75",
+      "productName": "Premium Juice",
+      "oldImage": "/images/products/g157.png",
+      "newImage": "/sitephoto/Juices/Honest_Kids_Organic_Juice_Drink.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Juices",
+      "confidence": "low"
+    },
+    {
+      "productId": "p77",
+      "productName": "Digital Thermometer",
+      "oldImage": "/images/products/g205.png",
+      "newImage": "/sitephoto/Chicken of The Sea Tuna/Chicken_of_the_Sea_Light_Tuna.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Chicken of The Sea Tuna",
+      "confidence": "low"
+    },
+    {
+      "productId": "p78",
+      "productName": "Gourmet Energy Bar",
+      "oldImage": "/images/products/g212.png",
+      "newImage": "/sitephoto/Protien Bars/Chewy_Protein_Bars.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Protien Bars",
+      "confidence": "low"
+    },
+    {
+      "productId": "p79",
+      "productName": "Premium Pasta Sauce",
+      "oldImage": "/images/products/g262.png",
+      "newImage": "/sitephoto/Deal of the day/Premium Pasta - 4 Pack.jpeg",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Deal of the day",
+      "confidence": "low"
+    },
+    {
+      "productId": "p80",
+      "productName": "Organic Nut Butter",
+      "oldImage": "/images/products/g243.png",
+      "newImage": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png",
+      "matchScore": 80,
+      "matchType": "keyword",
+      "sitephotoCategory": "Peanut Butter",
+      "confidence": "high"
+    },
+    {
+      "productId": "p101",
+      "productName": "Premium Almond Butter",
+      "oldImage": "/images/products/g147.png",
+      "newImage": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Peanut Butter",
+      "confidence": "low"
+    },
+    {
+      "productId": "p103",
+      "productName": "Organic Agave Nectar",
+      "oldImage": "/images/products/g150.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 100,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p106",
+      "productName": "Organic Dried Fruit",
+      "oldImage": "/images/products/g227.png",
+      "newImage": "/sitephoto/Fruit Snacks/Black_Forest_Organic_Gummy_Bears.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Fruit Snacks",
+      "confidence": "low"
+    },
+    {
+      "productId": "p108",
+      "productName": "Premium Coffee Beans",
+      "oldImage": "/images/products/g111.png",
+      "newImage": "/sitephoto/Coffee/Copper_Cow_Coffee_Vietnamese_Coffee&Real Cinnamon_Churro.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Coffee",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p109",
+      "productName": "Artisan Chocolate",
+      "oldImage": "/images/products/g112.png",
+      "newImage": "/sitephoto/Candy/Reese's.png",
+      "matchScore": 33.33333333333333,
+      "matchType": "category",
+      "sitephotoCategory": "Candy",
+      "confidence": "low"
+    },
+    {
+      "productId": "p110",
+      "productName": "Premium Chips",
+      "oldImage": "/images/products/g221.png",
+      "newImage": "/sitephoto/Potato Chips/Dill_Pickle_Route_11_Chips.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Potato Chips",
+      "confidence": "low"
+    },
+    {
+      "productId": "p112",
+      "productName": "Premium Olive Oil",
+      "oldImage": "/images/products/g114.png",
+      "newImage": "/sitephoto/Motor Oil/motor oil 2.webp",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Motor Oil",
+      "confidence": "low"
+    },
+    {
+      "productId": "p133",
+      "productName": "Gourmet Popcorn",
+      "oldImage": "/images/products/g220.png",
+      "newImage": "/sitephoto/Popcorn/Skinny_Pop_Popcorn.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Popcorn",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p147",
+      "productName": "Organic Toothpaste",
+      "oldImage": "/images/products/g186.png",
+      "newImage": "/sitephoto/Tomatoe Paste/Kirland_Tomato_Paste.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Tomatoe Paste",
+      "confidence": "low"
+    },
+    {
+      "productId": "p154",
+      "productName": "Organic Hand Cream",
+      "oldImage": "/images/products/g191.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 100,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p157",
+      "productName": "Premium Hair Oil",
+      "oldImage": "/images/products/g194.png",
+      "newImage": "/sitephoto/Motor Oil/motor oil 2.webp",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Motor Oil",
+      "confidence": "low"
+    },
+    {
+      "productId": "p164",
+      "productName": "Organic Sun-dried Tomatoes",
+      "oldImage": "/images/products/g259.png",
+      "newImage": "/sitephoto/tomato Souce/Classico_Organic_tomato_Sauce.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "tomato Souce",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p167",
+      "productName": "Organic Tomato Sauce",
+      "oldImage": "/images/products/g263.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 100,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p175",
+      "productName": "Allergy Relief Tablets",
+      "oldImage": "/images/products/g204.png",
+      "newImage": "/sitephoto/Pharmacy/Allergy Relief 24HR - 30 Tablets.avif",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Pharmacy",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p176",
+      "productName": "Gourmet Tea Selection",
+      "oldImage": "/images/products/g113.png",
+      "newImage": "/sitephoto/Milk Tea Varity Pack/A_Sha.png",
+      "matchScore": 33.33333333333333,
+      "matchType": "category",
+      "sitephotoCategory": "Milk Tea Varity Pack",
+      "confidence": "low"
+    },
+    {
+      "productId": "p185",
+      "productName": "Gourmet Candy",
+      "oldImage": "/images/products/g216.png",
+      "newImage": "/sitephoto/Candy/28_Full_Size_Candy_Bars.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Candy",
+      "confidence": "low"
+    },
+    {
+      "productId": "p193",
+      "productName": "Premium Butter",
+      "oldImage": "/images/products/g132.png",
+      "newImage": "/sitephoto/Peanut Butter/JiF_Peanut_Butter.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Peanut Butter",
+      "confidence": "low"
+    },
+    {
+      "productId": "p195",
+      "productName": "Premium Milk",
+      "oldImage": "/images/products/g134.png",
+      "newImage": "/sitephoto/Milk/Epoca_Cool_Banana_Milk.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Milk",
+      "confidence": "low"
+    },
+    {
+      "productId": "p196",
+      "productName": "Artisan Ice Cream",
+      "oldImage": "/images/products/g135.png",
+      "newImage": "/sitephoto/Juices/Honest_Kids_Organic_Juice_Drink.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Juices",
+      "confidence": "low"
+    },
+    {
+      "productId": "p202",
+      "productName": "Premium Flour",
+      "oldImage": "/images/products/g141.png",
+      "newImage": "/sitephoto/Flour/Kirkland_Almond_Flour.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Flour",
+      "confidence": "low"
+    },
+    {
+      "productId": "p203",
+      "productName": "Gourmet Chocolate Chips",
+      "oldImage": "/images/products/g144.png",
+      "newImage": "/sitephoto/Potato Chips/Dill_Pickle_Route_11_Chips.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Potato Chips",
+      "confidence": "low"
+    },
+    {
+      "productId": "p204",
+      "productName": "Premium Vanilla Extract",
+      "oldImage": "/images/products/g145.png",
+      "newImage": "/sitephoto/Vanilla Abstract/Pure_vanilla_Extract.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "Vanilla Abstract",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p205",
+      "productName": "Organic Coconut Oil",
+      "oldImage": "/images/products/g146.png",
+      "newImage": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png",
+      "matchScore": 60,
+      "matchType": "keyword",
+      "sitephotoCategory": "coconut water",
+      "confidence": "medium"
+    },
+    {
+      "productId": "p210",
+      "productName": "Amazon Gift Card",
+      "oldImage": "/images/products/g101.png",
+      "newImage": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg",
+      "matchScore": 80,
+      "matchType": "keyword",
+      "sitephotoCategory": "Gift Cards",
+      "confidence": "high"
+    },
+    {
+      "productId": "p211",
+      "productName": "Premium Honey",
+      "oldImage": "/images/products/g238.png",
+      "newImage": "/sitephoto/Breakfast Cereal/Honey_Bunch_of_Oats_Granola_Honey_Roasted.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Breakfast Cereal",
+      "confidence": "low"
+    },
+    {
+      "productId": "p213",
+      "productName": "Premium Rice Cakes",
+      "oldImage": "/images/products/g228.png",
+      "newImage": "/sitephoto/Rice/Adolphus_Rice.png",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Rice",
+      "confidence": "low"
+    },
+    {
+      "productId": "p219",
+      "productName": "Artisan Cheese",
+      "oldImage": "/images/products/g118.png",
+      "newImage": "/sitephoto/Deal of the day/Artisan Cheese Selection.jpeg",
+      "matchScore": 40,
+      "matchType": "keyword",
+      "sitephotoCategory": "Deal of the day",
+      "confidence": "low"
+    },
+    {
+      "productId": "p222",
+      "productName": "Organic Face Cream",
+      "oldImage": "/images/products/g178.png",
+      "newImage": "/sitephoto/Condiments/A._1..png",
+      "matchScore": 100,
+      "matchType": "direct",
+      "sitephotoCategory": "Condiments",
+      "confidence": "high"
+    },
+    {
+      "productId": "p223",
+      "productName": "Mixed Berry Pack",
+      "oldImage": "/images/products/g125.png",
+      "newImage": "/sitephoto/Deal of the day/mix berry pack.webp",
+      "matchScore": 75,
+      "matchType": "direct",
+      "sitephotoCategory": "Deal of the day",
+      "confidence": "high"
+    }
+  ],
+  "skipped": [
+    {
+      "productId": "p2",
+      "productName": "Premium Wafers",
+      "currentImage": "/images/products/G230.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p3",
+      "productName": "Organic Biscuits",
+      "currentImage": "/images/products/G231.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p5",
+      "productName": "Gourmet Hummus",
+      "currentImage": "/images/products/G245.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p6",
+      "productName": "Premium Salsa",
+      "currentImage": "/images/products/G246.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p7",
+      "productName": "Organic Dip",
+      "currentImage": "/images/products/G247.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p8",
+      "productName": "Premium Dressing",
+      "currentImage": "/images/products/G248.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p9",
+      "productName": "Gourmet Marinade",
+      "currentImage": "/images/products/G249.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p10",
+      "productName": "Premium BBQ Sauce",
+      "currentImage": "/images/products/G250.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p11",
+      "productName": "Organic Ketchup",
+      "currentImage": "/images/products/G251.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p12",
+      "productName": "Premium Mustard",
+      "currentImage": "/images/products/G252.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p15",
+      "productName": "Premium Trail Mix",
+      "currentImage": "/images/products/G209.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p21",
+      "productName": "Organic Moisturizer",
+      "currentImage": "/images/products/g195.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p22",
+      "productName": "Premium Gum",
+      "currentImage": "/images/products/g217.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p23",
+      "productName": "Organic Mints",
+      "currentImage": "/images/products/g218.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p24",
+      "productName": "Premium Jerky",
+      "currentImage": "/images/products/g219.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p25",
+      "productName": "Gourmet Frosting",
+      "currentImage": "/images/products/g233.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p26",
+      "productName": "Gourmet Cookies",
+      "currentImage": "/images/products/g229.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p33",
+      "productName": "Premium Kombucha",
+      "currentImage": "/images/products/G163.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p45",
+      "productName": "Gourmet Nuts",
+      "currentImage": "/images/products/g225.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p46",
+      "productName": "Premium Seeds",
+      "currentImage": "/images/products/g226.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p47",
+      "productName": "Vitamin D3 Supplements",
+      "currentImage": "/images/products/g201.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p51",
+      "productName": "Organic Soap",
+      "currentImage": "/images/products/g182.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p52",
+      "productName": "Premium Lotion",
+      "currentImage": "/images/products/g183.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p53",
+      "productName": "Organic Cleanser",
+      "currentImage": "/images/products/g199.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p64",
+      "productName": "Premium Crackers",
+      "currentImage": "/images/products/g127.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p65",
+      "productName": "Artisan Bread",
+      "currentImage": "/images/products/g128.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p67",
+      "productName": "Premium Tahini",
+      "currentImage": "/images/products/g244.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p76",
+      "productName": "Organic Smoothie",
+      "currentImage": "/images/products/g158.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p100",
+      "productName": "Premium Baking Mix",
+      "currentImage": "/images/products/g143.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p102",
+      "productName": "Premium Maple Syrup",
+      "currentImage": "/images/products/g149.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p105",
+      "productName": "Gourmet Marmalade",
+      "currentImage": "/images/products/g241.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p111",
+      "productName": "Organic Crackers",
+      "currentImage": "/images/products/g222.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p115",
+      "productName": "Organic Pasta",
+      "currentImage": "/images/products/g115.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p129",
+      "productName": "Premium Hot Sauce",
+      "currentImage": "/images/products/g254.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p131",
+      "productName": "Organic Nuts Mix",
+      "currentImage": "/images/products/g119.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p132",
+      "productName": "Premium Spices",
+      "currentImage": "/images/products/g120.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p134",
+      "productName": "Premium Jello",
+      "currentImage": "/images/products/g236.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p135",
+      "productName": "Gourmet Syrup",
+      "currentImage": "/images/products/g237.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p136",
+      "productName": "Organic Relish",
+      "currentImage": "/images/products/g255.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p148",
+      "productName": "Premium Sunscreen",
+      "currentImage": "/images/products/g190.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p149",
+      "productName": "Craft Beer Selection",
+      "currentImage": "/images/products/g116.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p150",
+      "productName": "Premium Skincare Set",
+      "currentImage": "/images/products/g177.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p151",
+      "productName": "Premium Shampoo",
+      "currentImage": "/images/products/g179.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p152",
+      "productName": "Gourmet Body Wash",
+      "currentImage": "/images/products/g180.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p153",
+      "productName": "Premium Conditioner",
+      "currentImage": "/images/products/g181.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p155",
+      "productName": "Premium Face Mask",
+      "currentImage": "/images/products/g192.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p156",
+      "productName": "Gourmet Bath Bomb",
+      "currentImage": "/images/products/g193.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p158",
+      "productName": "Premium Serum",
+      "currentImage": "/images/products/g196.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p159",
+      "productName": "Gourmet Perfume",
+      "currentImage": "/images/products/g184.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p160",
+      "productName": "Premium Deodorant",
+      "currentImage": "/images/products/g185.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p161",
+      "productName": "Premium Pickles",
+      "currentImage": "/images/products/g256.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p162",
+      "productName": "Gourmet Olives",
+      "currentImage": "/images/products/g257.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p163",
+      "productName": "Premium Capers",
+      "currentImage": "/images/products/g258.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p165",
+      "productName": "Premium Artichoke Hearts",
+      "currentImage": "/images/products/g260.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p166",
+      "productName": "Gourmet Roasted Peppers",
+      "currentImage": "/images/products/g261.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p168",
+      "productName": "Premium Pizza Sauce",
+      "currentImage": "/images/products/g264.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p169",
+      "productName": "Gourmet Pesto",
+      "currentImage": "/images/products/g265.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p170",
+      "productName": "Premium Alfredo Sauce",
+      "currentImage": "/images/products/g266.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p171",
+      "productName": "Organic Marinara",
+      "currentImage": "/images/products/g267.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p172",
+      "productName": "Premium Bolognese Sauce",
+      "currentImage": "/images/products/g268.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p177",
+      "productName": "Premium Wine",
+      "currentImage": "/images/products/g117.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p179",
+      "productName": "Premium Spread",
+      "currentImage": "/images/products/g242.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p181",
+      "productName": "Premium Mouthwash",
+      "currentImage": "/images/products/g187.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p182",
+      "productName": "Gourmet Lip Balm",
+      "currentImage": "/images/products/g189.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p183",
+      "productName": "Gourmet Scrub",
+      "currentImage": "/images/products/g197.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p184",
+      "productName": "Premium Toner",
+      "currentImage": "/images/products/g198.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p190",
+      "productName": "Organic Granola",
+      "currentImage": "/images/products/g129.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p191",
+      "productName": "Premium Cereal",
+      "currentImage": "/images/products/g130.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p192",
+      "productName": "Gourmet Jam",
+      "currentImage": "/images/products/g131.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p194",
+      "productName": "Organic Yogurt",
+      "currentImage": "/images/products/g133.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p197",
+      "productName": "Gourmet Sauce",
+      "currentImage": "/images/products/g136.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p198",
+      "productName": "Premium Vinegar",
+      "currentImage": "/images/products/G137.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p199",
+      "productName": "Organic Herbs",
+      "currentImage": "/images/products/g138.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p200",
+      "productName": "Premium Salt",
+      "currentImage": "/images/products/g139.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p201",
+      "productName": "Gourmet Pepper",
+      "currentImage": "/images/products/g140.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p207",
+      "productName": "Organic Sugar",
+      "currentImage": "/images/products/g142.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p208",
+      "productName": "Premium Preserves",
+      "currentImage": "/images/products/g240.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p212",
+      "productName": "Organic Jam",
+      "currentImage": "/images/products/g239.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p214",
+      "productName": "Organic Pudding Mix",
+      "currentImage": "/images/products/g235.png",
+      "reason": "No suitable match found"
+    },
+    {
+      "productId": "p216",
+      "productName": "Premium Pie Filling",
+      "currentImage": "/images/products/g234.png",
+      "reason": "No suitable match found"
+    }
+  ],
+  "errors": [],
+  "sitephotoCategories": [
+    "apple cider viniger",
+    "beans",
+    "breakfast cereal",
+    "candy",
+    "cheeze snack",
+    "chewing gum",
+    "chick peas",
+    "chicken of the sea tuna",
+    "coconut water",
+    "coffee",
+    "condiments",
+    "cookies",
+    "crackers",
+    "deal of the day",
+    "energy drink",
+    "flour",
+    "frappuccino",
+    "fresh foods",
+    "fruit snacks",
+    "garlic",
+    "gatoraid",
+    "gift cards",
+    "hospitality",
+    "juices",
+    "lemon juice",
+    "mayo",
+    "milk",
+    "milk tea varity pack",
+    "motor oil",
+    "nesquick",
+    "new african products",
+    "nuts",
+    "oats",
+    "pancakes mix",
+    "peanut butter",
+    "peanuts",
+    "pharmacy",
+    "popcorn",
+    "potato chips",
+    "pretzels",
+    "protien bars",
+    "rice",
+    "rice crispy treats",
+    "seasons",
+    "seaweed snack",
+    "snack packs",
+    "sodas",
+    "sparkle water",
+    "splenda",
+    "sports drink",
+    "sunflower oil",
+    "sweatner",
+    "tomato souce",
+    "tomatoe paste",
+    "tomatoes",
+    "towels",
+    "vanilla abstract",
+    "veggie snacks",
+    "vitimin water"
+  ]
+}

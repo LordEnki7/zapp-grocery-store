@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-09-24T22:59:54.888Z",
+  "totalProducts": 232,
+  "totalMatches": 11,
+  "updates": [
+    {
+      "productId": "p27",
+      "productName": "PlayStation Store Gift Card",
+      "category": "general",
+      "newImage": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Gift Cards"
+    },
+    {
+      "productId": "p28",
+      "productName": "Airbnb Gift Card",
+      "category": "general",
+      "newImage": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Gift Cards"
+    },
+    {
+      "productId": "p50",
+      "productName": "First Aid Kit Complete",
+      "category": "general",
+      "newImage": "/sitephoto/Pharmacy/First Aid Kit - Complete.jpg",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Pharmacy"
+    },
+    {
+      "productId": "p55",
+      "productName": "Blood Pressure Monitor",
+      "category": "general",
+      "newImage": "/sitephoto/Pharmacy/Blood Pressure Monitor.jpg",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Pharmacy"
+    },
+    {
+      "productId": "p66",
+      "productName": "Netflix Gift Card",
+      "category": "general",
+      "newImage": "/sitephoto/Gift Cards/Netflix Gift Card.webp",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Gift Cards"
+    },
+    {
+      "productId": "p77",
+      "productName": "Digital Thermometer",
+      "category": "general",
+      "newImage": "/sitephoto/Pharmacy/Digital Thermometer.avif",
+      "matchScore": 100,
+      "confidence": "high",
+      "sitephotoCategory": "Pharmacy"
+    },
+    {
+      "productId": "p48",
+      "productName": "Omega-3 Fish Oil",
+      "category": "general",
+      "newImage": "/sitephoto/Pharmacy/Omega-3 Fish Oil - 120 Softgels.jpg",
+      "matchScore": 80,
+      "confidence": "high",
+      "sitephotoCategory": "Pharmacy"
+    },
+    {
+      "productId": "p49",
+      "productName": "Probiotic Complex",
+      "category": "general",
+      "newImage": "/sitephoto/Pharmacy/Probiotic Complex - 60 Capsules.jpg",
+      "matchScore": 80,
+      "confidence": "high",
+      "sitephotoCategory": "Pharmacy"
+    },
+    {
+      "productId": "p219",
+      "productName": "Artisan Cheese",
+      "category": "general",
+      "newImage": "/sitephoto/Deal of the day/Artisan Cheese Selection.jpeg",
+      "matchScore": 80,
+      "confidence": "high",
+      "sitephotoCategory": "Deal of the day"
+    }
+  ],
+  "skipped": [
+    {
+      "productId": "p167",
+      "productName": "Organic Tomato Sauce",
+      "reason": "Low confidence match (score: 60)",
+      "suggestedImage": "Classico_Organic_tomato_Sauce.png"
+    },
+    {
+      "productId": "p223",
+      "productName": "Mixed Berry Pack",
+      "reason": "Low confidence match (score: 60)",
+      "suggestedImage": "mix berry pack.webp"
+    }
+  ],
+  "errors": []
+}

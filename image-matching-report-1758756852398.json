@@ -1,0 +1,440 @@
+{
+  "timestamp": "2025-09-24T23:34:12.397Z",
+  "totalGenericPlaceholders": 78,
+  "totalNewImages": 14,
+  "successfulMatches": 8,
+  "matches": [
+    {
+      "product": {
+        "id": "p65",
+        "name": "Artisan Bread",
+        "currentImage": "/images/products/g128.png"
+      },
+      "newImage": "Artisan Bread.jpg",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p5",
+        "name": "Gourmet Hummus",
+        "currentImage": "/images/products/G245.png"
+      },
+      "newImage": "Gourmet Coffee.jpg",
+      "score": 0.5
+    },
+    {
+      "product": {
+        "id": "p6",
+        "name": "Premium Salsa",
+        "currentImage": "/images/products/G246.png"
+      },
+      "newImage": "Premium Kombucha.jpg",
+      "score": 0.5
+    },
+    {
+      "product": {
+        "id": "p9",
+        "name": "Gourmet Marinade",
+        "currentImage": "/images/products/G249.png"
+      },
+      "newImage": "Gourmet Soda.jpg",
+      "score": 0.5
+    },
+    {
+      "product": {
+        "id": "p7",
+        "name": "Organic Dip",
+        "currentImage": "/images/products/G247.png"
+      },
+      "newImage": "Organic Coconut Water.jpg",
+      "score": 0.3333333333333333
+    },
+    {
+      "product": {
+        "id": "p8",
+        "name": "Premium Dressing",
+        "currentImage": "/images/products/G248.png"
+      },
+      "newImage": "Premium Green Tea.webp",
+      "score": 0.3333333333333333
+    },
+    {
+      "product": {
+        "id": "p11",
+        "name": "Organic Ketchup",
+        "currentImage": "/images/products/G251.png"
+      },
+      "newImage": "Organic Herbal Tea.webp",
+      "score": 0.3333333333333333
+    },
+    {
+      "product": {
+        "id": "p129",
+        "name": "Premium Hot Sauce",
+        "currentImage": "/images/products/g254.png"
+      },
+      "newImage": "Artisan Hot Chocolate.jpeg",
+      "score": 0.3333333333333333
+    }
+  ],
+  "unusedImages": [
+    "Allergy Relief 24hr - 30 Tablets.webp",
+    "Amazon-us-50-us-de.jpeg",
+    "Apple Cider Vinegar.jpg",
+    "Artisan Chocolate.webp",
+    "Avocados.jpg",
+    "Black Tea.webp"
+  ],
+  "unmatchedProducts": [
+    {
+      "id": "p10",
+      "name": "Premium BBQ Sauce",
+      "currentImage": "/images/products/G250.png"
+    },
+    {
+      "id": "p12",
+      "name": "Premium Mustard",
+      "currentImage": "/images/products/G252.png"
+    },
+    {
+      "id": "p15",
+      "name": "Premium Trail Mix",
+      "currentImage": "/images/products/G209.png"
+    },
+    {
+      "id": "p21",
+      "name": "Organic Moisturizer",
+      "currentImage": "/images/products/g195.png"
+    },
+    {
+      "id": "p22",
+      "name": "Premium Gum",
+      "currentImage": "/images/products/g217.png"
+    },
+    {
+      "id": "p23",
+      "name": "Organic Mints",
+      "currentImage": "/images/products/g218.png"
+    },
+    {
+      "id": "p24",
+      "name": "Premium Jerky",
+      "currentImage": "/images/products/g219.png"
+    },
+    {
+      "id": "p25",
+      "name": "Gourmet Frosting",
+      "currentImage": "/images/products/g233.png"
+    },
+    {
+      "id": "p26",
+      "name": "Gourmet Cookies",
+      "currentImage": "/images/products/g229.png"
+    },
+    {
+      "id": "p33",
+      "name": "Premium Kombucha",
+      "currentImage": "/images/products/G163.png"
+    },
+    {
+      "id": "p45",
+      "name": "Gourmet Nuts",
+      "currentImage": "/images/products/g225.png"
+    },
+    {
+      "id": "p46",
+      "name": "Premium Seeds",
+      "currentImage": "/images/products/g226.png"
+    },
+    {
+      "id": "p47",
+      "name": "Vitamin D3 Supplements",
+      "currentImage": "/images/products/g201.png"
+    },
+    {
+      "id": "p51",
+      "name": "Organic Soap",
+      "currentImage": "/images/products/g182.png"
+    },
+    {
+      "id": "p52",
+      "name": "Premium Lotion",
+      "currentImage": "/images/products/g183.png"
+    },
+    {
+      "id": "p53",
+      "name": "Organic Cleanser",
+      "currentImage": "/images/products/g199.png"
+    },
+    {
+      "id": "p64",
+      "name": "Premium Crackers",
+      "currentImage": "/images/products/g127.png"
+    },
+    {
+      "id": "p67",
+      "name": "Premium Tahini",
+      "currentImage": "/images/products/g244.png"
+    },
+    {
+      "id": "p76",
+      "name": "Organic Smoothie",
+      "currentImage": "/images/products/g158.png"
+    },
+    {
+      "id": "p100",
+      "name": "Premium Baking Mix",
+      "currentImage": "/images/products/g143.png"
+    },
+    {
+      "id": "p102",
+      "name": "Premium Maple Syrup",
+      "currentImage": "/images/products/g149.png"
+    },
+    {
+      "id": "p105",
+      "name": "Gourmet Marmalade",
+      "currentImage": "/images/products/g241.png"
+    },
+    {
+      "id": "p111",
+      "name": "Organic Crackers",
+      "currentImage": "/images/products/g222.png"
+    },
+    {
+      "id": "p115",
+      "name": "Organic Pasta",
+      "currentImage": "/images/products/g115.png"
+    },
+    {
+      "id": "p131",
+      "name": "Organic Nuts Mix",
+      "currentImage": "/images/products/g119.png"
+    },
+    {
+      "id": "p132",
+      "name": "Premium Spices",
+      "currentImage": "/images/products/g120.png"
+    },
+    {
+      "id": "p134",
+      "name": "Premium Jello",
+      "currentImage": "/images/products/g236.png"
+    },
+    {
+      "id": "p135",
+      "name": "Gourmet Syrup",
+      "currentImage": "/images/products/g237.png"
+    },
+    {
+      "id": "p136",
+      "name": "Organic Relish",
+      "currentImage": "/images/products/g255.png"
+    },
+    {
+      "id": "p148",
+      "name": "Premium Sunscreen",
+      "currentImage": "/images/products/g190.png"
+    },
+    {
+      "id": "p149",
+      "name": "Craft Beer Selection",
+      "currentImage": "/images/products/g116.png"
+    },
+    {
+      "id": "p150",
+      "name": "Premium Skincare Set",
+      "currentImage": "/images/products/g177.png"
+    },
+    {
+      "id": "p151",
+      "name": "Premium Shampoo",
+      "currentImage": "/images/products/g179.png"
+    },
+    {
+      "id": "p152",
+      "name": "Gourmet Body Wash",
+      "currentImage": "/images/products/g180.png"
+    },
+    {
+      "id": "p153",
+      "name": "Premium Conditioner",
+      "currentImage": "/images/products/g181.png"
+    },
+    {
+      "id": "p155",
+      "name": "Premium Face Mask",
+      "currentImage": "/images/products/g192.png"
+    },
+    {
+      "id": "p156",
+      "name": "Gourmet Bath Bomb",
+      "currentImage": "/images/products/g193.png"
+    },
+    {
+      "id": "p158",
+      "name": "Premium Serum",
+      "currentImage": "/images/products/g196.png"
+    },
+    {
+      "id": "p159",
+      "name": "Gourmet Perfume",
+      "currentImage": "/images/products/g184.png"
+    },
+    {
+      "id": "p160",
+      "name": "Premium Deodorant",
+      "currentImage": "/images/products/g185.png"
+    },
+    {
+      "id": "p161",
+      "name": "Premium Pickles",
+      "currentImage": "/images/products/g256.png"
+    },
+    {
+      "id": "p162",
+      "name": "Gourmet Olives",
+      "currentImage": "/images/products/g257.png"
+    },
+    {
+      "id": "p163",
+      "name": "Premium Capers",
+      "currentImage": "/images/products/g258.png"
+    },
+    {
+      "id": "p165",
+      "name": "Premium Artichoke Hearts",
+      "currentImage": "/images/products/g260.png"
+    },
+    {
+      "id": "p166",
+      "name": "Gourmet Roasted Peppers",
+      "currentImage": "/images/products/g261.png"
+    },
+    {
+      "id": "p168",
+      "name": "Premium Pizza Sauce",
+      "currentImage": "/images/products/g264.png"
+    },
+    {
+      "id": "p169",
+      "name": "Gourmet Pesto",
+      "currentImage": "/images/products/g265.png"
+    },
+    {
+      "id": "p170",
+      "name": "Premium Alfredo Sauce",
+      "currentImage": "/images/products/g266.png"
+    },
+    {
+      "id": "p171",
+      "name": "Organic Marinara",
+      "currentImage": "/images/products/g267.png"
+    },
+    {
+      "id": "p172",
+      "name": "Premium Bolognese Sauce",
+      "currentImage": "/images/products/g268.png"
+    },
+    {
+      "id": "p174",
+      "name": "Organic Honey",
+      "currentImage": "/images/products/g102a.png"
+    },
+    {
+      "id": "p177",
+      "name": "Premium Wine",
+      "currentImage": "/images/products/g117.png"
+    },
+    {
+      "id": "p179",
+      "name": "Premium Spread",
+      "currentImage": "/images/products/g242.png"
+    },
+    {
+      "id": "p181",
+      "name": "Premium Mouthwash",
+      "currentImage": "/images/products/g187.png"
+    },
+    {
+      "id": "p182",
+      "name": "Gourmet Lip Balm",
+      "currentImage": "/images/products/g189.png"
+    },
+    {
+      "id": "p183",
+      "name": "Gourmet Scrub",
+      "currentImage": "/images/products/g197.png"
+    },
+    {
+      "id": "p184",
+      "name": "Premium Toner",
+      "currentImage": "/images/products/g198.png"
+    },
+    {
+      "id": "p190",
+      "name": "Organic Granola",
+      "currentImage": "/images/products/g129.png"
+    },
+    {
+      "id": "p191",
+      "name": "Premium Cereal",
+      "currentImage": "/images/products/g130.png"
+    },
+    {
+      "id": "p192",
+      "name": "Gourmet Jam",
+      "currentImage": "/images/products/g131.png"
+    },
+    {
+      "id": "p194",
+      "name": "Organic Yogurt",
+      "currentImage": "/images/products/g133.png"
+    },
+    {
+      "id": "p197",
+      "name": "Gourmet Sauce",
+      "currentImage": "/images/products/g136.png"
+    },
+    {
+      "id": "p199",
+      "name": "Organic Herbs",
+      "currentImage": "/images/products/g138.png"
+    },
+    {
+      "id": "p200",
+      "name": "Premium Salt",
+      "currentImage": "/images/products/g139.png"
+    },
+    {
+      "id": "p201",
+      "name": "Gourmet Pepper",
+      "currentImage": "/images/products/g140.png"
+    },
+    {
+      "id": "p207",
+      "name": "Organic Sugar",
+      "currentImage": "/images/products/g142.png"
+    },
+    {
+      "id": "p208",
+      "name": "Premium Preserves",
+      "currentImage": "/images/products/g240.png"
+    },
+    {
+      "id": "p212",
+      "name": "Organic Jam",
+      "currentImage": "/images/products/g239.png"
+    },
+    {
+      "id": "p214",
+      "name": "Organic Pudding Mix",
+      "currentImage": "/images/products/g235.png"
+    },
+    {
+      "id": "p216",
+      "name": "Premium Pie Filling",
+      "currentImage": "/images/products/g234.png"
+    }
+  ]
+}

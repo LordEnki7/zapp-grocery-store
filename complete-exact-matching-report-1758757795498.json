@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-24T23:49:55.499Z",
+  "summary": {
+    "totalNewImages": 16,
+    "exactMatches": 15,
+    "productsUpdated": 15,
+    "unusedImages": 1,
+    "policyCompliance": "100% - All exact matches prioritized"
+  },
+  "exactMatches": [
+    {
+      "productId": "p1",
+      "productName": "Apple Cider Vinegar",
+      "currentImage": "/sitephoto/Apple Cider Viniger/North_Coast_Organic Raw_ Apple_Cider_Vinegar.png",
+      "newImage": "/sitephoto/New images/Apple Cider Vinegar.jpg",
+      "newImageFile": "Apple Cider Vinegar.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p29",
+      "productName": "Premium Protein Shake",
+      "currentImage": "/sitephoto/Protien Bars/Protein_Bar.png",
+      "newImage": "/sitephoto/New images/Premium Protein Shake.avif",
+      "newImageFile": "Premium Protein Shake.avif",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p30",
+      "productName": "Gourmet Coffee",
+      "currentImage": "/sitephoto/Coffee/Copper_Cow_Coffee_Vietnamese_Coffee&Real Cinnamon_Churro.png",
+      "newImage": "/sitephoto/New images/Gourmet Coffee.jpg",
+      "newImageFile": "Gourmet Coffee.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p32",
+      "productName": "Artisan Hot Chocolate",
+      "currentImage": "/sitephoto/Candy/Reese's.png",
+      "newImage": "/sitephoto/New images/Artisan Hot Chocolate.jpeg",
+      "newImageFile": "Artisan Hot Chocolate.jpeg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p33",
+      "productName": "Premium Kombucha",
+      "currentImage": "/images/products/G163.png",
+      "newImage": "/sitephoto/New images/Premium Kombucha.jpg",
+      "newImageFile": "Premium Kombucha.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p34",
+      "productName": "Organic Coconut Water",
+      "currentImage": "/sitephoto/coconut water/Kirkland_Organic_Coconut_Water.png",
+      "newImage": "/sitephoto/New images/Organic Coconut Water.jpg",
+      "newImageFile": "Organic Coconut Water.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p36",
+      "productName": "Gourmet Soda",
+      "currentImage": "/sitephoto/Sodas/30_Mini_Soda_Pack.png",
+      "newImage": "/sitephoto/New images/Gourmet Soda.jpg",
+      "newImageFile": "Gourmet Soda.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p38",
+      "productName": "Organic Herbal Tea",
+      "currentImage": "/sitephoto/Condiments/A._1..png",
+      "newImage": "/sitephoto/New images/Organic Herbal Tea.webp",
+      "newImageFile": "Organic Herbal Tea.webp",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p39",
+      "productName": "Premium Green Tea",
+      "currentImage": "/sitephoto/Sodas/Arisona_Green_Tea.png",
+      "newImage": "/sitephoto/New images/Premium Green Tea.webp",
+      "newImageFile": "Premium Green Tea.webp",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p65",
+      "productName": "Artisan Bread",
+      "currentImage": "/sitephoto/New images/Artisan Bread.jpg",
+      "newImage": "/sitephoto/New images/Artisan Bread.jpg",
+      "newImageFile": "Artisan Bread.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p69",
+      "productName": "Avocados",
+      "currentImage": "/images/products/Avocados.webp",
+      "newImage": "/sitephoto/New images/Avocados.jpg",
+      "newImageFile": "Avocados.jpg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p84",
+      "productName": "Amazon-us-50-us-de",
+      "currentImage": "/images/products/amazon-us-50-us-de.png",
+      "newImage": "/sitephoto/New images/Amazon-us-50-us-de.jpeg",
+      "newImageFile": "Amazon-us-50-us-de.jpeg",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p109",
+      "productName": "Artisan Chocolate",
+      "currentImage": "/sitephoto/Candy/Reese's.png",
+      "newImage": "/sitephoto/New images/Artisan Chocolate.webp",
+      "newImageFile": "Artisan Chocolate.webp",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p137",
+      "productName": "Allergy Relief 24hr - 30 Tablets",
+      "currentImage": "/images/products/Allergy Relief 24HR - 30 Tablets.avif",
+      "newImage": "/sitephoto/New images/Allergy Relief 24hr - 30 Tablets.webp",
+      "newImageFile": "Allergy Relief 24hr - 30 Tablets.webp",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    },
+    {
+      "productId": "p196",
+      "productName": "Artisan Ice Cream",
+      "currentImage": "/sitephoto/Juices/Honest_Kids_Organic_Juice_Drink.png",
+      "newImage": "/sitephoto/New images/Artisan Ice Cream.avif",
+      "newImageFile": "Artisan Ice Cream.avif",
+      "matchType": "exact",
+      "reason": "Perfect name match"
+    }
+  ],
+  "unusedImages": [
+    {
+      "filename": "Black Tea.webp",
+      "nameWithoutExt": "Black Tea",
+      "reason": "No product with exact matching name found"
+    }
+  ],
+  "policyNotes": [
+    "This script checks ALL products for exact name matches",
+    "Products with any current image type are eligible for exact matching",
+    "Exact name matches take priority over similarity algorithms",
+    "Case-insensitive matching is used for better coverage"
+  ]
+}

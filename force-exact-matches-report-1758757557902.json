@@ -1,0 +1,245 @@
+{
+  "timestamp": "2025-09-24T23:45:57.902Z",
+  "policy": "EXACT_IMAGE_MATCHING_POLICY - Force exact matches over similarity",
+  "totalExactMatches": 13,
+  "successfulUpdates": 13,
+  "genericReplacements": 0,
+  "nonGenericReplacements": 13,
+  "matches": [
+    {
+      "product": {
+        "id": "p1",
+        "name": "Apple Cider Vinegar"
+      },
+      "newImage": "Apple Cider Vinegar.jpg",
+      "newImagePath": "/sitephoto/New images/Apple Cider Vinegar.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p30",
+        "name": "Gourmet Coffee"
+      },
+      "newImage": "Gourmet Coffee.jpg",
+      "newImagePath": "/sitephoto/New images/Gourmet Coffee.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p32",
+        "name": "Artisan Hot Chocolate"
+      },
+      "newImage": "Artisan Hot Chocolate.jpeg",
+      "newImagePath": "/sitephoto/New images/Artisan Hot Chocolate.jpeg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p33",
+        "name": "Premium Kombucha"
+      },
+      "newImage": "Premium Kombucha.jpg",
+      "newImagePath": "/sitephoto/New images/Premium Kombucha.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p34",
+        "name": "Organic Coconut Water"
+      },
+      "newImage": "Organic Coconut Water.jpg",
+      "newImagePath": "/sitephoto/New images/Organic Coconut Water.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p36",
+        "name": "Gourmet Soda"
+      },
+      "newImage": "Gourmet Soda.jpg",
+      "newImagePath": "/sitephoto/New images/Gourmet Soda.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p38",
+        "name": "Organic Herbal Tea"
+      },
+      "newImage": "Organic Herbal Tea.webp",
+      "newImagePath": "/sitephoto/New images/Organic Herbal Tea.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p39",
+        "name": "Premium Green Tea"
+      },
+      "newImage": "Premium Green Tea.webp",
+      "newImagePath": "/sitephoto/New images/Premium Green Tea.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p65",
+        "name": "Artisan Bread"
+      },
+      "newImage": "Artisan Bread.jpg",
+      "newImagePath": "/sitephoto/New images/Artisan Bread.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p69",
+        "name": "Avocados"
+      },
+      "newImage": "Avocados.jpg",
+      "newImagePath": "/sitephoto/New images/Avocados.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p84",
+        "name": "Amazon-us-50-us-de"
+      },
+      "newImage": "Amazon-us-50-us-de.jpeg",
+      "newImagePath": "/sitephoto/New images/Amazon-us-50-us-de.jpeg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p109",
+        "name": "Artisan Chocolate"
+      },
+      "newImage": "Artisan Chocolate.webp",
+      "newImagePath": "/sitephoto/New images/Artisan Chocolate.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "product": {
+        "id": "p137",
+        "name": "Allergy Relief 24hr - 30 Tablets"
+      },
+      "newImage": "Allergy Relief 24hr - 30 Tablets.webp",
+      "newImagePath": "/sitephoto/New images/Allergy Relief 24hr - 30 Tablets.webp",
+      "matchType": "exact",
+      "score": 1
+    }
+  ],
+  "updates": [
+    {
+      "productId": "p1",
+      "productName": "Apple Cider Vinegar",
+      "newImage": "/sitephoto/New images/Apple Cider Vinegar.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p30",
+      "productName": "Gourmet Coffee",
+      "newImage": "/sitephoto/New images/Gourmet Coffee.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p32",
+      "productName": "Artisan Hot Chocolate",
+      "newImage": "/sitephoto/New images/Artisan Hot Chocolate.jpeg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p33",
+      "productName": "Premium Kombucha",
+      "newImage": "/sitephoto/New images/Premium Kombucha.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p34",
+      "productName": "Organic Coconut Water",
+      "newImage": "/sitephoto/New images/Organic Coconut Water.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p36",
+      "productName": "Gourmet Soda",
+      "newImage": "/sitephoto/New images/Gourmet Soda.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p38",
+      "productName": "Organic Herbal Tea",
+      "newImage": "/sitephoto/New images/Organic Herbal Tea.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p39",
+      "productName": "Premium Green Tea",
+      "newImage": "/sitephoto/New images/Premium Green Tea.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p65",
+      "productName": "Artisan Bread",
+      "newImage": "/sitephoto/New images/Artisan Bread.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p69",
+      "productName": "Avocados",
+      "newImage": "/sitephoto/New images/Avocados.jpg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p84",
+      "productName": "Amazon-us-50-us-de",
+      "newImage": "/sitephoto/New images/Amazon-us-50-us-de.jpeg",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p109",
+      "productName": "Artisan Chocolate",
+      "newImage": "/sitephoto/New images/Artisan Chocolate.webp",
+      "matchType": "exact",
+      "score": 1
+    },
+    {
+      "productId": "p137",
+      "productName": "Allergy Relief 24hr - 30 Tablets",
+      "newImage": "/sitephoto/New images/Allergy Relief 24hr - 30 Tablets.webp",
+      "matchType": "exact",
+      "score": 1
+    }
+  ],
+  "unusedImages": [
+    {
+      "filename": "Black Tea.webp",
+      "nameWithoutExt": "Black Tea",
+      "reason": "No exact product name match found"
+    }
+  ],
+  "summary": {
+    "totalAvailableImages": 14,
+    "exactMatchRate": "92.9%",
+    "policyCompliance": "100% - All exact matches were prioritized"
+  }
+}

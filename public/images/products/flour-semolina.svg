@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="labelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6f42c1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5a32a3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flourGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffef7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fefcf3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdf8e1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="semolinaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8dc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5deb3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  
+  <!-- Paper bag body -->
+  <rect x="70" y="110" width="260" height="240" rx="5" ry="5" fill="url(#bagGradient)" stroke="#adb5bd" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Bag top fold -->
+  <rect x="70" y="90" width="260" height="30" rx="5" ry="5" fill="#e9ecef" stroke="#adb5bd" stroke-width="2"/>
+  
+  <!-- Bag crease lines -->
+  <line x1="90" y1="110" x2="90" y2="350" stroke="#ced4da" stroke-width="1" opacity="0.5"/>
+  <line x1="310" y1="110" x2="310" y2="350" stroke="#ced4da" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Transparent window showing flour -->
+  <ellipse cx="150" cy="220" rx="50" ry="35" fill="rgba(255,255,255,0.9)" stroke="#ced4da" stroke-width="2"/>
+  
+  <!-- Flour texture in left window -->
+  <g opacity="0.8">
+    <circle cx="130" cy="210" r="3" fill="url(#flourGradient)"/>
+    <circle cx="145" cy="205" r="2.5" fill="url(#flourGradient)"/>
+    <circle cx="160" cy="215" r="3" fill="url(#flourGradient)"/>
+    <circle cx="140" cy="225" r="2" fill="url(#flourGradient)"/>
+    <circle cx="155" cy="230" r="2.5" fill="url(#flourGradient)"/>
+    <circle cx="125" cy="230" r="2" fill="url(#flourGradient)"/>
+    <circle cx="165" cy="200" r="2" fill="url(#flourGradient)"/>
+    <circle cx="135" cy="195" r="2.5" fill="url(#flourGradient)"/>
+    <circle cx="170" cy="235" r="2" fill="url(#flourGradient)"/>
+    <circle cx="120" cy="220" r="2" fill="url(#flourGradient)"/>
+  </g>
+  
+  <!-- Transparent window showing semolina -->
+  <ellipse cx="250" cy="220" rx="50" ry="35" fill="rgba(255,255,255,0.9)" stroke="#ced4da" stroke-width="2"/>
+  
+  <!-- Semolina texture in right window -->
+  <g opacity="0.8">
+    <circle cx="230" cy="210" r="2" fill="url(#semolinaGradient)"/>
+    <circle cx="245" cy="205" r="1.5" fill="url(#semolinaGradient)"/>
+    <circle cx="260" cy="215" r="2" fill="url(#semolinaGradient)"/>
+    <circle cx="240" cy="225" r="1.5" fill="url(#semolinaGradient)"/>
+    <circle cx="255" cy="230" r="2" fill="url(#semolinaGradient)"/>
+    <circle cx="225" cy="230" r="1.5" fill="url(#semolinaGradient)"/>
+    <circle cx="265" cy="200" r="1.5" fill="url(#semolinaGradient)"/>
+    <circle cx="235" cy="195" r="2" fill="url(#semolinaGradient)"/>
+    <circle cx="270" cy="235" r="1.5" fill="url(#semolinaGradient)"/>
+    <circle cx="220" cy="220" r="1.5" fill="url(#semolinaGradient)"/>
+  </g>
+  
+  <!-- Brand label -->
+  <rect x="80" y="130" width="240" height="50" rx="5" ry="5" fill="url(#labelGradient)" stroke="#5a32a3" stroke-width="1"/>
+  
+  <!-- Brand text -->
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">PREMIUM</text>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Flour & Semolina</text>
+  
+  <!-- Product type labels -->
+  <text x="150" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6c757d">ALL PURPOSE</text>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6c757d">FLOUR</text>
+  
+  <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6c757d">DURUM</text>
+  <text x="250" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6c757d">SEMOLINA</text>
+  
+  <!-- Weight indicator -->
+  <rect x="270" y="300" width="50" height="20" rx="10" ry="10" fill="#ffc107" stroke="#e0a800" stroke-width="1"/>
+  <text x="295" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">2 KG</text>
+  
+  <!-- Quality seal -->
+  <circle cx="120" cy="300" r="25" fill="#6f42c1" stroke="#5a32a3" stroke-width="2"/>
+  <text x="120" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">STONE</text>
+  <text x="120" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">GROUND</text>
+  
+  <!-- Baking icon -->
+  <rect x="80" y="270" width="30" height="20" rx="3" ry="3" fill="#fd7e14" stroke="#e8590c" stroke-width="1"/>
+  <text x="95" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">BAKE</text>
+  
+  <!-- Protein content -->
+  <rect x="290" y="270" width="30" height="20" rx="3" ry="3" fill="#28a745" stroke="#1e7e34" stroke-width="1"/>
+  <text x="305" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">PROTEIN</text>
+  
+  <!-- Wheat stalks decoration -->
+  <g stroke="#daa520" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M 350 120 Q 355 115 360 120 Q 365 125 360 130 Q 355 135 350 130 Q 345 125 350 120"/>
+    <line x1="355" y1="120" x2="355" y2="140"/>
+    <path d="M 370 130 Q 375 125 380 130 Q 385 135 380 140 Q 375 145 370 140 Q 365 135 370 130"/>
+    <line x1="375" y1="130" x2="375" y2="150"/>
+  </g>
+</svg>
