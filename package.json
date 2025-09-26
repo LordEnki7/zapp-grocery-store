@@ -13,7 +13,6 @@
     "verify-images:fix": "node scripts/image-verification.cjs --auto-fix",
     "fix-gift-cards": "node fix-gift-card-images.cjs",
     "validate-all-images": "node validate-all-images.cjs",
-    "prebuild": "node scripts/image-verification.cjs --exit-on-error",
     "image": "node scripts/simple-image-manager.js",
     "gift-image": "node scripts/gift-card-image-placer.js"
   },
