@@ -18,7 +18,13 @@ export default defineConfig({
     // This helps with development
   },
   // Configure how assets are handled
-  assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.webp', '**/*.avif'],
+  assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.webp', '**/*.avif', '**/*.json'],
+  // Resolve configuration for better module resolution
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
   // Add custom middleware to serve sitephoto files
   configureServer(server) {
     server.middlewares.use('/sitephoto', (req, res, next) => {

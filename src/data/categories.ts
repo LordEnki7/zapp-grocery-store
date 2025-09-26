@@ -1,0 +1,84 @@
+export const categoriesData = [
+  {
+    "id": "beverages",
+    "name": "Apple Cider Viniger",
+    "description": "Apple Cider Viniger products collection",
+    "image": "/images/categories/beverages.jpg",
+    "isActive": true,
+    "sortOrder": 1
+  },
+  {
+    "id": "dairy",
+    "name": "Dairy & Eggs",
+    "description": "Fresh dairy products and eggs",
+    "image": "/images/categories/dairy.jpg",
+    "isActive": true,
+    "sortOrder": 2
+  },
+  {
+    "id": "meat",
+    "name": "Meat & Seafood",
+    "description": "Fresh meat and seafood products",
+    "image": "/images/categories/meat.jpg",
+    "isActive": true,
+    "sortOrder": 3
+  },
+  {
+    "id": "produce",
+    "name": "Fresh Produce",
+    "description": "Fresh fruits and vegetables",
+    "image": "/images/categories/produce.jpg",
+    "isActive": true,
+    "sortOrder": 4
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery",
+    "description": "Fresh baked goods and bread",
+    "image": "/images/categories/bakery.jpg",
+    "isActive": true,
+    "sortOrder": 5
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen Foods",
+    "description": "Frozen meals and ingredients",
+    "image": "/images/categories/frozen.jpg",
+    "isActive": true,
+    "sortOrder": 6
+  },
+  {
+    "id": "pantry",
+    "name": "Pantry Staples",
+    "description": "Essential pantry items",
+    "image": "/images/categories/pantry.jpg",
+    "isActive": true,
+    "sortOrder": 7
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks & Candy",
+    "description": "Snacks, chips, and candy",
+    "image": "/images/categories/snacks.jpg",
+    "isActive": true,
+    "sortOrder": 8
+  },
+  {
+    "id": "health",
+    "name": "Health & Beauty",
+    "description": "Health and beauty products",
+    "image": "/images/categories/health.jpg",
+    "isActive": true,
+    "sortOrder": 9
+  },
+  {
+    "id": "household",
+    "name": "Household Items",
+    "description": "Cleaning and household supplies",
+    "image": "/images/categories/household.jpg",
+    "isActive": true,
+    "sortOrder": 10
+  }
+];
+
+export default categoriesData;
