@@ -11,7 +11,8 @@ const SimpleFeaturedProducts: React.FC = () => {
       try {
         setLoading(true);
         // Load featured products directly from the data file, bypassing the problematic transform function
-        const { featuredProducts } = await import('../../data/featuredProducts');
+        const featuredProductsModule = await import('../../data/featuredProducts');
+        const featuredProducts = featuredProductsModule.featuredProducts || featuredProductsModule.default;
         setFeaturedProducts(featuredProducts.slice(0, 6));
       } catch (err) {
         console.error('Error loading featured products:', err);
