@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import type { Product } from '../../services/productService';
+import { getFeaturedProducts, type Product } from '../../services/productService';
 
 const SimpleFeaturedProducts: React.FC = () => {
-  const [featuredProducts, setFeaturedProducts] = useState<any[]>([]);
+  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -10,10 +10,9 @@ const SimpleFeaturedProducts: React.FC = () => {
     const loadFeaturedProducts = async () => {
       try {
         setLoading(true);
-        // Load featured products directly from the data file, bypassing the problematic transform function
-        const featuredProductsModule = await import('../../data/featuredProducts');
-        const featuredProducts = featuredProductsModule.featuredProducts || featuredProductsModule.default;
-        setFeaturedProducts(featuredProducts.slice(0, 6));
+        // Use the productService which handles the import correctly
+        const products = await getFeaturedProducts(6);
+        setFeaturedProducts(products);
       } catch (err) {
         console.error('Error loading featured products:', err);
         setError('Failed to load featured products');
