@@ -672,11 +672,84 @@ export async function searchProducts(query: string, filters?: ProductFilters): P
  */
 export async function getFeaturedProducts(count: number = 8): Promise<Product[]> {
   try {
-    // Import featured products from the data file
-    const { featuredProducts } = await import('../data/featuredProducts');
+    // Embed featured products directly to avoid import issues on Vercel
+    const featuredProductsData = [
+      {
+        id: 'curry-powder',
+        name: 'Curry Powder',
+        price: 4.99,
+        originalPrice: 5.99,
+        image: '/images/Curry Powder.webp',
+        category: 'Spices & Seasonings',
+        description: 'Authentic Caribbean curry powder blend',
+        inStock: true,
+        rating: 4.7,
+        reviews: 89
+      },
+      {
+        id: 'fresh-plantains',
+        name: 'Fresh Plantains',
+        price: 2.49,
+        originalPrice: 2.99,
+        image: '/images/Fresh Plantains.jpg',
+        category: 'Fresh Produce',
+        description: 'Fresh green plantains, perfect for frying or boiling',
+        inStock: true,
+        rating: 4.5,
+        reviews: 67
+      },
+      {
+        id: 'plantain-chips',
+        name: 'Plantain Chips',
+        price: 3.99,
+        originalPrice: 4.49,
+        image: '/images/Plantain Chips.jpg',
+        category: 'Snacks',
+        description: 'Crispy plantain chips, lightly salted',
+        inStock: true,
+        rating: 4.6,
+        reviews: 124
+      },
+      {
+        id: 'rice-peas-mix',
+        name: 'Rice & Peas Mix',
+        price: 5.99,
+        originalPrice: 6.99,
+        image: '/images/Rice & Peas Mix.jpg',
+        category: 'Pantry Staples',
+        description: 'Traditional Caribbean rice and peas seasoning mix',
+        inStock: true,
+        rating: 4.8,
+        reviews: 156
+      },
+      {
+        id: 'sorrel-drink',
+        name: 'Sorrel Drink',
+        price: 3.49,
+        originalPrice: 3.99,
+        image: '/images/Sorrel Drink.webp',
+        category: 'Beverages',
+        description: 'Traditional Caribbean sorrel drink',
+        inStock: true,
+        rating: 4.4,
+        reviews: 78
+      },
+      {
+        id: 'jerk-seasoning',
+        name: 'Jerk Seasoning',
+        price: 6.99,
+        originalPrice: 7.99,
+        image: '/images/Jerk Seasoning.jpg',
+        category: 'Spices & Seasonings',
+        description: 'Authentic Jamaican jerk seasoning blend',
+        inStock: true,
+        rating: 4.9,
+        reviews: 203
+      }
+    ];
     
     // Transform featured products data
-    const transformedFeaturedProducts = featuredProducts
+    const transformedFeaturedProducts = featuredProductsData
       .slice(0, count)
       .map(transformProductData);
     
