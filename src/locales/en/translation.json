@@ -24,7 +24,7 @@
   "products": {
     "search": "Search products...",
     "filter": "Filter",
-    "sort": "Sort by",
+    "sortBy": "Sort by",
     "price": "Price",
     "name": "Name",
     "popular": "Popular",
@@ -37,6 +37,37 @@
     "category": "Category",
     "origin": "Origin",
     "quantity": "Quantity",
+    "resellerItem": "Reseller Item",
+    "unitPrice": "Unit Price",
+    "unit": "Unit",
+    "totalPrice": "Total Price",
+    "bulkOptions": "Bulk Options",
+    "selectBulkQuantity": "Select Bulk Quantity",
+    "resellerBenefits": {
+      "title": "Reseller Benefits",
+      "volumeDiscounts": "Volume discounts up to 25% off",
+      "priorityShipping": "Priority shipping on bulk orders",
+      "dedicatedSupport": "Dedicated account support",
+      "extendedPaymentTerms": "Extended payment terms available"
+    },
+    "frequentlyBoughtTogether": "Frequently Bought Together",
+    "priceDetails": "Price Details",
+    "itemsPrice": "Items Price",
+    "bundleSavings": "Bundle Savings",
+    "units": "Units",
+    "saving": "You save {{amount}} ({{percentage}}% off)",
+    "addAllToCart": "Add All to Cart",
+    "similarProducts": "Similar Products",
+    "priorityShipping": {
+      "title": "Priority Shipping Available",
+      "description": "Orders of 10+ units qualify for priority shipping with enhanced features:",
+      "features": {
+        "expedited": "Expedited 1-2 day delivery",
+        "tracking": "Real-time tracking updates",
+        "insurance": "Full shipment insurance",
+        "support": "Dedicated shipping support"
+      }
+    },
     "sort": {
       "newest": "Newest",
       "priceHighToLow": "Price: High to Low",
@@ -288,15 +319,59 @@
       "extendedPaymentTerms": "Extended payment terms available"
     },
     "priorityShipping": {
-      "title": "Priority Shipping",
-      "description": "Get your orders faster with priority processing",
+      "title": "Priority Shipping Available",
+      "description": "Orders of 10+ units qualify for priority shipping with enhanced features:",
       "features": {
-        "expedited": "Expedited processing and handling",
+        "expedited": "Expedited 1-2 day delivery",
         "tracking": "Real-time tracking updates",
-        "insurance": "Full shipping insurance included",
+        "insurance": "Full shipment insurance",
         "support": "Dedicated shipping support"
       }
     }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "overview": "Overview",
+      "products": "Products",
+      "orders": "Orders",
+      "users": "Users",
+      "analytics": "Analytics"
+    },
+    "products": {
+      "title": "Product Management",
+      "add": "Add Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product",
+      "name": "Product Name",
+      "price": "Price",
+      "category": "Category",
+      "stock": "Stock",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "orders": {
+      "title": "Order Management",
+      "id": "Order ID",
+      "customer": "Customer",
+      "date": "Date",
+      "total": "Total",
+      "status": "Status",
+      "view": "View Details",
+      "updateStatus": "Update Status"
+    },
+    "users": {
+      "title": "User Management",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "lastLogin": "Last Login"
+    }
+  },
+  "errors": {
+    "productNotFound": "Product not found",
+    "unavailable": "Service unavailable"
   },
   "common": {
     "appName": "ZAPP",
@@ -323,7 +398,9 @@
   "buttons": {
     "addToCart": "Add to Cart",
     "backToProducts": "Back to Products",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "addMoreToCart": "Add More to Cart",
+    "viewCart": "View Cart"
   },
   "home": {
     "hero": {
@@ -375,6 +452,10 @@
       "minimum": "Minimum payout",
       "joinNow": "Join Affiliate Program"
     }
+  },
+  "common": {
+    "add": "Add",
+    "remove": "Remove"
   },
   "footer": {
     "about": "About ZAPP",

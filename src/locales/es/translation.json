@@ -3,6 +3,58 @@
     "name": "ZAPP",
     "tagline": "Supermercado en Línea del Caribe y África"
   },
+  "product": {
+    "details": "Detalles del Producto",
+    "description": "Descripción",
+    "nutrition": "Información Nutricional",
+    "origin": "Origen",
+    "category": "Categoría",
+    "weight": "Peso",
+    "inStock": "En Stock",
+    "outOfStock": "Agotado",
+    "saving": "Ahorras {{amount}} ({{percentage}}% de descuento)",
+    "quantity": "Cantidad",
+    "addToCart": "Añadir al Carrito",
+    "similarProducts": "También te puede gustar",
+    "bulkOptions": "Opciones de Compra al Por Mayor",
+    "selectBulkQuantity": "Seleccionar cantidad al por mayor",
+    "unit": "unidad",
+    "units": "unidades",
+    "totalPrice": "Precio Total",
+    "unitPrice": "Precio por Unidad",
+    "volumeDiscounts": "Descuentos por Volumen Disponibles",
+    "priorityShipping": "Envío Prioritario para Pedidos al Por Mayor",
+    "frequentlyBoughtTogether": "Frecuentemente Comprados Juntos",
+    "addAllToCart": "Añadir Todo al Carrito",
+    "priceDetails": "Detalles del Precio",
+    "itemsPrice": "Precio de Artículos",
+    "bundleSavings": "Ahorros del Paquete",
+    "freeShipping": "Envío gratis en pedidos de 25+ unidades",
+    "bulkShippingInfo": "Envío gratis en pedidos al por mayor (25+ unidades)",
+    "resellerItem": "Artículo de Revendedor",
+    "volumeDiscount": {
+      "current": "¡Estás ahorrando {{percentage}}% en este producto!",
+      "next": "Añade {{quantity}} más para ahorrar {{percentage}}%",
+      "tiers": "Descuentos por Volumen"
+    },
+    "resellerBenefits": {
+      "title": "Beneficios del Revendedor",
+      "volumeDiscounts": "Descuentos por volumen hasta 25% de descuento",
+      "priorityShipping": "Envío prioritario en pedidos al por mayor",
+      "dedicatedSupport": "Soporte de cuenta dedicado",
+      "extendedPaymentTerms": "Términos de pago extendidos disponibles"
+    },
+    "priorityShipping": {
+      "title": "Envío Prioritario Disponible",
+      "description": "Pedidos de 10+ unidades califican para envío prioritario con características mejoradas:",
+      "features": {
+        "expedited": "Entrega acelerada de 1-2 días",
+        "tracking": "Actualizaciones de seguimiento en tiempo real",
+        "insurance": "Seguro completo del envío",
+        "support": "Soporte dedicado de envío"
+      }
+    }
+  },
   "nav": {
     "home": "Inicio",
     "products": "Productos",
@@ -23,7 +75,6 @@
   "products": {
     "search": "Buscar productos...",
     "filter": "Filtrar",
-    "sort": "Ordenar por",
     "price": "Precio",
     "name": "Nombre",
     "popular": "Popular",
@@ -36,7 +87,6 @@
   "cart": {
     "title": "Tu Carrito",
     "empty": "Tu carrito está vacío",
-    "continue": "Continuar Comprando",
     "checkout": "Finalizar Compra",
     "proceedToCheckout": "Proceder al Pago",
     "orderSummary": "Resumen del Pedido",
@@ -83,7 +133,6 @@
     "cvc": "CVC",
     "back": "Atrás",
     "placeOrder": "Realizar Pedido",
-    "standardShippingDescription": "5-7 días hábiles",
     "expressShipping": "Envío Express",
     "expressShippingDescription": "2-3 días hábiles",
     "taxDisclaimer": "Impuestos y envío calculados al finalizar la compra",
@@ -122,56 +171,126 @@
     "password": "Contraseña",
     "confirmPassword": "Confirmar Contraseña",
     "name": "Nombre Completo",
-    "forgotPassword": "¿Olvidaste la Contraseña?",
     "resetPassword": "Restablecer Contraseña",
-    "login": "Iniciar Sesión",
-    "signup": "Registrarse",
     "logout": "Cerrar Sesión",
     "noAccount": "¿No tienes cuenta?",
     "haveAccount": "¿Ya tienes cuenta?",
     "referralCode": "Código de Referencia (Opcional)"
   },
   "admin": {
-    "dashboard": "Panel",
-    "products": "Productos",
-    "orders": "Pedidos",
-    "customers": "Clientes",
-    "analytics": "Analíticas",
-    "settings": "Configuración",
-    "addProduct": "Añadir Producto",
-    "editProduct": "Editar Producto",
-    "uploadCSV": "Subir CSV",
-    "exportData": "Exportar Datos",
-    "pending": "Pendiente",
-    "processing": "Procesando",
-    "shipped": "Enviado",
-    "delivered": "Entregado",
-    "cancelled": "Cancelado",
-    "refunded": "Reembolsado"
+    "dashboard": {
+      "title": "Panel de Administración",
+      "overview": "Resumen",
+      "products": "Productos",
+      "orders": "Pedidos",
+      "users": "Usuarios",
+      "analytics": "Análisis"
+    },
+    "products": {
+      "title": "Gestión de Productos",
+      "add": "Añadir Producto",
+      "edit": "Editar Producto",
+      "delete": "Eliminar Producto",
+      "name": "Nombre del Producto",
+      "price": "Precio",
+      "category": "Categoría",
+      "stock": "Stock",
+      "status": "Estado",
+      "actions": "Acciones"
+    },
+    "orders": {
+      "title": "Gestión de Pedidos",
+      "id": "ID del Pedido",
+      "customer": "Cliente",
+      "date": "Fecha",
+      "total": "Total",
+      "status": "Estado",
+      "view": "Ver Detalles",
+      "updateStatus": "Actualizar Estado"
+    },
+    "users": {
+      "title": "Gestión de Usuarios",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "status": "Estado",
+      "lastLogin": "Último Acceso"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Comestibles y Artículos Esenciales para el Hogar Asequibles",
+      "subtitle": "Compra más de 40,000 productos incluyendo artículos esenciales diarios y productos especializados, entregados a tu puerta.",
+      "shopNow": "Comprar Ahora",
+      "createAccount": "Crear Cuenta"
+    },
+    "valueProps": {
+      "staples": "Productos Básicos Esenciales",
+      "staplesDesc": "Artículos esenciales diarios de calidad a excelentes precios.",
+      "bulkSavings": "Ahorros al Por Mayor",
+      "bulkSavingsDesc": "Ahorra más cuando compras más con nuestro programa de descuentos por volumen.",
+      "delivery": "Entrega Rápida",
+      "deliveryDesc": "Entrega rápida y confiable directamente a tu puerta.",
+      "rewards": "Puntos ZAPP",
+      "rewardsDesc": "Gana puntos con cada compra que puedes canjear por descuentos."
+    },
+    "categories": {
+      "title": "Comprar por Categoría",
+      "viewAll": "Ver Todo"
+    },
+    "featured": {
+      "title": "Productos Destacados",
+      "viewAll": "Ver Todos los Productos",
+      "noProducts": "No hay productos destacados disponibles en este momento.",
+      "noProductsOrigin": "No hay productos de {{origin}} disponibles.",
+      "viewAllOrigins": "Ver todos los orígenes"
+    },
+    "points": {
+      "title": "Recompensas de Puntos ZAPP",
+      "description": "Gana puntos con cada compra y canjéalos por descuentos en pedidos futuros. ¡Mientras más compres, más ahorras!",
+      "benefit1": "Gana 1 punto por cada $1 gastado",
+      "benefit2": "Canjea 100 puntos por $1 de descuento en tu compra",
+      "benefit3": "Los puntos nunca expiran mientras tu cuenta esté activa",
+      "joinNow": "Únete a ZAPP Rewards",
+      "cardTitle": "Tarjeta de Puntos ZAPP",
+      "cardSubtitle": "Tu camino hacia los ahorros",
+      "spend": "Gasta",
+      "earn": "Gana",
+      "redeem": "Canjea",
+      "points": "Puntos"
+    },
+    "affiliate": {
+      "title": "Conviértete en Socio Afiliado",
+      "description": "Comparte tu amor por los comestibles auténticos del Caribe y África y gana dinero con nuestro programa de afiliados.",
+      "commission": "Comisión en primeros pedidos",
+      "days": "Duración de cookie en días",
+      "minimum": "Pago mínimo",
+      "joinNow": "Únete al Programa de Afiliados"
+    }
+  },
+  "footer": {
+    "about": "Acerca de ZAPP",
+    "contact": "Contáctanos",
+    "support": "Soporte al Cliente",
+    "shipping": "Política de Envío",
+    "returns": "Devoluciones y Reembolsos",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© 2025 ZAPP. Todos los derechos reservados."
   },
   "errors": {
-    "required": "Este campo es obligatorio",
-    "invalidEmail": "Dirección de correo electrónico inválida",
-    "passwordLength": "La contraseña debe tener al menos 8 caracteres",
-    "passwordMatch": "Las contraseñas no coinciden",
-    "serverError": "Error del servidor, por favor intenta más tarde",
-    "unauthorized": "Acceso no autorizado",
-    "notFound": "No encontrado",
-    "outOfStock": "Producto agotado"
+    "productNotFound": "Producto no encontrado",
+    "unavailable": "Servicio no disponible"
   },
   "common": {
-    "loading": "Cargando...",
-    "save": "Guardar",
-    "cancel": "Cancelar",
-    "delete": "Eliminar",
-    "edit": "Editar",
-    "view": "Ver",
-    "back": "Atrás",
-    "next": "Siguiente",
-    "submit": "Enviar",
-    "yes": "Sí",
-    "no": "No",
-    "success": "Éxito",
-    "error": "Error"
+    "add": "Añadir",
+    "remove": "Eliminar"
+  },
+  "buttons": {
+    "addToCart": "Añadir al Carrito",
+    "backToProducts": "Volver a Productos",
+    "viewDetails": "Ver Detalles",
+    "addMoreToCart": "Añadir Más al Carrito",
+    "viewCart": "Ver Carrito"
   }
 }

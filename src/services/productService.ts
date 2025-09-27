@@ -19,7 +19,23 @@ import {
 import type { DocumentData } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { InputSanitizer } from '../utils/security';
-import productsData from '../../data/products/products.json';
+
+// Embed products loader function directly to avoid import issues on Vercel
+const loadProductsData = async () => {
+  try {
+    // Use dynamic import to load products at runtime instead of build time
+    const response = await fetch('/data/products/products.json');
+    if (!response.ok) {
+      throw new Error(`Failed to load products: ${response.status}`);
+    }
+    const productsData = await response.json();
+    return productsData;
+  } catch (error) {
+    console.error('Error loading products data:', error);
+    // Return empty array as fallback
+    return [];
+  }
+};
 
 // Enhanced Product types
 export interface ProductCategory {
@@ -453,8 +469,9 @@ const transformProductData = (productData: any): Product => {
 let transformedProductsCache: Product[] | null = null;
 
 // Get all transformed products
-const getAllTransformedProducts = (): Product[] => {
+const getAllTransformedProducts = async (): Promise<Product[]> => {
   if (!transformedProductsCache) {
+    const productsData = await loadProductsData();
     transformedProductsCache = (productsData as any[]).map(transformProductData);
   }
   return transformedProductsCache;
@@ -465,7 +482,7 @@ const getAllTransformedProducts = (): Product[] => {
  */
 export async function getAllProducts(): Promise<Product[]> {
   try {
-    return getAllTransformedProducts();
+    return await getAllTransformedProducts();
   } catch (error) {
     console.error('Error fetching all products:', error);
     return [];
@@ -477,7 +494,7 @@ export async function getAllProducts(): Promise<Product[]> {
  */
 export async function getProductsByCategory(categoryId: string): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     
     if (categoryId === 'all') {
       return allProducts;
@@ -500,21 +517,9 @@ export async function getProductsByCategory(categoryId: string): Promise<Product
 /**
  * Search products by query
  */
-export async function searchProducts(
-  searchQuery: string,
-  filters?: {
-    categories?: string[];
-    origins?: string[];
-    priceRange?: { min: number; max: number };
-    inStockOnly?: boolean;
-  },
-  sortBy?: string,
-  sortOrder?: 'asc' | 'desc',
-  page?: number,
-  pageSize?: number
-): Promise<{ products: Product[]; total: number; hasMore: boolean }> {
+export async function searchProducts(query: string, filters?: ProductFilters): Promise<Product[]> {
   try {
-    let allProducts = getAllTransformedProducts();
+    let allProducts = await getAllTransformedProducts();
     
     // Apply search query
     if (searchQuery) {
@@ -612,11 +617,51 @@ export async function searchProducts(
 /**
  * Get featured products
  */
-export const getFeaturedProducts = async (count: number = 8): Promise<Product[]> => {
+export async function getFeaturedProducts(count: number = 8): Promise<Product[]> {
   try {
-    // Import featured products data
-    const featuredProductsData = await import('../../data/products/featured-products.json');
-    const featuredProducts = featuredProductsData.default || featuredProductsData;
+    // Embed featured products data directly to avoid import issues on Vercel
+    const featuredProducts = [
+      {
+        "id": "PROD-001",
+        "name": "Ginger Beer",
+        "description": "Refreshing ginger beer with authentic Caribbean flavor. Perfect for any occasion.",
+        "price": 2.99,
+        "currency": "USD",
+        "weight": 12,
+        "weightUnit": "fl oz",
+        "category": "beverages",
+        "origin": "Jamaica",
+        "image": "Ginger beer.jpg",
+        "stock": 50,
+        "featured": true,
+        "nutrition": {
+          "calories": 140,
+          "protein": 0,
+          "carbs": 36,
+          "fat": 0
+        }
+      },
+      {
+        "id": "PROD-002",
+        "name": "Jamaican Beef Patties",
+        "description": "Authentic Jamaican beef patties with flaky pastry and seasoned beef filling.",
+        "price": 4.99,
+        "currency": "USD",
+        "weight": 8,
+        "weightUnit": "oz",
+        "category": "frozen",
+        "origin": "Jamaica",
+        "image": "Jamaican beef patties.jpg",
+        "stock": 30,
+        "featured": true,
+        "nutrition": {
+          "calories": 350,
+          "protein": 15,
+          "carbs": 25,
+          "fat": 22
+        }
+      }
+    ];
     
     // Transform featured products data
     const transformedFeaturedProducts = featuredProducts
@@ -627,7 +672,7 @@ export const getFeaturedProducts = async (count: number = 8): Promise<Product[]>
   } catch (error) {
     console.error('Error fetching featured products:', error);
     // Fallback to products with featured flag from main products
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts
       .filter(p => p.featured)
       .slice(0, count);
@@ -639,7 +684,7 @@ export const getFeaturedProducts = async (count: number = 8): Promise<Product[]>
  */
 export const getProductById = async (productId: string): Promise<Product | null> => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const product = allProducts.find(p => p.id === productId);
     return product || null;
   } catch (error) {
@@ -653,7 +698,7 @@ export const getProductById = async (productId: string): Promise<Product | null>
  */
 export const getSimilarProducts = async (productId: string, count: number = 4): Promise<Product[]> => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const product = allProducts.find(p => p.id === productId);
     
     if (!product) return [];
@@ -675,7 +720,7 @@ export const getSimilarProducts = async (productId: string, count: number = 4): 
  */
 export const getAllOrigins = async (): Promise<string[]> => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const origins = [...new Set(allProducts.map(p => p.origin))];
     return origins.sort();
   } catch (error) {
@@ -689,7 +734,7 @@ export const getAllOrigins = async (): Promise<string[]> => {
  */
 export const getAllCategories = async (): Promise<string[]> => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const categories = [...new Set(allProducts.map(p => p.category))];
     return categories.sort();
   } catch (error) {
@@ -703,16 +748,64 @@ export const getAllCategories = async (): Promise<string[]> => {
  */
 export const getCategories = async (): Promise<ProductCategory[]> => {
   try {
-    // Import categories data
-    const categoriesData = await import('../../data/products/categories.json');
-    const categories = categoriesData.default || categoriesData;
+    // Embed categories data directly to avoid import issues on Vercel
+    const productCategories = [
+      {
+        "id": "dairy",
+        "name": "Dairy & Milk",
+        "description": "Fresh milk, cheese, and dairy products",
+        "image": "categories/milk.png"
+      },
+      {
+        "id": "beverages",
+        "name": "Beverages",
+        "description": "Juices, sodas, and refreshing drinks",
+        "image": "categories/juices.png"
+      },
+      {
+        "id": "sodas",
+        "name": "Sodas & Soft Drinks",
+        "description": "Carbonated drinks and sodas",
+        "image": "categories/sodas.png"
+      },
+      {
+        "id": "snacks",
+        "name": "Snacks & Cookies",
+        "description": "Cookies, chips, and delicious snacks",
+        "image": "categories/cookies.png"
+      },
+      {
+        "id": "candy",
+        "name": "Candy & Sweets",
+        "description": "Chocolates, candies, and sweet treats",
+        "image": "categories/candy.png"
+      },
+      {
+        "id": "cheese-snacks",
+        "name": "Cheese & Savory Snacks",
+        "description": "Cheese products and savory snacks",
+        "image": "categories/cheese-snacks.png"
+      },
+      {
+        "id": "frozen",
+        "name": "Frozen Foods",
+        "description": "Frozen meals and frozen products",
+        "image": "categories/cheese-snacks.png"
+      },
+      {
+        "id": "grocery",
+        "name": "Grocery Essentials",
+        "description": "Essential grocery items and pantry staples",
+        "image": "categories/milk.png"
+      }
+    ];
     
     // Get available categories from products to filter only active ones
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const availableCategories = [...new Set(allProducts.map(p => p.category))];
     
     // Filter categories to only include those that have products
-    const activeCategories = categories.filter((category: any) => 
+    const activeCategories = productCategories.filter((category: any) => 
       availableCategories.includes(category.id)
     );
     
@@ -750,7 +843,7 @@ export const getProductsPage = async (
   category?: string
 ): Promise<{ products: Product[]; total: number; hasMore: boolean }> => {
   try {
-    let allProducts = getAllTransformedProducts();
+    let allProducts = await getAllTransformedProducts();
     
     if (category) {
       allProducts = allProducts.filter(product => product.category === category);
@@ -780,7 +873,7 @@ export async function getAllProductsFromFirestore(): Promise<Product[]> {
 
 export async function getProductsByOrigin(origin: string): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts.filter(product => product.origin === origin);
   } catch (error) {
     console.error('Error fetching products by origin:', error);
@@ -790,7 +883,7 @@ export async function getProductsByOrigin(origin: string): Promise<Product[]> {
 
 export async function getProductsByPriceRange(minPrice: number, maxPrice: number): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts.filter(product => 
       product.price >= minPrice && product.price <= maxPrice
     );
@@ -802,7 +895,7 @@ export async function getProductsByPriceRange(minPrice: number, maxPrice: number
 
 export async function getInStockProducts(): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts.filter(product => product.inStock);
   } catch (error) {
     console.error('Error fetching in-stock products:', error);
@@ -812,7 +905,7 @@ export async function getInStockProducts(): Promise<Product[]> {
 
 export async function getOutOfStockProducts(): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts.filter(product => !product.inStock);
   } catch (error) {
     console.error('Error fetching out-of-stock products:', error);
@@ -822,7 +915,7 @@ export async function getOutOfStockProducts(): Promise<Product[]> {
 
 export async function getLowStockProducts(): Promise<Product[]> {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     return allProducts.filter(product => 
       product.stock <= product.lowStockThreshold && product.inStock
     );
@@ -835,7 +928,7 @@ export async function getLowStockProducts(): Promise<Product[]> {
 // Search and filter utilities
 export const getSearchSuggestions = async (query: string): Promise<string[]> => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     const suggestions = new Set<string>();
     
     const lowerQuery = query.toLowerCase();
@@ -861,7 +954,7 @@ export const getSearchSuggestions = async (query: string): Promise<string[]> => 
 
 export const getFilterOptions = async () => {
   try {
-    const allProducts = getAllTransformedProducts();
+    const allProducts = await getAllTransformedProducts();
     
     const categories = [...new Set(allProducts.map(p => p.category))].sort();
     const origins = [...new Set(allProducts.map(p => p.origin))].sort();
@@ -1045,10 +1138,10 @@ export class ProductSearch {
     this.initializeSearchIndex();
   }
 
-  private initializeSearchIndex(): void {
+  private async initializeSearchIndex(): Promise<void> {
     if (this.initialized) return;
     
-    const products = getAllTransformedProducts();
+    const products = await getAllTransformedProducts();
     
     // Create search index for faster lookups
     products.forEach(product => {
@@ -1080,10 +1173,10 @@ export class ProductSearch {
   }
 
   async searchProducts(query: string, filters?: SearchFilters): Promise<Product[]> {
-    this.initializeSearchIndex();
+    await this.initializeSearchIndex();
     
     if (!query.trim()) {
-      return this.applyFilters(getAllTransformedProducts(), filters);
+      return this.applyFilters(await getAllTransformedProducts(), filters);
     }
 
     const searchTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 2);
@@ -1091,7 +1184,7 @@ export class ProductSearch {
 
     if (searchTerms.length === 0) {
       // If no valid search terms, return all products with filters applied
-      results = getAllTransformedProducts();
+      results = await getAllTransformedProducts();
     } else {
       // Find products that match any search term
       const matchedProducts = new Set<Product>();
@@ -1160,7 +1253,7 @@ export class ProductSearch {
   static async getAutocompleteSuggestions(query: string, limit: number = 5): Promise<string[]> {
     if (!query || query.length < 2) return [];
 
-    const products = getAllTransformedProducts();
+    const products = await getAllTransformedProducts();
     const suggestions = new Set<string>();
 
     const searchTerm = query.toLowerCase();
@@ -1200,7 +1293,7 @@ export class ProductSearch {
 
   async getPopularSearches(): Promise<string[]> {
     // Return popular categories and products
-    const products = getAllTransformedProducts();
+    const products = await getAllTransformedProducts();
     const categories = [...new Set(products.map(p => p.category))];
     const popularProducts = products
       .sort((a, b) => (b.totalSold || 0) - (a.totalSold || 0))

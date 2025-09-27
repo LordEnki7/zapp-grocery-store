@@ -3,9 +3,136 @@ import type { ReactNode } from 'react';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-// Import translation files
-import enTranslation from '../locales/en/translation.json';
-import esTranslation from '../locales/es/translation.json';
+// Embed translations directly to avoid import issues on Vercel
+const enTranslation = {
+  "app": {
+    "name": "ZAPP",
+    "tagline": "Caribbean & African Grocery Online"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "remove": "Remove",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "clear": "Clear",
+    "select": "Select",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "apply": "Apply",
+    "update": "Update",
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "continue": "Continue",
+    "finish": "Finish",
+    "done": "Done",
+    "skip": "Skip",
+    "help": "Help"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "support": "Customer Support",
+    "shipping": "Shipping Policy",
+    "returns": "Returns & Refunds",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2025 ZAPP. All rights reserved."
+  }
+};
+
+const esTranslation = {
+  "app": {
+    "name": "ZAPP",
+    "tagline": "Tienda de Comestibles Caribeños y Africanos en Línea"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "categories": "Categorías",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar Sesión"
+  },
+  "common": {
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "reset": "Restablecer",
+    "clear": "Limpiar",
+    "select": "Seleccionar",
+    "all": "Todo",
+    "none": "Ninguno",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK",
+    "apply": "Aplicar",
+    "update": "Actualizar",
+    "refresh": "Actualizar",
+    "retry": "Reintentar",
+    "continue": "Continuar",
+    "finish": "Terminar",
+    "done": "Hecho",
+    "skip": "Omitir",
+    "help": "Ayuda"
+  },
+  "footer": {
+    "about": "Acerca de Nosotros",
+    "contact": "Contacto",
+    "support": "Atención al Cliente",
+    "shipping": "Política de Envío",
+    "returns": "Devoluciones y Reembolsos",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© 2025 ZAPP. Todos los derechos reservados."
+  }
+};
 
 // Initialize i18next
 i18n

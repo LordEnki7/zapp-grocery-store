@@ -1,0 +1,52 @@
+export const productCategories = [
+  {
+    "id": "dairy",
+    "name": "Dairy & Milk",
+    "description": "Fresh milk, cheese, and dairy products",
+    "image": "categories/milk.png"
+  },
+  {
+    "id": "beverages",
+    "name": "Beverages",
+    "description": "Juices, sodas, and refreshing drinks",
+    "image": "categories/juices.png"
+  },
+  {
+    "id": "sodas",
+    "name": "Sodas & Soft Drinks",
+    "description": "Carbonated drinks and sodas",
+    "image": "categories/sodas.png"
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks & Cookies",
+    "description": "Cookies, chips, and delicious snacks",
+    "image": "categories/cookies.png"
+  },
+  {
+    "id": "candy",
+    "name": "Candy & Sweets",
+    "description": "Chocolates, candies, and sweet treats",
+    "image": "categories/candy.png"
+  },
+  {
+    "id": "cheese-snacks",
+    "name": "Cheese & Savory Snacks",
+    "description": "Cheese products and savory snacks",
+    "image": "categories/cheese-snacks.png"
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen Foods",
+    "description": "Frozen meals and frozen products",
+    "image": "categories/cheese-snacks.png"
+  },
+  {
+    "id": "grocery",
+    "name": "Grocery Essentials",
+    "description": "Essential grocery items and pantry staples",
+    "image": "categories/milk.png"
+  }
+];
+
+export default productCategories;

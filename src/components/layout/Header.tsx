@@ -86,15 +86,19 @@ function Header() {
     { name: 'beverages', displayName: 'Beverages', icon: FaUtensils, subcategories: ['Juices', 'Drinks', 'Refreshments'] },
     { name: 'frozen', displayName: 'Frozen Foods', icon: FaBox, subcategories: ['Frozen Meals', 'Frozen Products'] },
     { name: 'fresh', displayName: 'Fresh Produce', icon: FaUtensils, subcategories: ['Fruits', 'Vegetables', 'Fresh Items'] },
+    { name: 'fresh-produce', displayName: 'Fresh Produce', icon: FaUtensils, subcategories: ['Fruits', 'Vegetables', 'Fresh Items'] },
     { name: 'dairy', displayName: 'Dairy & Milk', icon: FaHome, subcategories: ['Milk', 'Cheese', 'Yogurt', 'Dairy Products'] },
-    { name: 'snacks', displayName: 'Snacks & Cookies', icon: FaBox, subcategories: ['Cookies', 'Chips', 'Snack Foods'] },
-    { name: 'candy', displayName: 'Candy & Sweets', icon: FaBox, subcategories: ['Chocolates', 'Candies', 'Sweet Treats'] },
-    { name: 'cheese-snacks', displayName: 'Cheese & Savory Snacks', icon: FaBox, subcategories: ['Cheese Products', 'Savory Snacks'] },
-    { name: 'grocery', displayName: 'Grocery Essentials', icon: FaBox, subcategories: ['Pantry Items', 'Essential Groceries'] },
-    { name: 'household', displayName: 'Household Items', icon: FaHome, subcategories: ['Cleaning Supplies', 'Home Care'] },
-    { name: 'personal care', displayName: 'Personal Care', icon: FaBaby, subcategories: ['Health & Beauty', 'Personal Hygiene'] },
-    { name: 'produce', displayName: 'Fresh Produce', icon: FaUtensils, subcategories: ['Fresh Fruits', 'Fresh Vegetables'] },
-    { name: 'sodas', displayName: 'Sodas & Soft Drinks', icon: FaUtensils, subcategories: ['Carbonated Drinks', 'Soft Drinks'] }
+    { name: 'snacks', displayName: 'Snacks & Chips', icon: FaBox, subcategories: ['Cookies', 'Chips', 'Snack Foods'] },
+    { name: 'general', displayName: 'General Merchandise', icon: FaBox, subcategories: ['Household Items', 'General Products'] },
+    { name: 'pantry', displayName: 'Pantry Essentials', icon: FaBox, subcategories: ['Pantry Items', 'Essential Groceries'] },
+    { name: 'breakfast', displayName: 'Breakfast Items', icon: FaUtensils, subcategories: ['Cereals', 'Breakfast Foods'] },
+    { name: 'health', displayName: 'Health & Wellness', icon: FaBaby, subcategories: ['Health Products', 'Wellness Items'] },
+    { name: 'health-wellness', displayName: 'Health & Wellness', icon: FaBaby, subcategories: ['Health Products', 'Wellness Items'] },
+    { name: 'specialty', displayName: 'Specialty Items', icon: FaBox, subcategories: ['Specialty Products', 'Unique Items'] },
+    { name: 'meat-seafood', displayName: 'Meat & Seafood', icon: FaUtensils, subcategories: ['Fresh Meat', 'Seafood'] },
+    { name: 'bakery', displayName: 'Bakery & Bread', icon: FaBox, subcategories: ['Fresh Bread', 'Baked Goods'] },
+    { name: 'gift-cards', displayName: 'Gift Cards', icon: FaBox, subcategories: ['Digital Cards', 'Physical Cards'] },
+    { name: 'grocery', displayName: 'Grocery', icon: FaBox, subcategories: ['Grocery Items', 'Food Products'] }
   ];
 
   useEffect(() => {
@@ -499,7 +503,7 @@ function Header() {
                 <button
                   onMouseEnter={handleMegaMenuEnter}
                   onMouseLeave={handleMegaMenuLeave}
-                  onClick={handleMegaMenuEnter}
+                  onClick={() => navigate('/products')}
                   className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 font-semibold transition-colors"
                 >
                   <FaBars />

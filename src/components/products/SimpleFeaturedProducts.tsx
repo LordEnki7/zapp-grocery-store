@@ -1,11 +1,53 @@
 import React from 'react';
-import featuredProductsData from '../../data/simpleFeaturedProducts.json';
+// Embed featured products data directly to avoid import issues on Vercel
+const featuredProductsData = [
+  {
+    id: 'FRU-001',
+    name: 'Fresh Plantains',
+    price: 2.99,
+    image: '/sitephoto/featured Products/Fresh Plantains.jpg',
+    category: 'Fresh Fruits'
+  },
+  {
+    id: 'SPI-001', 
+    name: 'Scotch Bonnet Peppers',
+    price: 4.99,
+    image: '/sitephoto/featured Products/Scotch Bonnet Peppers.jpeg',
+    category: 'Spices & Seasonings'
+  },
+  {
+    id: 'GRA-001',
+    name: 'Rice & Peas Mix',
+    price: 3.49,
+    image: '/sitephoto/featured Products/Rice & Peas Mix.jpg',
+    category: 'Grains & Rice'
+  },
+  {
+    id: 'BEV-001',
+    name: 'Sorrel Drink',
+    price: 5.99,
+    image: '/sitephoto/featured Products/Sorrel Drink.webp',
+    category: 'Beverages'
+  },
+  {
+    id: 'SNK-001',
+    name: 'Plantain Chips',
+    price: 3.99,
+    image: '/sitephoto/featured Products/Plantain Chips.jpg',
+    category: 'Snacks'
+  },
+  {
+    id: 'CON-001',
+    name: 'Curry Powder',
+    price: 6.49,
+    image: '/sitephoto/featured Products/Curry Powder.webp',
+    category: 'Condiments'
+  }
+];
 
 const SimpleFeaturedProducts: React.FC = () => {
-  const featuredProducts = featuredProductsData.map(product => ({
-    ...product,
-    image: `/images/products/${product.image}`
-  }));
+  // Use the image paths directly from the data without additional processing
+  const featuredProducts = featuredProductsData;
 
   return (
     <section className="py-12 bg-gray-50">

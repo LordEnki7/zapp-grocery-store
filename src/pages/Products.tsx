@@ -15,18 +15,9 @@ import { useDebounce } from '../hooks/useDebounce';
 import { useProductCache } from '../hooks/useProductCache';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
-import categoriesData from '../data/categories';
+// import { productCategories } from '../data/productCategories';
 
-// Search filters interface
-interface SearchFilters {
-  categories: string[];
-  priceRange: [number, number];
-  inStock: boolean;
-  rating: number;
-  onSale: boolean;
-  brands: string[];
-  origins: string[];
-}
+// SearchFilters interface is imported from SearchFilters component
 
 const Products: React.FC = () => {
   // Constants
@@ -56,6 +47,7 @@ const Products: React.FC = () => {
   const [comparisonProducts, setComparisonProducts] = useState<Product[]>([]);
   const [isMiniCartOpen, setIsMiniCartOpen] = useState(false);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [availableCategories, setAvailableCategories] = useState<string[]>([]);
 
   // Filters state
   const [filters, setFilters] = useState<SearchFilters>({
@@ -75,6 +67,30 @@ const Products: React.FC = () => {
   useEffect(() => {
     filtersRef.current = filters;
   }, [filters]);
+
+  // Load categories on component mount
+  useEffect(() => {
+    // Embed categories directly to avoid import issues on Vercel
+    const categories = [
+      "beverages",
+      "frozen", 
+      "fresh",
+      "fresh-produce",
+      "dairy",
+      "snacks",
+      "general",
+      "pantry",
+      "breakfast",
+      "health",
+      "health-wellness",
+      "specialty",
+      "meat-seafood",
+      "bakery",
+      "gift-cards",
+      "grocery"
+    ];
+    setAvailableCategories(categories);
+  }, []);
 
   // Enterprise-level handlers
   const handleBulkAction = useCallback((action: string, productIds: string[]) => {
@@ -429,13 +445,6 @@ const Products: React.FC = () => {
   }, []);
 
   // Get available filter options
-  const availableCategories = useMemo(() => {
-    // Use categories from categories.json instead of deriving from products
-    return categoriesData
-      .filter(category => category.active)
-      .map(category => category.name);
-  }, []);
-
   const availableBrands = useMemo(() => {
     return [...new Set(products.map(p => p.brand || 'Unknown').filter(Boolean))];
   }, [products]);

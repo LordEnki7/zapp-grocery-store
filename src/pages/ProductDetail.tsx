@@ -11,6 +11,7 @@ import ProductCard from '../components/products/ProductCard';
 import BulkPurchaseOptions from '../components/products/BulkPurchaseOptions';
 import FrequentlyBoughtTogether from '../components/products/FrequentlyBoughtTogether';
 import ProductImage from '../components/products/ProductImage';
+import { safeTranslate, logMissingTranslations, PRODUCT_DETAIL_REQUIRED_KEYS } from '../utils/translationValidator';
 
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -67,6 +68,11 @@ const ProductDetail: React.FC = () => {
     fetchProduct();
   }, [id]);
 
+  // Validate translations in development
+  useEffect(() => {
+    logMissingTranslations('ProductDetail', t, PRODUCT_DETAIL_REQUIRED_KEYS);
+  }, [t]);
+
   const incrementQuantity = () => {
     setQuantity(prev => prev + 1);
   };
@@ -108,10 +114,10 @@ const ProductDetail: React.FC = () => {
     return (
       <div className="container mx-auto px-4 py-8">
         <div className="bg-red-50 p-4 rounded-md">
-          <h2 className="text-xl font-semibold text-red-700 mb-2">{t('errors.productNotFound')}</h2>
-          <p className="text-red-600 mb-4">{error || t('errors.unavailable')}</p>
+          <h2 className="text-xl font-semibold text-red-700 mb-2">{safeTranslate(t, 'errors.productNotFound')}</h2>
+          <p className="text-red-600 mb-4">{error || safeTranslate(t, 'errors.unavailable')}</p>
           <Link to="/products">
-            <Button variant="secondary">{t('buttons.backToProducts')}</Button>
+            <Button variant="secondary">{safeTranslate(t, 'buttons.backToProducts')}</Button>
           </Link>
         </div>
       </div>
@@ -153,7 +159,7 @@ const ProductDetail: React.FC = () => {
     <div className="container mx-auto px-4 py-8">
       <Link to="/products" className="inline-flex items-center text-green-600 hover:text-green-700 mb-6">
         <FiArrowLeft className="mr-2" />
-        {t('buttons.backToProducts')}
+        {safeTranslate(t, 'buttons.backToProducts')}
       </Link>
 
       <div className="bg-white rounded-lg shadow-sm overflow-hidden">
@@ -207,18 +213,18 @@ const ProductDetail: React.FC = () => {
               </span>
               {product.inStock ? (
                 <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">
-                  {t('product.inStock')}
+                  {safeTranslate(t, 'product.inStock')}
                 </span>
               ) : (
                 <span className="bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full">
-                  {t('product.outOfStock')}
+                  {safeTranslate(t, 'product.outOfStock')}
                 </span>
               )}
               
               {/* Reseller Tag */}
               <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full flex items-center">
                 <FiTag className="mr-1" />
-                {t('product.resellerItem')}
+                {safeTranslate(t, 'product.resellerItem')}
               </span>
             </div>
             
@@ -241,7 +247,7 @@ const ProductDetail: React.FC = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    {t('product.saving', { 
+                    {safeTranslate(t, 'product.saving', 'You save', { 
                       amount: formatCurrency(discountInfo.savings, product.currency),
                       percentage: discountInfo.percentage
                     })}
@@ -254,12 +260,12 @@ const ProductDetail: React.FC = () => {
               )}
               
               <div className="text-sm text-gray-600 mt-1">
-                {t('product.unitPrice')}: {formatCurrency(product.price, product.currency)} / {t('product.unit')}
+                {safeTranslate(t, 'product.unitPrice')}: {formatCurrency(product.price, product.currency)} / {safeTranslate(t, 'product.unit')}
               </div>
               
               {/* Total price display */}
               <div className="text-sm text-gray-600 mt-1">
-                {t('product.totalPrice')}: {formatCurrency(discountInfo ? discountInfo.discountedPrice : product.price * quantity, product.currency)}
+                {safeTranslate(t, 'product.totalPrice')}: {formatCurrency(discountInfo ? discountInfo.discountedPrice : product.price * quantity, product.currency)}
               </div>
               
               <VolumeDiscountInfo product={product} currentQuantity={quantity} />
@@ -271,13 +277,13 @@ const ProductDetail: React.FC = () => {
             
             {/* Quantity selector */}
             <div className="flex items-center mb-6">
-              <span className="mr-4 text-gray-700">{t('product.quantity')}:</span>
+              <span className="mr-4 text-gray-700">{safeTranslate(t, 'product.quantity')}:</span>
               <div className="flex items-center border rounded-md">
                 <button 
                   className="px-4 py-2 border-r text-gray-600 hover:bg-gray-100"
                   onClick={decrementQuantity}
                   disabled={quantity <= 1}
-                  aria-label={t('cart.decrease')}
+                  aria-label={safeTranslate(t, 'cart.decrease')}
                 >
                   <FiMinus />
                 </button>
@@ -285,7 +291,7 @@ const ProductDetail: React.FC = () => {
                 <button 
                   className="px-4 py-2 border-l text-gray-600 hover:bg-gray-100"
                   onClick={incrementQuantity}
-                  aria-label={t('cart.increase')}
+                  aria-label={safeTranslate(t, 'cart.increase')}
                 >
                   <FiPlus />
                 </button>
@@ -302,7 +308,7 @@ const ProductDetail: React.FC = () => {
                     className="border-green-600 text-green-600 hover:bg-green-50"
                     onClick={handleAddToCart}
                   >
-                    {t('buttons.addMoreToCart')}
+                    {safeTranslate(t, 'buttons.addMoreToCart')}
                   </Button>
                   <Button 
                     variant="primary" 
@@ -312,7 +318,7 @@ const ProductDetail: React.FC = () => {
                     className="bg-green-600 hover:bg-green-700"
                     leftIcon={<FiShoppingCart />}
                   >
-                    {t('buttons.viewCart')}
+                    {safeTranslate(t, 'buttons.viewCart')}
                   </Button>
                 </>
               ) : (
@@ -325,7 +331,7 @@ const ProductDetail: React.FC = () => {
                   className="bg-green-600 hover:bg-green-700"
                   leftIcon={<FiShoppingCart />}
                 >
-                  {t('buttons.addToCart')}
+                  {safeTranslate(t, 'buttons.addToCart')}
                 </Button>
               )}
             </div>
@@ -347,27 +353,27 @@ const ProductDetail: React.FC = () => {
         <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
           <h3 className="font-semibold text-blue-800 flex items-center mb-2">
             <FiTag className="mr-2" />
-            {t('product.priorityShipping.title')}
+            {safeTranslate(t, 'product.priorityShipping.title')}
           </h3>
           <p className="text-sm text-blue-700 mb-3">
-            {t('product.priorityShipping.description')}
+            {safeTranslate(t, 'product.priorityShipping.description')}
           </p>
           <ul className="text-sm text-blue-700 space-y-1">
             <li className="flex items-center">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
-              {t('product.priorityShipping.features.expedited')}
+              {safeTranslate(t, 'product.priorityShipping.features.expedited')}
             </li>
             <li className="flex items-center">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
-              {t('product.priorityShipping.features.tracking')}
+              {safeTranslate(t, 'product.priorityShipping.features.tracking')}
             </li>
             <li className="flex items-center">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
-              {t('product.priorityShipping.features.insurance')}
+              {safeTranslate(t, 'product.priorityShipping.features.insurance')}
             </li>
             <li className="flex items-center">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
-              {t('product.priorityShipping.features.support')}
+              {safeTranslate(t, 'product.priorityShipping.features.support')}
             </li>
           </ul>
         </div>
@@ -384,7 +390,7 @@ const ProductDetail: React.FC = () => {
       {/* Similar Products */}
       {similarProducts.length > 0 && (
         <div className="mt-12">
-          <h2 className="text-2xl font-bold mb-6">{t('product.similarProducts')}</h2>
+          <h2 className="text-2xl font-bold mb-6">{safeTranslate(t, 'product.similarProducts')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {similarProducts.map(product => (
               <ProductCard key={product.id} product={product} />

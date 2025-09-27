@@ -1,0 +1,124 @@
+export const featuredProducts = [
+    {
+        "id": "PROD-001",
+        "name": "Ginger Beer",
+        "description": "Refreshing ginger beer with authentic Caribbean flavor. Perfect for any occasion.",
+        "price": 2.99,
+        "currency": "USD",
+        "weight": 12,
+        "weightUnit": "fl oz",
+        "category": "beverages",
+        "origin": "Jamaica",
+        "image": "Ginger beer.jpg",
+        "stock": 50,
+        "featured": true,
+        "nutrition": {
+            "calories": 140,
+            "protein": 0,
+            "carbs": 36,
+            "fat": 0
+        }
+    },
+    {
+        "id": "PROD-002",
+        "name": "Jamaican Beef Patties",
+        "description": "Authentic Jamaican beef patties with flaky pastry and seasoned beef filling.",
+        "price": 4.99,
+        "currency": "USD",
+        "weight": 8,
+        "weightUnit": "oz",
+        "category": "frozen",
+        "origin": "Jamaica",
+        "image": "Jamaican beef patties.jpg",
+        "stock": 30,
+        "featured": true,
+        "nutrition": {
+            "calories": 320,
+            "protein": 15,
+            "carbs": 28,
+            "fat": 18
+        }
+    },
+    {
+        "id": "PROD-003",
+        "name": "Organic Bananas",
+        "description": "Fresh organic bananas, perfect for snacking or baking. Rich in potassium and vitamins.",
+        "price": 1.99,
+        "currency": "USD",
+        "weight": 2,
+        "weightUnit": "lbs",
+        "category": "produce",
+        "origin": "Ecuador",
+        "image": "bananas.jpg",
+        "stock": 100,
+        "featured": true,
+        "nutrition": {
+            "calories": 105,
+            "protein": 1,
+            "carbs": 27,
+            "fat": 0
+        }
+    },
+    {
+        "id": "PROD-004",
+        "name": "Fresh Avocados",
+        "description": "Creamy, ripe avocados perfect for guacamole, toast, or salads. Rich in healthy fats.",
+        "price": 3.49,
+        "currency": "USD",
+        "weight": 1,
+        "weightUnit": "lb",
+        "category": "produce",
+        "origin": "Mexico",
+        "image": "avocados.jpg",
+        "stock": 75,
+        "featured": true,
+        "nutrition": {
+            "calories": 234,
+            "protein": 3,
+            "carbs": 12,
+            "fat": 21
+        }
+    },
+    {
+        "id": "PROD-005",
+        "name": "Premium Cheese",
+        "description": "Aged premium cheese with rich flavor and smooth texture. Perfect for cooking or snacking.",
+        "price": 8.99,
+        "currency": "USD",
+        "weight": 8,
+        "weightUnit": "oz",
+        "category": "dairy",
+        "origin": "Wisconsin",
+        "image": "cheese.jpg",
+        "stock": 40,
+        "featured": true,
+        "nutrition": {
+            "calories": 113,
+            "protein": 7,
+            "carbs": 1,
+            "fat": 9
+        }
+    },
+    {
+        "id": "PROD-006",
+        "name": "Farm Fresh Eggs",
+        "description": "Grade A large eggs from free-range chickens. Perfect for baking and cooking.",
+        "price": 4.49,
+        "currency": "USD",
+        "weight": 24,
+        "weightUnit": "oz",
+        "category": "dairy",
+        "origin": "Local Farm",
+        "image": "eggs.jpg",
+        "stock": 60,
+        "featured": true,
+        "nutrition": {
+            "calories": 70,
+            "protein": 6,
+            "carbs": 0,
+            "fat": 5
+        }
+    }
+];
+
+export default featuredProducts;

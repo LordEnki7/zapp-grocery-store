@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FiPackage, FiPlus, FiCheck } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { safeTranslate } from '../../utils/translationValidator';
 import type { Product } from '../../services/productService';
 import { getSimilarProducts, formatCurrency } from '../../services/productService';
 import Button from '../ui/Button';
@@ -113,7 +114,7 @@ const FrequentlyBoughtTogether: React.FC<FrequentlyBoughtTogetherProps> = ({
     <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
       <h3 className="text-xl font-semibold mb-6 flex items-center">
         <FiPackage className="mr-2 text-green-600" />
-        {t('product.frequentlyBoughtTogether')}
+        {safeTranslate(t, 'product.frequentlyBoughtTogether')}
       </h3>
       
       <div className="flex flex-col lg:flex-row gap-8">
@@ -201,23 +202,23 @@ const FrequentlyBoughtTogether: React.FC<FrequentlyBoughtTogetherProps> = ({
         {/* Price Details Section */}
         <div className="lg:w-80 flex-shrink-0">
           <div className="bg-gray-50 p-4 rounded-lg h-full flex flex-col">
-            <h4 className="font-medium mb-3">{t('product.priceDetails')}</h4>
+            <h4 className="font-medium mb-3">{safeTranslate(t, 'product.priceDetails')}</h4>
             
             <div className="space-y-2 mb-4 flex-grow">
               <div className="flex justify-between text-sm">
-                <span>{t('product.itemsPrice')}:</span>
+                <span>{safeTranslate(t, 'product.itemsPrice')}:</span>
                 <span>{formatCurrency(totalPrice)}</span>
               </div>
               
               {savings > 0 && (
                 <div className="flex justify-between text-sm text-green-600">
-                  <span>{t('product.bundleSavings')}:</span>
+                  <span>{safeTranslate(t, 'product.bundleSavings')}:</span>
                   <span>-{formatCurrency(savings)}</span>
                 </div>
               )}
               
               <div className="flex justify-between font-bold pt-2 border-t">
-                <span>{t('product.totalPrice')}:</span>
+                <span>{safeTranslate(t, 'product.totalPrice')}:</span>
                 <span>{formatCurrency(finalPrice)}</span>
               </div>
             </div>
@@ -228,7 +229,7 @@ const FrequentlyBoughtTogether: React.FC<FrequentlyBoughtTogetherProps> = ({
               onClick={handleAddAllToCart}
               className="bg-green-600 hover:bg-green-700 mt-auto"
             >
-              {t('product.addAllToCart')}
+              {safeTranslate(t, 'product.addAllToCart')}
             </Button>
           </div>
         </div>

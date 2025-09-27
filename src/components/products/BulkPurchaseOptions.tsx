@@ -3,6 +3,7 @@ import { FiTruck, FiPackage, FiDollarSign, FiTrendingUp, FiUser, FiCreditCard } 
 import type { Product } from '../../services/productService';
 import { formatCurrency } from '../../services/productService';
 import { useTranslation } from 'react-i18next';
+import { safeTranslate } from '../../utils/translationValidator';
 
 interface BulkPurchaseOptionsProps {
   product: Product;
@@ -68,12 +69,12 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
     <div className="bg-gray-50 p-4 rounded-lg mb-6">
       <h3 className="font-semibold text-lg mb-3 flex items-center">
         <FiPackage className="mr-2 text-green-600" />
-        {t('product.bulkOptions')}
+        {safeTranslate(t, 'product.bulkOptions')}
       </h3>
       
       {/* Quick quantity selector buttons */}
       <div className="mb-4">
-        <p className="text-sm text-gray-600 mb-2">{t('product.selectBulkQuantity')}:</p>
+        <p className="text-sm text-gray-600 mb-2">{safeTranslate(t, 'product.selectBulkQuantity')}:</p>
         <div className="flex flex-wrap gap-2">
           {recommendedQuantities.map(qty => (
             <button
@@ -85,7 +86,7 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
                   : 'bg-white border border-gray-300 hover:border-green-500'
               }`}
             >
-              {qty} {qty === 1 ? t('product.unit') : t('product.units')}
+              {qty} {qty === 1 ? safeTranslate(t, 'product.unit') : safeTranslate(t, 'product.units')}
             </button>
           ))}
         </div>
@@ -94,9 +95,9 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
       {/* Bulk pricing comparison */}
       <div className="bg-white rounded border border-gray-200 divide-y">
         <div className="grid grid-cols-3 text-sm font-medium bg-gray-50 p-2">
-          <div>{t('product.quantity')}</div>
-          <div>{t('product.totalPrice')}</div>
-          <div>{t('product.unitPrice')}</div>
+          <div>{safeTranslate(t, 'product.quantity')}</div>
+          <div>{safeTranslate(t, 'product.totalPrice')}</div>
+          <div>{safeTranslate(t, 'product.unitPrice')}</div>
         </div>
         
         {recommendedQuantities.slice(0, 4).map(qty => {
@@ -113,7 +114,7 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
               onClick={() => onQuantityChange(qty)}
             >
               <div className="font-medium">
-                {qty} {qty === 1 ? t('product.unit') : t('product.units')}
+                {qty} {qty === 1 ? safeTranslate(t, 'product.unit') : safeTranslate(t, 'product.units')}
                 {isSelected && (
                   <span className="ml-2 text-xs text-green-600">✓</span>
                 )}
@@ -143,9 +144,9 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
       <div className="mt-4 text-sm text-gray-700 flex items-center">
         <FiTruck className="mr-2 text-green-600" />
         {quantity >= 25 ? (
-          <span className="text-green-600 font-medium">{t('product.freeShipping')}</span>
+          <span className="text-green-600 font-medium">{safeTranslate(t, 'product.freeShipping')}</span>
         ) : (
-          <span>{t('product.bulkShippingInfo')}</span>
+          <span>{safeTranslate(t, 'product.bulkShippingInfo')}</span>
         )}
       </div>
       
@@ -153,24 +154,24 @@ const BulkPurchaseOptions: React.FC<BulkPurchaseOptionsProps> = ({
       <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-100">
         <h4 className="font-medium text-blue-800 flex items-center">
           <FiTrendingUp className="mr-2" />
-          {t('product.resellerBenefits.title')}
+          {safeTranslate(t, 'product.resellerBenefits.title')}
         </h4>
         <ul className="mt-2 text-sm text-blue-700 space-y-1">
           <li className="flex items-center">
             <FiDollarSign className="mr-1 flex-shrink-0" />
-            {t('product.resellerBenefits.volumeDiscounts')}
+            {safeTranslate(t, 'product.resellerBenefits.volumeDiscounts')}
           </li>
           <li className="flex items-center">
             <FiTruck className="mr-1 flex-shrink-0" />
-            {t('product.resellerBenefits.priorityShipping')}
+            {safeTranslate(t, 'product.resellerBenefits.priorityShipping')}
           </li>
           <li className="flex items-center">
             <FiUser className="mr-1 flex-shrink-0" />
-            {t('product.resellerBenefits.dedicatedSupport')}
+            {safeTranslate(t, 'product.resellerBenefits.dedicatedSupport')}
           </li>
           <li className="flex items-center">
             <FiCreditCard className="mr-1 flex-shrink-0" />
-            {t('product.resellerBenefits.extendedPaymentTerms')}
+            {safeTranslate(t, 'product.resellerBenefits.extendedPaymentTerms')}
           </li>
         </ul>
       </div>
