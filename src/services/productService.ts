@@ -673,7 +673,7 @@ export async function searchProducts(query: string, filters?: ProductFilters): P
 export async function getFeaturedProducts(count: number = 8): Promise<Product[]> {
   try {
     // Import featured products from the data file
-    const { featuredProducts } = await import('../data/featuredProducts.ts');
+    const { featuredProducts } = await import('../data/featuredProducts');
     
     // Transform featured products data
     const transformedFeaturedProducts = featuredProducts
