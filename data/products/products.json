@@ -32,7 +32,7 @@
     "weightUnit": "pieces",
     "category": "frozen",
     "origin": "Jamaica",
-    "image": "/images/products/Jamaican-Beef-Patties-.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 25,
     "featured": true,
     "nutrition": {
@@ -40,9 +40,9 @@
       "protein": "12g",
       "fat": "18g"
     },
-    "primaryImage": "/images/products/Jamaican-Beef-Patties-.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Jamaican-Beef-Patties-.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -78,7 +78,7 @@
     "weightUnit": "oz",
     "category": "dairy",
     "origin": "USA",
-    "image": "/images/products/cheese.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 40,
     "featured": false,
     "nutrition": {
@@ -86,9 +86,9 @@
       "protein": "7g",
       "calcium": "202mg"
     },
-    "primaryImage": "/images/products/cheese.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/cheese.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -138,7 +138,7 @@
     "weightUnit": "g",
     "category": "grocery",
     "origin": "Ghana",
-    "image": "/images/products/Ghanaian Cocoa Powder.jpeg",
+    "image": "/images/product-placeholder.svg",
     "stock": 35,
     "featured": false,
     "nutrition": {
@@ -146,9 +146,9 @@
       "protein": "19g",
       "fiber": "33g"
     },
-    "primaryImage": "/images/products/Ghanaian Cocoa Powder.jpeg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Ghanaian Cocoa Powder.jpeg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -161,7 +161,7 @@
     "weightUnit": "g",
     "category": "grocery",
     "origin": "Ghana",
-    "image": "/images/products/Ghanaian Jollof Rice Mix.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 40,
     "featured": false,
     "nutrition": {
@@ -169,9 +169,9 @@
       "sodium": "800mg",
       "spices": "traditional blend"
     },
-    "primaryImage": "/images/products/Ghanaian Jollof Rice Mix.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Ghanaian Jollof Rice Mix.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -184,7 +184,7 @@
     "weightUnit": "g",
     "category": "beverages",
     "origin": "Jamaica",
-    "image": "/images/products/Jamaican Blue Mountain Coffee.jpeg",
+    "image": "/images/product-placeholder.svg",
     "stock": 20,
     "featured": true,
     "nutrition": {
@@ -192,9 +192,9 @@
       "antioxidants": "high",
       "calories": 2
     },
-    "primaryImage": "/images/products/Jamaican Blue Mountain Coffee.jpeg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Jamaican Blue Mountain Coffee.jpeg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -207,7 +207,7 @@
     "weightUnit": "g",
     "category": "beverages",
     "origin": "Kenya",
-    "image": "/images/products/Kenyan Tea Leaves.jpeg",
+    "image": "/images/product-placeholder.svg",
     "stock": 45,
     "featured": false,
     "nutrition": {
@@ -215,9 +215,9 @@
       "antioxidants": "high",
       "calories": 0
     },
-    "primaryImage": "/images/products/Kenyan Tea Leaves.jpeg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Kenyan Tea Leaves.jpeg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -230,7 +230,7 @@
     "weightUnit": "g",
     "category": "snacks",
     "origin": "Nigeria",
-    "image": "/images/products/Nigerian Chin Chin.jpeg",
+    "image": "/images/product-placeholder.svg",
     "stock": 30,
     "featured": false,
     "nutrition": {
@@ -238,9 +238,9 @@
       "fat": "20g",
       "sugar": "15g"
     },
-    "primaryImage": "/images/products/Nigerian Chin Chin.jpeg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Nigerian Chin Chin.jpeg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -253,7 +253,7 @@
     "weightUnit": "g",
     "category": "grocery",
     "origin": "Nigeria",
-    "image": "/images/products/Nigerian Jollof Rice Mix.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 50,
     "featured": false,
     "nutrition": {
@@ -261,9 +261,9 @@
       "sodium": "750mg",
       "spices": "traditional blend"
     },
-    "primaryImage": "/images/products/Nigerian Jollof Rice Mix.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Nigerian Jollof Rice Mix.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -276,7 +276,7 @@
     "weightUnit": "g",
     "category": "grocery",
     "origin": "Nigeria",
-    "image": "/images/products/Nigerian Suya Spice.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 35,
     "featured": false,
     "nutrition": {
@@ -284,9 +284,9 @@
       "protein": "2g",
       "spices": "peanut blend"
     },
-    "primaryImage": "/images/products/Nigerian Suya Spice.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Nigerian Suya Spice.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -299,7 +299,7 @@
     "weightUnit": "ml",
     "category": "grocery",
     "origin": "Trinidad",
-    "image": "/images/products/Trinidad Scorpion Pepper Sauce.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 25,
     "featured": false,
     "nutrition": {
@@ -307,9 +307,9 @@
       "capsaicin": "extremely high",
       "scoville": "2,000,000+"
     },
-    "primaryImage": "/images/products/Trinidad Scorpion Pepper Sauce.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Trinidad Scorpion Pepper Sauce.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -368,7 +368,7 @@
     "weightUnit": "lb",
     "category": "fresh",
     "origin": "California",
-    "image": "/images/products/Fresh Strawberries.jpg",
+    "image": "/images/product-placeholder.svg",
     "stock": 40,
     "featured": false,
     "nutrition": {
@@ -376,9 +376,9 @@
       "vitamin_c": "58mg",
       "fiber": "2g"
     },
-    "primaryImage": "/images/products/Fresh Strawberries.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "images": [
-      "/images/products/Fresh Strawberries.jpg"
+      "/images/product-placeholder.svg"
     ]
   },
   {
@@ -2001,9 +2001,9 @@
     "price": 11,
     "currency": "USD",
     "images": [
-      "/images/products/Blood Pressure Monitor.jpg"
+      "/images/product-placeholder.svg"
     ],
-    "primaryImage": "/images/products/Blood Pressure Monitor.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -2024,7 +2024,7 @@
     "updatedAt": "2025-09-24T03:40:19.419Z",
     "createdBy": "sitephoto-importer",
     "updatedBy": "sitephoto-importer",
-    "image": "/images/products/Blood Pressure Monitor.jpg"
+    "image": "/images/product-placeholder.svg"
   },
   {
     "id": "p56",
@@ -2575,9 +2575,9 @@
     "price": 8,
     "currency": "USD",
     "images": [
-      "/images/products/Digital Thermometer.avif"
+      "/images/product-placeholder.svg"
     ],
-    "primaryImage": "/images/products/Digital Thermometer.avif",
+    "primaryImage": "/images/product-placeholder.svg",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -2598,7 +2598,7 @@
     "updatedAt": "2025-09-24T03:40:19.730Z",
     "createdBy": "sitephoto-importer",
     "updatedBy": "sitephoto-importer",
-    "image": "/images/products/Digital Thermometer.avif"
+    "image": "/images/product-placeholder.svg"
   },
   {
     "id": "p78",
@@ -3045,9 +3045,9 @@
     "price": 5,
     "currency": "USD",
     "images": [
-      "/images/products/Jamaican-Beef-Patties-.jpg"
+      "/images/product-placeholder.svg"
     ],
-    "primaryImage": "/images/products/Jamaican-Beef-Patties-.jpg",
+    "primaryImage": "/images/product-placeholder.svg",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -5180,9 +5180,9 @@
     "price": 11,
     "currency": "USD",
     "images": [
-      "/images/products/g130.png"
+      "/sitephoto/All Products w_o images/Cereal Premium.jpeg"
     ],
-    "primaryImage": "/images/products/g130.png",
+    "primaryImage": "/sitephoto/All Products w_o images/Cereal Premium.jpeg",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -6073,7 +6073,7 @@
     "description": "Delicious butter popcorn perfect for snacking anytime. High quality ingredients for maximum flavor and satisfaction.",
     "price": 5.37,
     "originalPrice": 6.44,
-    "image": "butter-popcorn.png",
+    "image": "/sitephoto/All Products w_o images/Butter Popcorn.jpg",
     "category": "snacks",
     "inStock": true,
     "stockQuantity": 50,
@@ -6182,7 +6182,7 @@
     "description": "Premium quality basmati rice for all your cooking and baking needs. Essential pantry staple.",
     "price": 8.36,
     "originalPrice": 10.03,
-    "image": "basmati-rice.png",
+    "image": "/sitephoto/All Products w_o images/Basmati Rice.jpg",
     "category": "pantry",
     "inStock": true,
     "stockQuantity": 74,
@@ -6291,7 +6291,7 @@
     "description": "Delicious chocolate candy perfect for snacking anytime. High quality ingredients for maximum flavor and satisfaction.",
     "price": 3.68,
     "originalPrice": 4.42,
-    "image": "chocolate-candy.png",
+    "image": "/sitephoto/All Products w_o images/Chocolate Candy.jpg",
     "category": "snacks",
     "inStock": true,
     "stockQuantity": 112,
@@ -6442,7 +6442,7 @@
     "description": "Fresh, high-quality berries sourced from trusted suppliers. Perfect for healthy meals.",
     "price": 14.66,
     "originalPrice": 17.59,
-    "image": "berries.jpg",
+    "image": "/sitephoto/All Products w_o images/Berries.jpg",
     "category": "fresh-produce",
     "inStock": true,
     "stockQuantity": 62,
@@ -6484,7 +6484,7 @@
     "description": "Premium quality beans premium for all your cooking and baking needs. Essential pantry staple.",
     "price": 4.82,
     "originalPrice": 5.78,
-    "image": "beans-premium.png",
+    "image": "/sitephoto/All Products w_o images/Beans Premium.jpg",
     "category": "pantry",
     "inStock": true,
     "stockQuantity": 30,
@@ -6710,3 +6710,4 @@
     "updatedAt": "2025-09-24T20:31:58.942Z"
   }
 ]
+

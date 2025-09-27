@@ -127,7 +127,7 @@ const Home: React.FC = () => {
                      <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
                        {category.image ? (
                          <img 
-                           src={`/images/${category.image}`} 
+                           src={category.image} 
                            alt={category.name}
                            className="w-full h-full object-cover rounded-2xl"
                          />

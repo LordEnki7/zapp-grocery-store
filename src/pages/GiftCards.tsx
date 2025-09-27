@@ -239,11 +239,29 @@ const GiftCards: React.FC = () => {
                   <div key={card.id} className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
                     <div className="relative">
                       <div className="aspect-w-16 aspect-h-9 bg-gray-200">
-                        <ProductImage
-                          productName={card.name}
-                          imagePath={card.primaryImage || card.images?.[0] || card.image || ''}
+                        <img
+                          src={(() => {
+                            // Use the same direct image path approach as working pages
+                            let imagePath = card.primaryImage || card.images?.[0] || card.image;
+                            
+                            // If the image path doesn't start with /images/, ensure it's properly formatted
+                            if (imagePath && !imagePath.startsWith('/images/')) {
+                              imagePath = `/images/${imagePath}`;
+                            }
+                            
+                            // Fallback to placeholder if no image path
+                            if (!imagePath) {
+                              imagePath = '/images/product-placeholder.svg';
+                            }
+                            
+                            return imagePath;
+                          })()} 
                           alt={card.name}
                           className="w-full h-40 object-cover"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement;
+                            target.src = '/images/product-placeholder.svg';
+                          }}
                         />
                       </div>
                       
@@ -308,11 +326,29 @@ const GiftCards: React.FC = () => {
                   <div key={card.id} className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
                     <div className="relative">
                       <div className="aspect-w-16 aspect-h-9 bg-gray-200">
-                        <ProductImage
-                          productName={card.name}
-                          imagePath={card.primaryImage || card.images?.[0] || card.image || ''}
+                        <img
+                          src={(() => {
+                            // Use the same direct image path approach as working pages
+                            let imagePath = card.primaryImage || card.images?.[0] || card.image;
+                            
+                            // If the image path doesn't start with /images/, ensure it's properly formatted
+                            if (imagePath && !imagePath.startsWith('/images/')) {
+                              imagePath = `/images/${imagePath}`;
+                            }
+                            
+                            // Fallback to placeholder if no image path
+                            if (!imagePath) {
+                              imagePath = '/images/product-placeholder.svg';
+                            }
+                            
+                            return imagePath;
+                          })()} 
                           alt={card.name}
                           className="w-full h-40 object-cover"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement;
+                            target.src = '/images/product-placeholder.svg';
+                          }}
                         />
                       </div>
 
@@ -387,11 +423,29 @@ const GiftCards: React.FC = () => {
                 {/* Card Preview */}
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <div className="flex items-center space-x-4">
-                    <ProductImage
-                      productName={selectedCard.name}
-                      imagePath={selectedCard.primaryImage || selectedCard.images?.[0] || selectedCard.image || ''}
+                    <img
+                      src={(() => {
+                        // Use the same direct image path approach as working pages
+                        let imagePath = selectedCard.primaryImage || selectedCard.images?.[0] || selectedCard.image;
+                        
+                        // If the image path doesn't start with /images/, ensure it's properly formatted
+                        if (imagePath && !imagePath.startsWith('/images/')) {
+                          imagePath = `/images/${imagePath}`;
+                        }
+                        
+                        // Fallback to placeholder if no image path
+                        if (!imagePath) {
+                          imagePath = '/images/product-placeholder.svg';
+                        }
+                        
+                        return imagePath;
+                      })()} 
                       alt={selectedCard.name}
                       className="w-16 h-16 object-cover rounded"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = '/images/product-placeholder.svg';
+                      }}
                     />
                     <div>
                       <h3 className="font-semibold">{selectedCard.name}</h3>

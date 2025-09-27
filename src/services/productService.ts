@@ -187,6 +187,12 @@ function getSitephotoImagePath(productName: string): string | null {
     'Artisan Cheese Selection': '/images/products/Artisan Cheese Selection.jpeg',
     'Artisan Cheese': '/images/products/Artisan Cheese.webp',
     'Fresh Eggs - Dozen': '/images/products/Fresh Eggs - Dozen.webp',
+    'Fresh Eggs': '/images/products/eggs-real.jpg',
+    'Eggs': '/images/products/eggs-real.jpg',
+    'Premium Ground Coffee': '/images/products/premium-ground-coffee.jpg',
+    'Ground Coffee': '/images/products/premium-ground-coffee.jpg',
+    'Butter Popcorn': '/images/products/butter-popcorn.png',
+    'Popcorn': '/images/products/butter-popcorn.png',
     'Fresh Shrimp - 1 lb': '/images/products/Fresh Shrimp - 1 lb.jpg',
     'Mix Berry Pack': '/images/products/mix berry pack.webp',
     'Premium Pasta - 4 Pack': '/images/products/Premium Pasta - 4 Pack.jpeg',
@@ -482,7 +488,54 @@ const getAllTransformedProducts = async (): Promise<Product[]> => {
  */
 export async function getAllProducts(): Promise<Product[]> {
   try {
-    return await getAllTransformedProducts();
+    // Load products directly without transformation to preserve image paths
+    const productsData = await loadProductsData();
+    return productsData.map((product: any) => {
+      // Fix image path formatting - ensure all paths start with /images/
+      const formatImagePath = (imagePath: string | undefined): string => {
+        if (!imagePath) return '/images/product-placeholder.svg';
+        
+        // If path already starts with /images/ or /sitephoto/, keep as is
+        if (imagePath.startsWith('/images/') || imagePath.startsWith('/sitephoto/')) {
+          return imagePath;
+        }
+        
+        // If it's just a filename, prepend /images/
+        return `/images/${imagePath}`;
+      };
+
+      const primaryImagePath = formatImagePath(product.image || product.primaryImage);
+      const imageArray = product.images && Array.isArray(product.images) 
+        ? product.images.map(formatImagePath)
+        : [primaryImagePath];
+
+      return {
+        ...product,
+        // Ensure image paths are properly formatted
+        image: primaryImagePath,
+        primaryImage: primaryImagePath,
+        images: imageArray,
+        // Set default values for required fields
+        id: product.id || `product-${Date.now()}`,
+        currency: product.currency || 'USD',
+        origin: product.origin || 'Unknown',
+        category: product.category || 'general',
+        weight: product.weight || '1',
+        sku: product.sku || product.id || `sku-${Date.now()}`,
+        stock: product.stock || 0,
+        lowStockThreshold: product.lowStockThreshold || 5,
+        inStock: product.stock > 0,
+        isActive: product.isActive !== false,
+        tags: product.tags || [],
+        averageRating: product.averageRating || 0,
+        reviewCount: product.reviewCount || 0,
+        totalSold: product.totalSold || 0,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        createdBy: 'system',
+        updatedBy: 'system'
+      };
+    });
   } catch (error) {
     console.error('Error fetching all products:', error);
     return [];
@@ -619,49 +672,8 @@ export async function searchProducts(query: string, filters?: ProductFilters): P
  */
 export async function getFeaturedProducts(count: number = 8): Promise<Product[]> {
   try {
-    // Embed featured products data directly to avoid import issues on Vercel
-    const featuredProducts = [
-      {
-        "id": "PROD-001",
-        "name": "Ginger Beer",
-        "description": "Refreshing ginger beer with authentic Caribbean flavor. Perfect for any occasion.",
-        "price": 2.99,
-        "currency": "USD",
-        "weight": 12,
-        "weightUnit": "fl oz",
-        "category": "beverages",
-        "origin": "Jamaica",
-        "image": "Ginger beer.jpg",
-        "stock": 50,
-        "featured": true,
-        "nutrition": {
-          "calories": 140,
-          "protein": 0,
-          "carbs": 36,
-          "fat": 0
-        }
-      },
-      {
-        "id": "PROD-002",
-        "name": "Jamaican Beef Patties",
-        "description": "Authentic Jamaican beef patties with flaky pastry and seasoned beef filling.",
-        "price": 4.99,
-        "currency": "USD",
-        "weight": 8,
-        "weightUnit": "oz",
-        "category": "frozen",
-        "origin": "Jamaica",
-        "image": "Jamaican beef patties.jpg",
-        "stock": 30,
-        "featured": true,
-        "nutrition": {
-          "calories": 350,
-          "protein": 15,
-          "carbs": 25,
-          "fat": 22
-        }
-      }
-    ];
+    // Import featured products from the data file
+    const { featuredProducts } = await import('../data/featuredProducts');
     
     // Transform featured products data
     const transformedFeaturedProducts = featuredProducts
@@ -684,7 +696,8 @@ export async function getFeaturedProducts(count: number = 8): Promise<Product[]>
  */
 export const getProductById = async (productId: string): Promise<Product | null> => {
   try {
-    const allProducts = await getAllTransformedProducts();
+    // Use getAllProducts to get products with correct image paths
+    const allProducts = await getAllProducts();
     const product = allProducts.find(p => p.id === productId);
     return product || null;
   } catch (error) {
@@ -698,7 +711,8 @@ export const getProductById = async (productId: string): Promise<Product | null>
  */
 export const getSimilarProducts = async (productId: string, count: number = 4): Promise<Product[]> => {
   try {
-    const allProducts = await getAllTransformedProducts();
+    // Use getAllProducts to get products with correct image paths
+    const allProducts = await getAllProducts();
     const product = allProducts.find(p => p.id === productId);
     
     if (!product) return [];
@@ -749,54 +763,55 @@ export const getAllCategories = async (): Promise<string[]> => {
 export const getCategories = async (): Promise<ProductCategory[]> => {
   try {
     // Embed categories data directly to avoid import issues on Vercel
+    // Using actual image files that exist in public/images/categories/
     const productCategories = [
       {
         "id": "dairy",
         "name": "Dairy & Milk",
         "description": "Fresh milk, cheese, and dairy products",
-        "image": "categories/milk.png"
+        "image": "/images/categories/milk.png"
       },
       {
         "id": "beverages",
         "name": "Beverages",
         "description": "Juices, sodas, and refreshing drinks",
-        "image": "categories/juices.png"
+        "image": "/images/categories/juices.png"
       },
       {
         "id": "sodas",
         "name": "Sodas & Soft Drinks",
         "description": "Carbonated drinks and sodas",
-        "image": "categories/sodas.png"
+        "image": "/images/categories/sodas.png"
       },
       {
         "id": "snacks",
         "name": "Snacks & Cookies",
         "description": "Cookies, chips, and delicious snacks",
-        "image": "categories/cookies.png"
+        "image": "/images/categories/cookies.png"
       },
       {
         "id": "candy",
         "name": "Candy & Sweets",
         "description": "Chocolates, candies, and sweet treats",
-        "image": "categories/candy.png"
+        "image": "/images/categories/candy.png"
       },
       {
         "id": "cheese-snacks",
         "name": "Cheese & Savory Snacks",
         "description": "Cheese products and savory snacks",
-        "image": "categories/cheese-snacks.png"
+        "image": "/images/categories/cheese-snacks.png"
       },
       {
         "id": "frozen",
         "name": "Frozen Foods",
         "description": "Frozen meals and frozen products",
-        "image": "categories/cheese-snacks.png"
+        "image": "/images/categories/cheese-snacks.png"
       },
       {
         "id": "grocery",
         "name": "Grocery Essentials",
         "description": "Essential grocery items and pantry staples",
-        "image": "categories/milk.png"
+        "image": "/images/categories/milk.png"
       }
     ];
     
@@ -813,24 +828,29 @@ export const getCategories = async (): Promise<ProductCategory[]> => {
       id: category.id,
       name: category.name,
       description: category.description,
-      image: category.image || `categories/${category.id}.png`,
+      image: category.image || `/images/categories/${category.id}.png`,
       isActive: true,
       sortOrder: index
     }));
   } catch (error) {
     console.error('Error fetching categories:', error);
     // Fallback to dynamic generation if categories.json fails to load
-    const allProducts = getAllTransformedProducts();
-    const categories = [...new Set(allProducts.map(p => p.category))];
-    
-    return categories.map((category, index) => ({
-      id: category,
-      name: category.charAt(0).toUpperCase() + category.slice(1),
-      description: `${category.charAt(0).toUpperCase() + category.slice(1)} products`,
-      image: `categories/${category}.png`,
-      isActive: true,
-      sortOrder: index
-    }));
+    try {
+      const allProducts = await getAllTransformedProducts();
+      const categories = [...new Set(allProducts.map(p => p.category))];
+      
+      return categories.map((category, index) => ({
+        id: category,
+        name: category.charAt(0).toUpperCase() + category.slice(1),
+        description: `${category.charAt(0).toUpperCase() + category.slice(1)} products`,
+        image: `/images/categories/${category}.png`,
+        isActive: true,
+        sortOrder: index
+      }));
+    } catch (fallbackError) {
+      console.error('Error in fallback category generation:', fallbackError);
+      return [];
+    }
   }
 };
 

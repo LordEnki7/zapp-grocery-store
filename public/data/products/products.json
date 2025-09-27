@@ -1214,9 +1214,9 @@
     "price": 5,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif"
+      "/images/products/gift-cards/PlayStation Store Gift Card.avif"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif",
+    "primaryImage": "/images/products/gift-cards/PlayStation Store Gift Card.avif",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -1237,7 +1237,7 @@
     "updatedAt": "2025-09-24T03:40:18.921Z",
     "createdBy": "sitephoto-importer",
     "updatedBy": "sitephoto-importer",
-    "image": "/sitephoto/Gift Cards/PlayStation Store Gift Card.avif"
+    "image": "/images/products/gift-cards/PlayStation Store Gift Card.avif"
   },
   {
     "id": "p28",
@@ -1246,9 +1246,9 @@
     "price": 8,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Airbnb Gift Card.jpg"
+      "/images/products/gift-cards/Airbnb Gift Card.jpg"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg",
+    "primaryImage": "/images/products/gift-cards/Airbnb Gift Card.jpg",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -1269,7 +1269,7 @@
     "updatedAt": "2025-09-24T03:40:18.934Z",
     "createdBy": "sitephoto-importer",
     "updatedBy": "sitephoto-importer",
-    "image": "/sitephoto/Gift Cards/Airbnb Gift Card.jpg"
+    "image": "/images/products/gift-cards/Airbnb Gift Card.jpg"
   },
   {
     "id": "p29",
@@ -2325,9 +2325,9 @@
     "price": 12,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Netflix Gift Card.webp"
+      "/images/products/gift-cards/Netflix Gift Card.webp"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Netflix Gift Card.webp",
+    "primaryImage": "/images/products/gift-cards/Netflix Gift Card.webp",
     "origin": "Various",
     "category": "general",
     "weight": "1 unit",
@@ -2348,7 +2348,7 @@
     "updatedAt": "2025-09-24T03:40:19.560Z",
     "createdBy": "sitephoto-importer",
     "updatedBy": "sitephoto-importer",
-    "image": "/sitephoto/Gift Cards/Netflix Gift Card.webp"
+    "image": "/images/products/gift-cards/Netflix Gift Card.webp"
   },
   {
     "id": "p67",
@@ -2756,9 +2756,9 @@
     "price": 73,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Home Depot Gift Card.png"
+      "/images/products/gift-cards/Home Depot Gift Card.png"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Home Depot Gift Card.png",
+    "primaryImage": "/images/products/gift-cards/Home Depot Gift Card.png",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",
@@ -2845,9 +2845,9 @@
     "price": 40,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Sephora Gift Card.jpg"
+      "/images/products/gift-cards/Sephora Gift Card.jpg"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Sephora Gift Card.jpg",
+    "primaryImage": "/images/products/gift-cards/Sephora Gift Card.jpg",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",
@@ -2879,9 +2879,9 @@
     "price": 89,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Starbucks Gift Card.jpg"
+      "/images/products/gift-cards/Starbucks Gift Card.jpg"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Starbucks Gift Card.jpg",
+    "primaryImage": "/images/products/gift-cards/Starbucks Gift Card.jpg",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",
@@ -2913,9 +2913,9 @@
     "price": 76,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Target Gift Card.webp"
+      "/images/products/gift-cards/Target Gift Card.webp"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Target Gift Card.webp",
+    "primaryImage": "/images/products/gift-cards/Target Gift Card.webp",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",
@@ -2947,9 +2947,9 @@
     "price": 32,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Uber Eats Gift Card.webp"
+      "/images/products/gift-cards/Uber Eats Gift Card.webp"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Uber Eats Gift Card.webp",
+    "primaryImage": "/images/products/gift-cards/Uber Eats Gift Card.webp",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",
@@ -2980,9 +2980,9 @@
     "price": 53,
     "currency": "USD",
     "images": [
-      "/sitephoto/Gift Cards/Zapp General Gift Card.webp"
+      "/images/products/gift-cards/Zapp General Gift Card.webp"
     ],
-    "primaryImage": "/sitephoto/Gift Cards/Zapp General Gift Card.webp",
+    "primaryImage": "/images/products/gift-cards/Zapp General Gift Card.webp",
     "origin": "Digital",
     "category": "gift-cards",
     "weight": "Digital",

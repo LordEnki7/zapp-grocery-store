@@ -84,8 +84,15 @@ const FreshPharmacy: React.FC = () => {
 
   // Handle add to cart
   const handleAddToCart = (product: Product) => {
-    const cartProduct = convertProductToCartProduct(product);
-    addToCart(cartProduct);
+    try {
+      console.log('FreshPharmacy: Adding pharmacy product to cart:', product);
+      const cartProduct = convertProductToCartProduct(product);
+      console.log('FreshPharmacy: Converted cart product:', cartProduct);
+      addToCart(cartProduct);
+      console.log('FreshPharmacy: Successfully added to cart');
+    } catch (error) {
+      console.error('FreshPharmacy: Error adding to cart:', error);
+    }
   };
 
   // Mock pharmacy products

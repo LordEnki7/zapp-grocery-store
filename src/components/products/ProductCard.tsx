@@ -18,6 +18,7 @@ import type { Product } from '../../services/productService';
 import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
 import ProductImage from './ProductImage';
+import { getProductImagePath, createImageErrorHandler } from '../../utils/imageUtils';
 
 interface ProductCardProps {
   product: Product;
@@ -150,10 +151,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <div className="flex gap-4">
           {/* Product Image */}
           <div className="flex-shrink-0 w-32 h-32 relative group">
-            <ProductImage
-              imagePath={product.images?.[0] || product.primaryImage || product.image}
+            <img
+              src={getProductImagePath(product)}
               alt={product.name}
               className="w-full h-full object-cover rounded-lg"
+              onError={createImageErrorHandler()}
             />
             {hasDiscount && (
               <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold">
@@ -278,11 +280,16 @@ const ProductCard: React.FC<ProductCardProps> = ({
           to={`/product/${product.id}`}
           onClick={() => console.log('Product image clicked, navigating to:', `/product/${product.id}`)}
         >
-          <ProductImage
-            imagePath={product.images?.[0] || product.primaryImage || product.image}
-            alt={product.name}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-          />
+          {(() => {
+            return (
+              <img
+                src={getProductImagePath(product)}
+                alt={product.name}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                onError={createImageErrorHandler()}
+              />
+            );
+          })()}
         </Link>
 
         {/* Badges */}
@@ -476,11 +483,16 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <div className="flex p-4">
           {/* Product Image */}
           <div className="w-32 h-32 flex-shrink-0 mr-4">
-            <ProductImage
-              imagePath={product.images?.[0] || product.image}
-              alt={product.name}
-              className="w-full h-full object-cover rounded-lg"
-            />
+            {(() => {
+              return (
+                <img
+                  src={getProductImagePath(product)}
+                  alt={product.name}
+                  className="w-full h-full object-cover rounded-lg"
+                  onError={createImageErrorHandler()}
+                />
+              );
+            })()}
           </div>
 
           {/* Product Info */}
@@ -599,11 +611,16 @@ const ProductCard: React.FC<ProductCardProps> = ({
         )}
 
         <Link to={`/product/${product.id}`}>
-          <ProductImage
-            imagePath={product.images?.[0] || product.primaryImage || product.image}
-            alt={product.name}
-            className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-          />
+          {(() => {
+            return (
+              <img
+                src={getProductImagePath(product)}
+                alt={product.name}
+                className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                onError={createImageErrorHandler()}
+              />
+            );
+          })()}
         </Link>
 
         {/* Hover Actions */}

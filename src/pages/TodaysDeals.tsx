@@ -213,8 +213,15 @@ const TodaysDeals: React.FC = () => {
 
   // Handle add to cart
   const handleAddToCart = (deal: Deal) => {
-    const product = convertDealToProduct(deal);
-    addToCart(product, 1);
+    try {
+      console.log('TodaysDeals: Adding deal to cart:', deal);
+      const product = convertDealToProduct(deal);
+      console.log('TodaysDeals: Converted product:', product);
+      addToCart(product, 1);
+      console.log('TodaysDeals: Successfully added to cart');
+    } catch (error) {
+      console.error('TodaysDeals: Error adding to cart:', error);
+    }
   };
   const getFilteredDeals = () => {
     let filtered = deals;

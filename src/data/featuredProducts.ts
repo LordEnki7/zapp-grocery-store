@@ -1,124 +1,76 @@
 export const featuredProducts = [
-    {
-        "id": "PROD-001",
-        "name": "Ginger Beer",
-        "description": "Refreshing ginger beer with authentic Caribbean flavor. Perfect for any occasion.",
-        "price": 2.99,
-        "currency": "USD",
-        "weight": 12,
-        "weightUnit": "fl oz",
-        "category": "beverages",
-        "origin": "Jamaica",
-        "image": "Ginger beer.jpg",
-        "stock": 50,
-        "featured": true,
-        "nutrition": {
-            "calories": 140,
-            "protein": 0,
-            "carbs": 36,
-            "fat": 0
-        }
-    },
-    {
-        "id": "PROD-002",
-        "name": "Jamaican Beef Patties",
-        "description": "Authentic Jamaican beef patties with flaky pastry and seasoned beef filling.",
-        "price": 4.99,
-        "currency": "USD",
-        "weight": 8,
-        "weightUnit": "oz",
-        "category": "frozen",
-        "origin": "Jamaica",
-        "image": "Jamaican beef patties.jpg",
-        "stock": 30,
-        "featured": true,
-        "nutrition": {
-            "calories": 320,
-            "protein": 15,
-            "carbs": 28,
-            "fat": 18
-        }
-    },
-    {
-        "id": "PROD-003",
-        "name": "Organic Bananas",
-        "description": "Fresh organic bananas, perfect for snacking or baking. Rich in potassium and vitamins.",
-        "price": 1.99,
-        "currency": "USD",
-        "weight": 2,
-        "weightUnit": "lbs",
-        "category": "produce",
-        "origin": "Ecuador",
-        "image": "bananas.jpg",
-        "stock": 100,
-        "featured": true,
-        "nutrition": {
-            "calories": 105,
-            "protein": 1,
-            "carbs": 27,
-            "fat": 0
-        }
-    },
-    {
-        "id": "PROD-004",
-        "name": "Fresh Avocados",
-        "description": "Creamy, ripe avocados perfect for guacamole, toast, or salads. Rich in healthy fats.",
-        "price": 3.49,
-        "currency": "USD",
-        "weight": 1,
-        "weightUnit": "lb",
-        "category": "produce",
-        "origin": "Mexico",
-        "image": "avocados.jpg",
-        "stock": 75,
-        "featured": true,
-        "nutrition": {
-            "calories": 234,
-            "protein": 3,
-            "carbs": 12,
-            "fat": 21
-        }
-    },
-    {
-        "id": "PROD-005",
-        "name": "Premium Cheese",
-        "description": "Aged premium cheese with rich flavor and smooth texture. Perfect for cooking or snacking.",
-        "price": 8.99,
-        "currency": "USD",
-        "weight": 8,
-        "weightUnit": "oz",
-        "category": "dairy",
-        "origin": "Wisconsin",
-        "image": "cheese.jpg",
-        "stock": 40,
-        "featured": true,
-        "nutrition": {
-            "calories": 113,
-            "protein": 7,
-            "carbs": 1,
-            "fat": 9
-        }
-    },
-    {
-        "id": "PROD-006",
-        "name": "Farm Fresh Eggs",
-        "description": "Grade A large eggs from free-range chickens. Perfect for baking and cooking.",
-        "price": 4.49,
-        "currency": "USD",
-        "weight": 24,
-        "weightUnit": "oz",
-        "category": "dairy",
-        "origin": "Local Farm",
-        "image": "eggs.jpg",
-        "stock": 60,
-        "featured": true,
-        "nutrition": {
-            "calories": 70,
-            "protein": 6,
-            "carbs": 0,
-            "fat": 5
-        }
-    }
+  {
+    id: 'curry-powder',
+    name: 'Curry Powder',
+    price: 4.99,
+    originalPrice: 5.99,
+    image: '/images/Curry Powder.webp',
+    category: 'Spices & Seasonings',
+    description: 'Authentic Caribbean curry powder blend',
+    inStock: true,
+    rating: 4.7,
+    reviews: 89
+  },
+  {
+    id: 'fresh-plantains',
+    name: 'Fresh Plantains',
+    price: 2.49,
+    originalPrice: 2.99,
+    image: '/images/Fresh Plantains.jpg',
+    category: 'Fresh Produce',
+    description: 'Fresh green plantains, perfect for frying or boiling',
+    inStock: true,
+    rating: 4.5,
+    reviews: 67
+  },
+  {
+    id: 'plantain-chips',
+    name: 'Plantain Chips',
+    price: 3.99,
+    originalPrice: 4.49,
+    image: '/images/Plantain Chips.jpg',
+    category: 'Snacks',
+    description: 'Crispy plantain chips, lightly salted',
+    inStock: true,
+    rating: 4.6,
+    reviews: 124
+  },
+  {
+    id: 'rice-peas-mix',
+    name: 'Rice & Peas Mix',
+    price: 5.99,
+    originalPrice: 6.99,
+    image: '/images/Rice & Peas Mix.jpg',
+    category: 'Pantry Staples',
+    description: 'Traditional Caribbean rice and peas seasoning mix',
+    inStock: true,
+    rating: 4.8,
+    reviews: 156
+  },
+  {
+    id: 'scotch-bonnet-peppers',
+    name: 'Scotch Bonnet Peppers',
+    price: 3.49,
+    originalPrice: 3.99,
+    image: '/images/Scotch Bonnet Peppers.jpeg',
+    category: 'Fresh Produce',
+    description: 'Hot and flavorful Scotch bonnet peppers',
+    inStock: true,
+    rating: 4.9,
+    reviews: 78
+  },
+  {
+    id: 'sorrel-drink',
+    name: 'Sorrel Drink',
+    price: 2.99,
+    originalPrice: 3.49,
+    image: '/images/Sorrel Drink.webp',
+    category: 'Beverages',
+    description: 'Traditional Caribbean sorrel drink',
+    inStock: true,
+    rating: 4.4,
+    reviews: 92
+  }
 ];
 
 export default featuredProducts;

@@ -32,7 +32,9 @@ export default defineConfig({
       const fs = require('fs')
       const path = require('path')
       
-      const filePath = path.join(__dirname, 'sitephoto', req.url)
+      // Remove leading slash from req.url to avoid double slashes
+      const urlPath = req.url.startsWith('/') ? req.url.slice(1) : req.url
+      const filePath = path.join(__dirname, 'sitephoto', urlPath)
       
       if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
         const ext = path.extname(filePath).toLowerCase()

@@ -12,6 +12,7 @@ import BulkPurchaseOptions from '../components/products/BulkPurchaseOptions';
 import FrequentlyBoughtTogether from '../components/products/FrequentlyBoughtTogether';
 import ProductImage from '../components/products/ProductImage';
 import { safeTranslate, logMissingTranslations, PRODUCT_DETAIL_REQUIRED_KEYS } from '../utils/translationValidator';
+import { getProductImagePaths, createImageErrorHandler } from '../utils/imageUtils';
 
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -27,16 +28,7 @@ const ProductDetail: React.FC = () => {
   const [addedToCart, setAddedToCart] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Mock additional product images (in a real app, these would come from the API)
-  const getProductImages = (mainImage: string) => {
-    // Simulate multiple images by returning variations of the main image
-    return [
-      mainImage,
-      // In a real app, you would have actual different images here
-      mainImage,
-      mainImage,
-    ];
-  };
+  // Generate product images using the unified utility
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -153,7 +145,7 @@ const ProductDetail: React.FC = () => {
   };
   
   const discountInfo = getDiscountInfo();
-  const productImages = getProductImages(product.image);
+  const productImages = getProductImagePaths(product, 4);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -168,11 +160,11 @@ const ProductDetail: React.FC = () => {
           <div>
             {/* Main product image */}
             <div className="rounded-lg overflow-hidden mb-4">
-              <ProductImage
-                imagePath={productImages[currentImageIndex]}
+              <img
+                src={productImages[currentImageIndex]}
                 alt={product.name}
-                aspectRatio="standard"
-                className="h-80"
+                className="w-full h-80 object-cover rounded-lg"
+                onError={createImageErrorHandler()}
               />
             </div>
             
@@ -186,11 +178,11 @@ const ProductDetail: React.FC = () => {
                   }`}
                   onClick={() => setCurrentImageIndex(index)}
                 >
-                  <ProductImage
-                    imagePath={img}
-                    alt={`${product.name} - Image ${index + 1}`}
-                    aspectRatio="square"
-                    enableHover={false}
+                  <img
+                    src={img}
+                    alt={`${product.name} ${index + 1}`}
+                    className="w-full h-16 object-cover rounded-md"
+                    onError={createImageErrorHandler()}
                   />
                 </div>
               ))}

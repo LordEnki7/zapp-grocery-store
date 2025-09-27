@@ -74,8 +74,15 @@ const FreshFoods: React.FC = () => {
 
   // Handle add to cart
   const handleAddToCart = (freshProduct: FreshProduct) => {
-    const product = convertFreshProductToProduct(freshProduct);
-    addToCart(product);
+    try {
+      console.log('FreshFoods: Adding fresh product to cart:', freshProduct);
+      const product = convertFreshProductToProduct(freshProduct);
+      console.log('FreshFoods: Converted product:', product);
+      addToCart(product);
+      console.log('FreshFoods: Successfully added to cart');
+    } catch (error) {
+      console.error('FreshFoods: Error adding to cart:', error);
+    }
   };
 
   // Mock fresh food products
